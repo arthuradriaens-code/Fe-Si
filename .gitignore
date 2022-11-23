@@ -1,0 +1,4 @@
+paper.*
+paperNotes.bib
+!paper.tex
+!paper.pdf

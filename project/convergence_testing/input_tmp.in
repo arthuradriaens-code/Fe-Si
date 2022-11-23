@@ -1,0 +1,6848 @@
+    1  clear
+    2  sudo pacman -S xfce4-terminal
+    3  vim .config/sxhkd/sxhkdrc
+    4  exit
+    5  localectl status
+    6  vim /etc/vconsole.conf
+    7  sudo vim /etc/vconsole.conf
+    8  reboot
+    9  sudo reboot
+   10  vim /etc/vconsole.conf
+   11  vim .xinitrc
+   12  exit
+   13  sudo vim /etc/vconsole.conf
+   14  vim .config/picom.conf
+   15  exit
+   16  reboot
+   17  sudo reboot
+   18  vim .config/picom.conf
+   19  exit
+   20  vim .config/picom.conf
+   21  exit
+   22  neofetch
+   23  suspend now
+   24  suspend
+   25  systemctl suspend
+   26  sudo systemctl suspend
+   27  shutdown now
+   28  sudo shutdown npw
+   29  vim /etc/vconsole.conf
+   30  sudo vim /etc/vconsole.conf
+   31  sudo reboot
+   32  systemctl suspend
+   33  sudo systemctl suspend
+   34  sudo systemctl shutdown
+   35  shutdown
+   36  loginctl show-session $XDG_SESSION_ID --property=Active
+   37  sudo pacman -S polkit
+   38  exit
+   39  systemctl reboot
+   40  pacman -S nautilus
+   41  sudo pacman -S dolphin
+   42  sudo pacman -S nautilus
+   43  vim .config/sxhkd/sxhkdrc
+   44  cp fonts/MesloLGS\ NF\ *.ttf .local/share/fonts/
+   45  mkdir .local/share/fonts
+   46  cp fonts/MesloLGS\ NF\ *.ttf .local/share/fonts/
+   47  ls .local/share/fonts
+   48  ls fonts
+   49  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+   50  vim .zshrc
+   51  exit
+   52  clear
+   53  pacman -S PulseAudio
+   54  sudo pacman -S PulseAudio
+   55  sudo pacman -S pulseaudio
+   56  journalctl -b
+   57  alsamix
+   58  alsamixer
+   59  sudo pacman -S alsamixer
+   60  alsamixer
+   61  journalctl -b >> journal.txt
+   62  vim journal.txt
+   63  sudo pacman -S alsa-tools-gui
+   64  sudo pacman -S alsa-tools
+   65  hdajackretask
+   66  reboot
+   67  hdajackretask
+   68  sudo hdajackretask
+   69  alsamixer
+   70  amixer
+   71  sudo pacman S alsautils
+   72  sudo pacman -S alsa-utils
+   73  amixer
+   74  amixer sset Master unmute\n
+   75  amixer sset Speaker unmute
+   76  amixer sset Headphone unmute
+   77  alsamixer
+   78  exit
+   79  aumix
+   80  vim .config/bspwm/bspwmrc
+   81  vim .xinitrc
+   82  vim .config/bspwm/bspwmrc
+   83  exit
+   84  vim .config/bspwm/bspwmrc
+   85  sudo pacman -S polybar
+   86  sudo pacman -S pacman-contrib
+   87  mkdir .config/polybar
+   88  exit
+   89  vim .p10k.zsh
+   90  exit
+   91  neofetch
+   92  shutdown now
+   93  ls
+   94  rm journal.txt
+   95  mkdir programs
+   96  cd programs
+   97  git clone https://aur.archlinux.org/mkinitcpio-numlock.git
+   98  cd mkinitcpio-numlock
+   99  make
+  100  sudo pacman -S make
+  101  make
+  102  ls
+  103  make PKGBUILD
+  104  makepkg
+  105  pacman -U mkinitcpio-numlock-1.0.3-1-any.pkg.tar.zst
+  106  sudo pacman -U mkinitcpio-numlock-1.0.3-1-any.pkg.tar.zst
+  107  cd ..
+  108  rm -R fonts
+  109  ls
+  110  vim .zshrc
+  111  exit
+  112  vim /etc/mkinitcpio.
+  113  vim /etc/mkinitcpio.conf
+  114  sudo vim /etc/mkinitcpio.conf
+  115  mkinitcpio -P
+  116  sudo mkinitcpio -P
+  117  reboot
+  118  vim .config/sxhkd/sxhkdrc
+  119  XF86AudioRaiseVolume
+  120  amixer
+  121  amixer set Master 5%-
+  122  vim .config/sxhkd/sxhkdrc
+  123  neofetch
+  124  cbonsai
+  125  sudo pacman -S cbonsai
+  126  sudo pacman -S cbonsai-git
+  127  clear
+  128  shutdown now
+  129  clear
+  130  exit
+  131  shutdown now
+  132  vim .config/sxhkd/sxhkdrc
+  133  sudo pacman -S pacman-contrib ttf-font-awesome siji-git
+  134  sudo pacman -S ttf-font-awesome
+  135  clear
+  136  exit
+  137  pacman -S rofi pywal calc networkmanager_dmenu
+  138  sudo pacman -S rofi pywal calc networkmanager_dmenu
+  139  sudo pacman -S rofi calc
+  140  sudo pacman -S iosevka
+  141  sudo pacman -S droid
+  142  exit
+  143  cp /etc/polybar/config.ini .config/polybar/config
+  144  vim .config/polybar/launch.sh
+  145  .config/polybar/launch.sh
+  146  sudo .config/polybar/launch.sh
+  147  cd .config/polybar/
+  148  sudo launch.sh
+  149  ls
+  150  launch.sh
+  151  zsh launch.sh
+  152  ls
+  153  cp config config.ini
+  154  rm config
+  155  zsh launch.sh
+  156  vim config.ini
+  157  zsh launch.sh
+  158  vim config.ini
+  159  vim launch.sh
+  160  zsh launch.sh
+  161  vim config.ini
+  162  vim launch.sh
+  163  killall -q polybar
+  164  polybar
+  165  vim config.ini
+  166  cd .config/polybar/
+  167  ls
+  168  launch.sh
+  169  zsh launch.sh
+  170  launch.sh
+  171  zsh launch.sh
+  172  vim launch.sh
+  173  zsh launch.sh
+  174  ls
+  175  cd Wallpapers
+  176  ls
+  177  exit
+  178  vim .config/polybar/config.ini
+  179  cd .config/polybar
+  180  zsh launch.sh
+  181  exit
+  182  cd .config/polybar
+  183  zsh launch.sh
+  184  exit
+  185  vim .config/bspwm/bspwmrc
+  186  reboot
+  187  vim .config/bspwm/bspwmrc
+  188  reboot
+  189  vim .config/bspwm/bspwmrc
+  190  exit
+  191  ls .config/polybar
+  192  vim .config/bspwm/bspwmrc
+  193  cd .config/polybar
+  194  ls
+  195  chmod +x launch.sh
+  196  reboot
+  197  neofetch
+  198  clear
+  199  neofetch
+  200  p10k configure
+  201  exit
+  202  vim .zshrc
+  203  vim .p10k.zsh
+  204  exit
+  205  clear
+  206  ls .config
+  207  fontconfig
+  208  ls .local/share/fonts
+  209  vim /etc/fonts/local.conf
+  210  ls /etc/fonts/
+  211  vim /etc/fonts/fonts.conf
+  212  cp /etc/fonts/fonts.conf /etc/fonts/local.conf
+  213  sudo cp /etc/fonts/fonts.conf /etc/fonts/local.conf
+  214  vim /etc/fonts/local.conf
+  215  sudo vim /etc/fonts/local.conf
+  216  ls /usr/share/fonts
+  217  ls /usr/local/share/fon
+  218  ls /usr/local/share/fonts
+  219  ls /etc/local/
+  220  ls /etc/fonts
+  221  ls /etc/fonts/
+  222  ls .local/share/fonts
+  223  vim .config/polybar/config.ini
+  224  sudo pacman -S ttf-font-awesome
+  225  reboot
+  226  ls
+  227  vim .config/polybar/config.ini
+  228  cd .config/polybar
+  229  vim launch.sh
+  230  cd ..
+  231  vim .p10k.zsh
+  232  vim .config/polybar/config.ini
+  233  pacman -S ttf-awesome
+  234  sudo pacman -S ttf-font-awesome
+  235  clear
+  236  neofetch
+  237  sudo pacman -Syu
+  238  fc-list | grep -i awesome
+  239  sudo pacman -S ttf-font-awesome5
+  240  vim .config/polybar/config.ini
+  241  fc-list | grep -i awesome
+  242  vim .config/polybar/config.ini
+  243  ls
+  244  cd programs
+  245  ls
+  246  exit
+  247  neofetch
+  248  exit
+  249  neofetch
+  250  exit
+  251  ls
+  252  cd programs
+  253  git clone https://github.com/arcticicestudio/nord-xfce-terminal.git
+  254  cd nord-xfce-terminal
+  255  ls
+  256  zsh install.sh
+  257  exit
+  258  vim .vimrc
+  259  ls
+  260  ls -a
+  261  curl -fLo ~/.vim/autoload/plug.vim --create-dirs \\n    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  262  vim .vimrc
+  263  vim .vim
+  264  vim .vimrc
+  265  clear
+  266  ls
+  267  exit
+  268  systemctl suspend
+  269  pacman -S texlive-most texlive-lang
+  270  sudo pacman -S texlive-most
+  271  vim .xinitrc
+  272  exit
+  273  sudo pacman -S zathura
+  274  exit
+  275  sudo pacman -S zathura
+  276  sudo pacman -S zathura zathura-pdf-poppler
+  277  ls
+  278  vim .vimrc
+  279  exit
+  280  vim .vimrc
+  281  exit
+  282  systemctl suspend
+  283  clear
+  284  nmcli device wifi list
+  285  exit
+  286  neofetch
+  287  exit
+  288  neofetch
+  289  exit
+  290  neofetch
+  291  clear
+  292  neofetch
+  293  clear
+  294  neofetch
+  295  clear
+  296  neofetch
+  297  clear
+  298  neofetch
+  299  clear
+  300  ls
+  301  mkdir github
+  302  cd github
+  303  git clone https://github.com/arthuradriaens-code/DLA.git
+  304  cd DLA
+  305  ls
+  306  vim DLA.
+  307  vim DLA.py
+  308  python3 DLA.py
+  309  pip install numpy
+  310  pip3 install numpy
+  311  python
+  312  sudo pacman -S pip
+  313  sudo pacman -S pip3
+  314  sudo pacman -S python-pip
+  315  pip install numpy
+  316  python3 DLA.py
+  317  pip install pillow
+  318  python3 DLA.py
+  319  pip install matplotlib
+  320  python3 DLA.py
+  321  pip install alive_progress
+  322  python3 DLA.py
+  323  vim DLA.py
+  324  xwd -root -out screenshot.xwd
+  325  neofetch
+  326  clear
+  327  neofetch
+  328  xwd -root -out screenshot.png
+  329  sudo pacman -S qiv
+  330  xwd -root -out screenshot.xwd
+  331  clear
+  332  neofetch
+  333  sudo pacman -S coreshot
+  334  exit
+  335  vim .config/polybar/config.ini
+  336  exit
+  337  vim .config/polybar/config.ini
+  338  fc-list | grep -i "Meslo"
+  339  exit
+  340  clear
+  341  neofetch
+  342  vim .config/polybar/config.ini
+  343  neofetch
+  344  clear
+  345  neofetch
+  346  clear
+  347  ls
+  348  cd github
+  349  ls
+  350  cd DLA
+  351  ls
+  352  vim DLA.cpp
+  353  vim DLA.py
+  354  vim .vimrc
+  355  cd /home/arthur
+  356  vim .vimrc
+  357  cd github/DLA
+  358  vim DLA.py
+  359  ls
+  360  cd github
+  361  ls
+  362  cd DLA
+  363  ls
+  364  vim DLA.py
+  365  exit
+  366  ls
+  367  cd github/DLA
+  368  ls
+  369  exit
+  370  sudo pacman -S onefetch
+  371  z dla
+  372  ls
+  373  cd github
+  374  ls
+  375  cd DLA
+  376  onefetch
+  377  cd ..
+  378  ls
+  379  cd ..
+  380  ls
+  381  vim .zshrc
+  382  exit
+  383  cd github/DLA
+  384  vim DLA.cpp
+  385  exit
+  386  neofetch
+  387  ls
+  388  cd prr
+  389  cd programs
+  390  git clone https://aur.archlinux.org/fingerprint-gui.git
+  391  ls
+  392  cd fingerprint-gui
+  393  ls
+  394  makepkg
+  395  cd ..
+  396  lsusb
+  397  sudo pacman -S lsusb
+  398  clear
+  399  mount
+  400  sudo pacman -S fprintd
+  401  clear
+  402  fprintd-enroll
+  403  sudo pacman -R fprintd
+  404  sudo pacman -S usbutils
+  405  lsusb
+  406  uname -r
+  407  clear
+  408  neofetch
+  409  sudo pacman -R usbutils
+  410  clear
+  411  neofetch
+  412  clear
+  413  neofetch
+  414  exit
+  415  neofetch
+  416  exit
+  417  ping google.Com
+  418  ping www.google.Com
+  419  NetworkManager
+  420  NetworkManager device scan
+  421  NetworkManager device list
+  422  NetworkManager scan list
+  423  nmcli device wifi list
+  424  NetworkManager device list
+  425  ping google.com
+  426  nmcli device wifi connect eduroam password 1@Rtbart1999
+  427  nmcli device wifi connect eduroam
+  428  nmcli device wifi connect eduroam password 1@Rtbart1999 ifname wlan1 apadriae
+  429  udev
+  430  lspci -v
+  431  dmesg | grep r8169
+  432  sudo dmesg | grep r8169
+  433  sudo enable ifplugd
+  434  sudo systemctl enable ifplugd
+  435  nmcli device wifi connect eduroam
+  436  nmcli device wifi list
+  437  ls
+  438  mkdir Documents
+  439  cd Documents
+  440  vim eduroam.sh
+  441  nmcli device wifi connect eduroam
+  442  ping www.google.com
+  443  ip link
+  444  ip link set wlan0 up
+  445  sudo ip link set wlan0 up
+  446  ip link set wlan0 up
+  447  ip link
+  448  ip link show dev enp1s0
+  449  ls
+  450  vim eduroam.sh
+  451  '/home/arthur/Documents/eduroam.sh'
+  452  sudo '/home/arthur/Documents/eduroam.sh'
+  453  '/home/arthur/Documents/eduroam.sh'
+  454  sudo '/home/arthur/Documents/eduroam.sh'
+  455  sudo eduroam.sh
+  456  vim eduroam.sh
+  457  nmcli con add \\n        type wifi \\n        con-name "eduroam" \\n        ifname "wlan0" \\n        ssid "eduroam" \\n        wifi-sec.key-mgmt "wpa-eap" \\n        802-1x.identity "arthur.adriaens@ugent.be" \\n        802-1x.password "1@Rtbart1999"\n        802-1x.system-ca-certs "yes" \\n        802-1x.domain-suffix-match "radius.ugent.be" \\n        802-1x.eap "peap" \\n        802-1x.phase2-auth "mcschapv2"\n
+  458  nmcli con add \\n        type wifi \\n        con-name "eduroam" \\n        ifname "wlan0" \\n        ssid "eduroam" \\n        wifi-sec.key-mgmt "wpa-eap" \\n        802-1x.identity "arthur.adriaens@ugent.be" \\n        802-1x.password "1@Rtbart1999"\n        802-1x.system-ca-certs "yes" \\n        802-1x.domain-suffix-match "radius.ugent.be" \\n        802-1x.phase2-auth "mcschapv2"\n
+  459  nmcli con add \\n        type wifi \\n        con-name "eduroam" \\n        ifname "wlan0" \\n        ssid "eduroam" \\n        802-1x.identity "arthur.adriaens@ugent.be" \\n        802-1x.password "1@Rtbart1999"\n
+  460  nmcli con add \\n        type wifi \\n        con-name "eduroam" \\n        ifname "wlan0" \\n        ssid "eduroam" \\n        wifi-sec.key-mgmt "wpa-eap" \\n        802-1x.identity "arthur.adriaens@ugent.be" \\n        802-1x.password "1@Rtbart1999"\n        802-1x.system-ca-certs "yes" \\n        802-1x.domain-suffix-match "radius.ugent.be" \\n        802-1x.eap ttls \\n        802-1x.phase2-auth "mcschapv2"\n
+  461  nmtui
+  462  nmcli device scan
+  463  nmcli device wifi scan
+  464  nmcli device wifi connect UGentGuest
+  465  nmtui
+  466  nmcli
+  467  nmcli connection edit eduroam
+  468  nmcli device wifi scan
+  469  nmcli device wifi list
+  470  nmcli device wifi connect eduroam
+  471  nmcli connection edit eduroam
+  472  nmcli connection add eduroam
+  473  nm-connection-editor
+  474  nmcli device wifi list
+  475  nmcli device wifi scan
+  476  nmcli device wifi list
+  477  NetworkManager device scan
+  478  nmcli device wifi list
+  479  nmtui
+  480  ping google.com
+  481  sudo pacman -S nm-connection-editor
+  482  ping google.com
+  483  sudo pacman -S nm-connection-editor
+  484  sudo pacman -S nm-applet
+  485  sudo pacman -S nm-connection-editor
+  486  sudo pacman -S plasma-nm
+  487  nm-tui
+  488  nmtui
+  489  nmcli device wifi list
+  490  nmcli device eduroam connect
+  491  ls
+  492  nmtui
+  493  nmcli device wifi list
+  494  nmtui
+  495  sudo pacman -S network-manager-applet
+  496  nmgui
+  497  nm-applet
+  498  sudo nm-applet
+  499  nm-applet -no-agent
+  500  nm-applet --no-agent
+  501  sudo pacman -S networkmanager-dmenu
+  502  killall nm-applet
+  503  nm-applet
+  504  sudo pacman -S wpa-gui
+  505  sudo pacman -S wicd
+  506  sudo pacman -S plasma-nm
+  507  nm-applet --no-agent
+  508  nmgui
+  509  nmtui
+  510  nmcli device wifi list
+  511  nmtui
+  512  sudo pacman -S nmcli-rofi
+  513  nmcli device wifi connect Arthur
+  514  nmcli device wifi list
+  515  nmcli device wifi connect UGentGuest
+  516  nmcli device wifi connect eduroam
+  517  nmtui
+  518  nmcli device wifi connect eduroam
+  519  sudo pacman -Syu
+  520  ls
+  521  cd Documents/
+  522  ls
+  523  mkdir thesis
+  524  cd thesis
+  525  mkdir programs
+  526  cd programs
+  527  git clone git clone https://github.com/nu-radio/NuRadioMC.git
+  528  git clone  https://github.com/nu-radio/NuRadioMC.git
+  529  cd NuRadioMC
+  530  python3 install_dev.py
+  531  cd
+  532  vim .bashrc
+  533  vim .zprofile
+  534  exit
+  535  cd Documents/thesis/programs/
+  536  git clone https://github.com/NuRadio/RadioPropa.git
+  537  git clone git@github.com:nu-radio/RadioPropa.git\n
+  538  git clone git@github.com:nu-radio/RadioPropa.git
+  539  sudo git clone git@github.com:nu-radio/RadioPropa.git
+  540  ls
+  541  git clone https://github.com/nu-radio/RadioPropa.gitµ
+  542  git clone https://github.com/nu-radio/RadioPropa.git
+  543  ls
+  544  cd RadioPropa
+  545  ls
+  546  cd radio
+  547  cd radiopropa
+  548  mkdir build
+  549  cd build
+  550  cmake ..
+  551  sudo pacman -S cmake
+  552  cmake ..
+  553  sudo pacman -S gcc
+  554  cmake ..
+  555  sudo pacman -S swig
+  556  cmake ..
+  557  make install
+  558  sudo make install
+  559  cd ..
+  560  cd .
+  561  cd ..
+  562  ls
+  563  git clone https://github.com/nu-radio/radiotools.git
+  564  cd
+  565  vim .zprofile
+  566  exit
+  567  ls
+  568  cd Documents/thesis/programs/NuRadioMC
+  569  ls
+  570  cd ..
+  571  mkdir tests
+  572  cd tests
+  573  cd ..
+  574  ls
+  575  cp NuRadioMC/NuRadioMC/examples/01_Veff_simulation/ Veff
+  576  cp -r NuRadioMC/NuRadioMC/examples/01_Veff_simulation/ Veff
+  577  ls
+  578  cp -r NuRadioMC/NuRadioMC/examples/01_Veff_simulation/ tests/Veff
+  579  rm -r Veff
+  580  cd tests/Veff
+  581  ls
+  582  python3 T01generate_event_list.py
+  583  vim .zprofile
+  584  which shell
+  585  which sh
+  586  exit
+  587  ls
+  588  ls -a
+  589  vim .zshrc
+  590  vim .bashrc
+  591  exit
+  592  cd Documents/thesis/programs/NuRadioMC/NuRadioReco
+  593  ls
+  594  cd ..
+  595  ls
+  596  exit
+  597  ls
+  598  cd Documents/thesis/programs
+  599  ls
+  600  cd tests
+  601  ls
+  602  cd Veff
+  603  ls
+  604  python3 T01generate_event_list.py
+  605  exit
+  606  reboot
+  607  z veff
+  608  sudo pacman -S z
+  609  z veff
+  610  vim .zshrc
+  611  exit
+  612  ls
+  613  cd Documents/thesis/programs/tests
+  614  cd Veff
+  615  python T01generate_event_list.py
+  616  vim T01generate_event_list.py
+  617  vim .zprofile
+  618  exit
+  619  z veff
+  620  ls
+  621  python t01
+  622  python T01generate_event_list.py
+  623  python T02RunSimulation.py
+  624  python T02RunSimulation.py 1e18_n1e4.hdf5
+  625  python T02RunSimulation.py 1e18_n1e4.hdf5 surface_station_1GHz.json config.yaml output
+  626  sudo pacman -S GSL
+  627  sudo pacman -S snowshovel
+  628  sudo pacman -S libgsl-dev
+  629  sudo pacman -S glibc
+  630  gsl
+  631  ls
+  632  cd Downloads
+  633  ls
+  634  pacman -U gsl-2.7.tar.gz
+  635  sudo pacman -U gsl-2.7.tar.gz
+  636  tar -xvf gsl-2.7.tar.gz
+  637  ls
+  638  cd gsl-2.7
+  639  ls
+  640  makepkg
+  641  ls
+  642  cd ..
+  643  ls
+  644  sudo mv gsl-2.7 /opt
+  645  ls /opt
+  646  python T02RunSimulation.py 1e18_n1e4.hdf5 surface_station_1GHz.json config.yaml output
+  647  rm -r /opt
+  648  rm -r /opt/gsl-2.7
+  649  sudo rm -r /opt/gsl-2.7
+  650  ls /opt
+  651  tar -xvf gsl-2.7.tar.gz
+  652  cd gsl-2.7
+  653  ls
+  654  '/home/arthur/Downloads/gsl-2.7/install-sh'
+  655  ./configure
+  656  make && make install
+  657  sudo make install
+  658  python T02RunSimulation.py 1e18_n1e4.hdf5 surface_station_1GHz.json config.yaml output
+  659  ls
+  660  cd Documents/thesis/programs/
+  661  cd NuRadioMC/NuRadioMC/SignalProp/CPPAnalyticRayTracing
+  662  ls
+  663  pip install h5py
+  664  ls
+  665  cd ..
+  666  ls
+  667  ./install.sh
+  668  python T02RunSimulation.py 1e18_n1e4.hdf5 surface_station_1GHz.json config.yaml output
+  669  ls
+  670  cd programs
+  671  ls
+  672  mkdir gsl
+  673  rm fingerprint-gui
+  674  rm -r fingerprint-gui
+  675  cd ..
+  676  ls
+  677  cd Downloads
+  678  ls
+  679  cd gsl-2.7
+  680  ./configure --prefix=/home/arthur/programs/gsl
+  681  make
+  682  make check
+  683  neofetch
+  684  exit
+  685  make install
+  686  libtool
+  687  libtool --help
+  688  cd ..
+  689  cd Documents/thesis/programs/NuRadioMC
+  690  ls
+  691  pkg-config --libs gsl
+  692  ls
+  693  cd ..
+  694  ls
+  695  cd
+  696  ls
+  697  cd programs/gsl
+  698  ls
+  699  cd ..
+  700  ls
+  701  cd ..
+  702  ls
+  703  cd Documents/thesis/programs/NuRadioMC/NuRadioMC/SignalProp/CPPAnalyticRayTracing
+  704  ls
+  705  gcc -Wall -I/home/programs/gsl/include -c wrapper.cpp
+  706  gcc -Wall -I/home/programs/gsl/include wrapper.cpp
+  707  ls
+  708  libtool
+  709  libtool --help
+  710  python T02RunSimulation.py 1e18_n1e4.hdf5 surface_station_1GHz.json config.yaml output
+  711  cd
+  712  ls
+  713  cp programs/gsl /usr/local/
+  714  cp -r programs/gsl /usr/local/
+  715  sudo cp -r programs/gsl /usr/local/
+  716  python T02RunSimulation.py 1e18_n1e4.hdf5 surface_station_1GHz.json config.yaml output
+  717  ls /usr/local
+  718  pacman -S gsl
+  719  sudo pacman -S gsl
+  720  python T02RunSimulation.py 1e18_n1e4.hdf5 surface_station_1GHz.json config.yaml output
+  721  exit
+  722  z veff
+  723  python T02RunSimulation.py 1e18_n1e4.hdf5 surface_station_1GHz.json config.yaml output
+  724  ls
+  725  cd Documents/thesis/programs/NuRadioMC/NuRadioMC/SignalProp
+  726  ls
+  727  ./install.sh
+  728  python T02RunSimulation.py 1e18_n1e4.hdf5 surface_station_1GHz.json config.yaml output
+  729  cd
+  730  rm -R programs/gsl
+  731  xrandr
+  732  cd
+  733  vim .config/bspwm/bspwmrc
+  734  xrandr --output LVDS1 --primary --mode 1366x768 --rotate normal --output VGA1 --mode 1920x1080 --rotate normal --right-of LVDS1
+  735  xrandr
+  736  xrandr --output eDP1 --primary --mode 1920x1080 --rotate normal --output DP1 --mode 1920x1080 --rotate normal --right-of LVDS1
+  737  xrandr --output eDP1 --primary --mode 1920x1080 --rotate normal --output DP1 --mode 1920x1080 --rotate normal --right-of eDP1
+  738  vim .config/bspwm/own_script_bspwm_laptop_dual_monitor
+  739  exit
+  740  ls
+  741  z veff
+  742  ls
+  743  python T02RunSimulation.py 1e18_n1e4.hdf5 surface_station_1GHz.json config.yaml output
+  744  sudo pacman -Syu
+  745  python T02RunSimulation.py 1e18_n1e4.hdf5 surface_station_1GHz.json config.yaml output
+  746  ls
+  747  cd Documents/thesis/programs/NuRadioMC/NuRadioMC/SignalProp/CPPAnalyticRayTracing
+  748  ls
+  749  gcc wrapper.cpp
+  750  vim README.md
+  751  python setup.py build_ext --inplace`\n\n
+  752  python setup.py build_ext --inplace\n\n
+  753  cd
+  754  vim .config/bspwm/bspwmrc
+  755  xrandr
+  756  cd ..\n\n
+  757  ./install.sh
+  758  z veff
+  759  python T02RunSimulation.py 1e18_n1e4.hdf5 surface_station_1GHz.json config.yaml output
+  760  cd gcc
+  761  cd ..
+  762  ls
+  763  cd ..
+  764  ls
+  765  cd ..
+  766  ls
+  767  cd ..
+  768  ls
+  769  rm eduroam.sh
+  770  cd thesis/programs/NuRadioMC/NuRadioMC/SignalProp/
+  771  z programs
+  772  ls
+  773  cd ..
+  774  ls
+  775  cd ..
+  776  ls
+  777  cd ..
+  778  cd programs
+  779  ls
+  780  ls /opt
+  781  sudo pacman -S gsl
+  782  sudo pacman -S gcl
+  783  sudo pacman -S gsl
+  784  sudo pacman -S gsl-dev
+  785  sudo pacman -S libgsl-dev
+  786  pip install pygdsm
+  787  pip install snowshovel
+  788  ls /usr/local
+  789  ls /usr/local/gsl
+  790  ls /usr/local/gsl/include
+  791  ls /usr/local/gsl/include/gsl
+  792  ./install.sh
+  793  GSLDIR = /usr/local/gsl
+  794  printenv
+  795  GSLDIR = "/usr/local/gsl"
+  796  export GSLDIR
+  797  ls
+  798  printenv
+  799  printenv | grep GSL
+  800  sudo GSLDIR = "/usr/local/gsl"
+  801  $GSLDIR = "/usr/local/gsl"
+  802  $GSLDIR="/usr/local/gsl"
+  803  $GSLDIR="/usr/local"
+  804  vim .zshrc
+  805  ls /usr/local/gsl/include
+  806  z veff
+  807  ls
+  808  python T02RunSimulation.py
+  809  python T02RunSimulation.py 1e18_n1e4.hdf5 surface_station_1GHz.json config.yaml output
+  810  vim .config/polybar/config.ini
+  811  python T03visualizeVeff.py
+  812  vim T03visualizeVeff.py
+  813  python T03visualizeVeff.py
+  814  vim T03visualizeVeff.py
+  815  python T03visualizeVeff.py
+  816  vim T03visualizeVeff.py
+  817  exit
+  818  neofetch
+  819  vim .zprofile
+  820  exit
+  821  z veff
+  822  ls
+  823  python T01generate_event_list.py
+  824  exit
+  825  z veff
+  826  vim T01generate_event_list.py
+  827  z Nuradio
+  828  ls
+  829  cd NuRadioMC
+  830  ls
+  831  cd EvtGen/
+  832  ls
+  833  vim generator.py
+  834  vim T02RunSimulation.py
+  835  z NuRadioReco
+  836  z NuRadioMC
+  837  ls
+  838  cd NuRadioMC
+  839  ls
+  840  cd simulation
+  841  ls
+  842  vim simulation.py
+  843  ls
+  844  cd Documents/thesis/programs/tests/Veff
+  845  ls
+  846  vim 1e18_n1e4.hdf5
+  847  vim T01generate_event_list.py
+  848  vim surface_station_1GHz.json
+  849  cd ..
+  850  ls
+  851  cd ..
+  852  ls
+  853  cd NuRadioReco
+  854  ls
+  855  cd modules
+  856  ls
+  857  vim channelBandPassFilter.py
+  858  ls
+  859  vim trigger
+  860  cd
+  861  vim .vimrc
+  862  z veff
+  863  vim trigger
+  864  cd ..
+  865  ls
+  866  cd NuRadioMC/simulation
+  867  ls
+  868  vim simulation.py
+  869  exit
+  870  clear
+  871  ls
+  872  cd ..
+  873  clear
+  874  ls
+  875  clear
+  876  neofetch
+  877  clear
+  878  xrandr
+  879  cd
+  880  vim .config/bspwm/bspwmrc
+  881  clear
+  882  z Nuradio
+  883  ls
+  884  cd NuRadioMC
+  885  ls
+  886  cd examples
+  887  ls
+  888  pwd
+  889  cd
+  890  z veff
+  891  cd ..
+  892  ls
+  893  cp -r /home/arthur/Documents/thesis/programs/NuRadioMC/NuRadioMC/examples/03_station_coincidences station_coincidences
+  894  cd station_coincidences
+  895  ls
+  896  vim A01create_detector.py
+  897  ls
+  898  cd Documents/thesis/programs/tests/station_coincidences
+  899  ls
+  900  vim single_position.json
+  901  vim A01create_detector.py
+  902  python3 A01create_detector.py
+  903  vim A01create_detector.py
+  904  pip install pyqt5
+  905  echo $PATH
+  906  export PATH="/home/arthur/.local/bin:$PATH"
+  907  exit
+  908  pip
+  909  exit
+  910  python3 A01create_detector.py
+  911  ls
+  912  vim A02generate_job_files_presim.py
+  913  ls
+  914  cd ..
+  915  cd
+  916  cd Documents/thesis/programs/NuRadioMC/
+  917  ls
+  918  cd NuRadioReco
+  919  cd
+  920  exit
+  921  python A02generate_job_files_presim.py
+  922  vim A02generate_job_files_presim.py
+  923  ls
+  924  sudo pacman -S zathura
+  925  exit
+  926  reboot
+  927  vim .config/polybar
+  928  vim .config/polybar/config.ini
+  929  ls
+  930  vim .config/bspwm/bspwmrc
+  931  vim .config/bspwm/own_script_bspwm_laptop_dual_monitor
+  932  vim .config/bspwm/bspwmrc
+  933  exit
+  934  reboot
+  935  xrandr
+  936  vim .config/bspwm/bspwmrc
+  937  vim .config/bspwm/own_script_bspwm_laptop_dual_monitor
+  938  exit
+  939  reboot
+  940  vim .config/bspwm/bspwmrc
+  941  vim .config/polybar/config.ini
+  942  vim .config/bspwm/bspwmrc
+  943  reboot
+  944  vim .config/bspwm/bspwmrc
+  945  vim .config/bspwm/own_script_bspwm_laptop_dual_monitor
+  946  xrandr --output eDP1 --primary --mode 1920x1080 --rotate normal --output DP1 --mode 1920x1080 --rotate normal --right-of eDP1
+  947  neofetch
+  948  exit
+  949  cp -r /home/arthur/Documents/thesis/programs/NuRadioMC/NuRadioMC/examples/04_read_ari_files Documents/thesis/programs/tests/ari_read
+  950  z ari
+  951  z tests
+  952  cd ari_read
+  953  ls
+  954  vim A01read_ari.py
+  955  systemctl suspend
+  956  python3 A01read_ari.py
+  957  cd ..
+  958  ls
+  959  cd station_coincidences
+  960  ls
+  961  cd ..
+  962  ls
+  963  cp -r /home/arthur/Documents/thesis/programs/NuRadioMC/NuRadioMC/examples/05_pulser_calibration_measurement puler_calibration
+  964  cd puler_calibration
+  965  ls
+  966  python3 A01generate_pulser_events.py
+  967  vim A01generate_pulser_events.py
+  968  ls
+  969  python A02RunSimulation.py
+  970  python A02RunSimulation.py input_spice.hdf5 detector_db.json config_spice.yaml output
+  971  ls
+  972  vim A01generate_pulser_events.py
+  973  python3 A01generate_pulser_events.py
+  974  python A02RunSimulation.py input_spice.hdf5 detector_db.json config_spice.yaml output
+  975  vim A01generate_pulser_events.py
+  976  python A02RunSimulation.py input_spice.hdf5 detector_db.json config_spice.yaml output
+  977  python3 A01generate_pulser_events.py
+  978  python A02RunSimulation.py input_spice.hdf5 detector_db.json config_spice.yaml output
+  979  vim A01generate_pulser_events.py
+  980  python3 A01generate_pulser_events.py
+  981  python A02RunSimulation.py input_spice.hdf5 detector_db.json config_spice.yaml output
+  982  vim A01generate_pulser_events.py
+  983  python A02RunSimulation.py input_spice.hdf5 detector_db.json config_spice.yaml output
+  984  z tess
+  985  z test
+  986  ls
+  987  cd puler_calibration
+  988  ls
+  989  vim A01generate_pulser_events.py
+  990  vim A02RunSimulation.py
+  991  z NuRadioReco
+  992  ls
+  993  cd modules
+  994  ls
+  995  vim efieldToVoltageConverter
+  996  vim efieldToVoltageConverter.py
+  997  ls
+  998  vim channelResampler.py
+  999  vim triggerTimeAdjuster.py
+ 1000  vim efieldToVoltageConverter.py
+ 1001  ls
+ 1002  vim detector_db.json
+ 1003  vim ARIANNA/hardwareResponseIncorporator.py
+ 1004  z ARIANNA
+ 1005  cd
+ 1006  sl
+ 1007  ls
+ 1008  cd Documents/thesis/programs/NuRadioMC/NuRadioReco/modules/base/
+ 1009  ls
+ 1010  vim module.py
+ 1011  cd ....
+ 1012  ls
+ 1013  cd NuRadioReco/utilities
+ 1014  ls
+ 1015  vim fft.py
+ 1016  cd ..
+ 1017  ls
+ 1018  cd modules/trigger
+ 1019  ls
+ 1020  vim highLowThreshold.py
+ 1021  cd ..
+ 1022  ls
+ 1023  cd NuRadioMC
+ 1024  ls
+ 1025  cd simulation
+ 1026  ls
+ 1027  vim simulation.py
+ 1028  ls
+ 1029  vim A03reconstruct_sim.py
+ 1030  python3 A03reconstruct_sim.py
+ 1031  python3 A03reconstruct_sim.py output
+ 1032  python3 A03reconstruct_sim.py -h
+ 1033  python3 A03reconstruct_sim.py input_spice.hdf5
+ 1034  vim A03reconstruct_sim.py
+ 1035  python3 A02RunSimulation.py
+ 1036  vim A03reconstruct_sim.py
+ 1037  python3 A03reconstruct_sim.py
+ 1038  python3 A03reconstruct_sim.py input_spice.hdf5
+ 1039  exit
+ 1040  :q
+ 1041  z puler
+ 1042  vim A03reconstruct_sim.py
+ 1043  python3 A03reconstruct_sim.py input_spice.hdf5
+ 1044  vim A03reconstruct_sim.py
+ 1045  python3 A03reconstruct_sim.py input_spice.hdf5
+ 1046  python3 A03reconstruct_sim.py input_spice.hdf5 detector_db.json
+ 1047  z NuRadioReco
+ 1048  vim detector/detector.py
+ 1049  python3 A03reconstruct_sim.py input_spice.hdf5
+ 1050  python3 A03reconstruct_sim.py input_spice.hdf5 detector_db.json
+ 1051  cd modules/io
+ 1052  ls
+ 1053  vim NuRadioRecoio.py
+ 1054  sudo pacman -Syu
+ 1055  pip update
+ 1056  pip upgrade
+ 1057  pip
+ 1058  pip  -h
+ 1059  pip  -h | grep update
+ 1060  pip  -h | grep up
+ 1061  python3 A03reconstruct_sim.py input_spice.hdf5 detector_db.json
+ 1062  python3 A03reconstruct_sim.py output detector_db.json
+ 1063  ls
+ 1064  python3 A01generate_pulser_events.py
+ 1065  ls
+ 1066  vim A01generate_pulser_events.py
+ 1067  ls
+ 1068  python3 A01generate_pulser_events.py
+ 1069  ls
+ 1070  python A02RunSimulation.py
+ 1071  python A02RunSimulation.py input_spice.hdf5 detector_db.json config_spice.yaml output
+ 1072  vim output
+ 1073  ls
+ 1074  cp output output.hdf5
+ 1075  ls
+ 1076  python3 A03reconstruct_sim.py output.hdf5 detector_db.json
+ 1077  python3 A03reconstruct_sim.py input_spice.hdf5 detector_db.json
+ 1078  vim eventReader.py
+ 1079  vim NuRadioRecoio.py
+ 1080  exit
+ 1081  z Radioreco
+ 1082  cd ..
+ 1083  ls
+ 1084  git pull
+ 1085  ls
+ 1086  python A04plot_results.py
+ 1087  vim A04plot_results.py
+ 1088  vim A03reconstruct_sim.py
+ 1089  python A03reconstruct_sim.py
+ 1090  python A03reconstruct_sim.py input_spice.hdf5 detector_db.json
+ 1091  python A03reconstruct_sim.py output.hdf5 detector_db.json
+ 1092  exit
+ 1093  ls
+ 1094  cd Documents/thesis/programs/tests
+ 1095  ls
+ 1096  cp -r /home/arthur/Documents/thesis/programs/NuRadioMC/NuRadioMC/examples/07_RNO_G_simulation
+ 1097  cp -r /home/arthur/Documents/thesis/programs/NuRadioMC/NuRadioMC/examples/07_RNO_G_simulation rno-g
+ 1098  cd rno-g
+ 1099  ls
+ 1100  python3 RunSimulation.py
+ 1101  python RunSimulation.py RNO_config.yaml
+ 1102  ls
+ 1103  ls /home/arthur/Documents/thesis/
+ 1104  z examples
+ 1105  ls
+ 1106  cd 07_RNO_G_simulation
+ 1107  clear
+ 1108  python RunSimulation.py
+ 1109  python RunSimulation.py RNO_config.yaml
+ 1110  exit
+ 1111  cd
+ 1112  z test
+ 1113  ls
+ 1114  cp -r /home/arthur/Documents/thesis/programs/NuRadioMC/NuRadioMC/examples/06_webinar webinar
+ 1115  cd webinar
+ 1116  ls
+ 1117  z Nuradio
+ 1118  ls
+ 1119  git pull
+ 1120  cd
+ 1121  ls
+ 1122  cd Documents/thesis/programs/tests/Veff/µ
+ 1123  cd Documents/thesis/programs/tests/Veff/
+ 1124  ls
+ 1125  vim T01generate_event_list.py
+ 1126  z NuRadiomc
+ 1127  cd NuRadioMC
+ 1128  cd EvtGen
+ 1129  vim generator.py
+ 1130  z programs
+ 1131  ls
+ 1132  cd ..
+ 1133  ls
+ 1134  cd RadioPropa
+ 1135  ls
+ 1136  vim README.md
+ 1137  cd radio_example
+ 1138  ls
+ 1139  python Ice_trajectories.py
+ 1140  cd ..
+ 1141  cd radiopropa
+ 1142  ls
+ 1143  cd build
+ 1144  ls
+ 1145  python testPythonExtension.py
+ 1146  ls -a
+ 1147  ls -v
+ 1148  ./testPropagation
+ 1149  ./testBreakCondition
+ 1150  ./testCore
+ 1151  ./testPropagation
+ 1152  ./testOutput
+ 1153  ./testOutput -v
+ 1154  cd ..
+ 1155  ls
+ 1156  cd ..
+ 1157  ls
+ 1158  cd ..
+ 1159  ls
+ 1160  cd ls
+ 1161  ls
+ 1162  cd radio_example
+ 1163  ls
+ 1164  vim Ice_trajectories.py
+ 1165  python Ice_trajectories.py
+ 1166  ls
+ 1167  python run.py
+ 1168  python Gradient.py
+ 1169  python atmosphere_cloud_sim.py
+ 1170  sudo pacman -S hdf5
+ 1171  python Ice_trajectories.py
+ 1172  cd ..
+ 1173  ls
+ 1174  cd radiopropa
+ 1175  ls
+ 1176  rm -R build
+ 1177  sudo rm -R build
+ 1178  mkdir build
+ 1179  cd build
+ 1180  cmake ..
+ 1181  make install
+ 1182  sudo make install
+ 1183  ls
+ 1184  ./testOutput
+ 1185  ./testPropagation
+ 1186  ./testCore
+ 1187  ./testModuleList
+ 1188  ./testVector3
+ 1189  cd ..
+ 1190  ls
+ 1191  cd ..
+ 1192  ls
+ 1193  cd radio_example
+ 1194  ls
+ 1195  cp /home/arthur/Documents/thesis/programs/RadioPropa/radio_example radiopropa
+ 1196  cp -r /home/arthur/Documents/thesis/programs/RadioPropa/radio_example radiopropa
+ 1197  ls
+ 1198  cd radiopropa
+ 1199  ls
+ 1200  cd radio_example/
+ 1201  ls
+ 1202  python Ice_trajectories.py
+ 1203  ls
+ 1204  python plot_
+ 1205  python plot_traj.py
+ 1206  z test
+ 1207  ls
+ 1208  cd radiopropa
+ 1209  ls
+ 1210  cd radio_example
+ 1211  ls
+ 1212  vim Ice_trajectories.py
+ 1213  z radiopropa
+ 1214  ls
+ 1215  cd build
+ 1216  ls
+ 1217  cd src
+ 1218  ls
+ 1219  cd ..
+ 1220  ls
+ 1221  vim radiopropa.py
+ 1222  ls
+ 1223  cd ..
+ 1224  ls
+ 1225  cd include
+ 1226  ls
+ 1227  cd radiopropa/
+ 1228  ls
+ 1229  vim ModuleList.h
+ 1230  z radiopropa
+ 1231  ls
+ 1232  cd ..
+ 1233  ls
+ 1234  cd include
+ 1235  ls
+ 1236  cd radiopropa
+ 1237  ls
+ 1238  vim Candidate.h
+ 1239  vim Module.h
+ 1240  vim Source.h
+ 1241  cd ..
+ 1242  ls
+ 1243  cd ..
+ 1244  ls
+ 1245  cd src
+ 1246  ls
+ 1247  cd ..
+ 1248  l
+ 1249  ls
+ 1250  cd include
+ 1251  ls
+ 1252  cd radiopropa/
+ 1253  ls
+ 1254  cd ..
+ 1255  ls
+ 1256  cd build
+ 1257  l
+ 1258  ls
+ 1259  vim radiopropa.py
+ 1260  cd ..
+ 1261  ls
+ 1262  cd ls
+ 1263  ls
+ 1264  cd include/radiopropa
+ 1265  cd module
+ 1266  vim PropagationCK.h
+ 1267  ls
+ 1268  cd ..
+ 1269  ls
+ 1270  vim IceModel.h
+ 1271  ls
+ 1272  z Nuradio
+ 1273  systemctl suspend
+ 1274  ls
+ 1275  cd NuRadioMC
+ 1276  ls
+ 1277  cd examples
+ 1278  ls
+ 1279  cd 01_Veff_simulation
+ 1280  ls
+ 1281  cp config.yaml surface_station_1GHz.json T01generate_event_list.py /home/arthur/Documents/thesis/programs/projects/ice_density_profiles/events
+ 1282  vim T02RunSimulation.py
+ 1283  cd ..
+ 1284  ls
+ 1285  cd 01_Veff_simulation
+ 1286  ls
+ 1287  vim T01generate_event_list.py
+ 1288  cd ..
+ 1289  cd .
+ 1290  cd ..
+ 1291  ls
+ 1292  cd EvtGen
+ 1293  ls
+ 1294  vim generator.py
+ 1295  cd ..
+ 1296  ls
+ 1297  cd simulation
+ 1298  ls
+ 1299  vim simulation.py
+ 1300  z events
+ 1301  z projects
+ 1302  cd
+ 1303  cd Documents/thesis/programs/projects/ice_density_profiles/events
+ 1304  ls
+ 1305  python T01generate_event_list.py
+ 1306  vim T01generate_event_list.py
+ 1307  cd ..
+ 1308  ls
+ 1309  cd simulate
+ 1310  ls
+ 1311  cd ..
+ 1312  vim Ice_trajectories.py
+ 1313  vim simulate.py
+ 1314  clear
+ 1315  ls
+ 1316  cd Documents/thesis/programs/RadioPropa/radiopropa/include/
+ 1317  ls
+ 1318  cd radiopropa
+ 1319  ls
+ 1320  vim IceModel.h
+ 1321  exit
+ 1322  python simulate.py
+ 1323  vim IceModel.h
+ 1324  vim simulate.py
+ 1325  python simulate.py
+ 1326  vim simulate.py
+ 1327  python simulate.py
+ 1328  vim simulate.py
+ 1329  python simulate.py
+ 1330  vim simulate.py
+ 1331  python simulate.py
+ 1332  vim simulate.py
+ 1333  python simulate.py
+ 1334  vim simulate.py
+ 1335  python simulate.py
+ 1336  vim simulate.py
+ 1337  python simulate.py
+ 1338  vim simulate.py
+ 1339  python simulate.py
+ 1340  vim simulate.py
+ 1341  python simulate.py
+ 1342  vim simulate.py
+ 1343  python simulate.py
+ 1344  vim simulate.py
+ 1345  python simulate.py
+ 1346  vim simulate.py
+ 1347  python simulate.py
+ 1348  vim simulate.py
+ 1349  python simulate.py
+ 1350  vim simulate.py
+ 1351  python simulate.py
+ 1352  vim simulate.py
+ 1353  python simulate.py
+ 1354  vim simulate.py
+ 1355  python simulate.py
+ 1356  vim simulate.py
+ 1357  python simulate.py
+ 1358  vim simulate.py
+ 1359  python simulate.py
+ 1360  vim simulate.py
+ 1361  python simulate.py
+ 1362  vim simulate.py
+ 1363  python simulate.py
+ 1364  vim simulate.py
+ 1365  python simulate.py
+ 1366  vim simulate.py
+ 1367  python simulate.py
+ 1368  vim simulate.py
+ 1369  python simulate.py
+ 1370  vim simulate.py
+ 1371  python simulate.py
+ 1372  vim simulate.py
+ 1373  ls
+ 1374  clear
+ 1375  cd Documents/thesis/programs/NuRadioMC/NuRadioMC/examples
+ 1376  ls
+ 1377  cd 01_Veff_simulation
+ 1378  ls
+ 1379  vim T02RunSimulation.py
+ 1380  ls
+ 1381  cp simulate.py Gorham.py
+ 1382  vim Gorham.py
+ 1383  ls
+ 1384  python simulate.py
+ 1385  vim simulate.py
+ 1386  python simulate.py
+ 1387  vim simulate.py
+ 1388  vim Gorham.py
+ 1389  vim simulate.py
+ 1390  python simulate.py
+ 1391  vim simulate.py
+ 1392  python simulate.py
+ 1393  mkdir example_config
+ 1394  python simulate.py events/1e18_n1e4.hdf5 1 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5
+ 1395  vim Gorham.py
+ 1396  python simulate.py events/1e18_n1e4.hdf5 1 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5
+ 1397  vim simulate.py
+ 1398  vim Gorham.py
+ 1399  python simulate.py events/1e18_n1e4.hdf5 1 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5
+ 1400  vim simulate.py
+ 1401  python simulate.py events/1e18_n1e4.hdf5 1 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5
+ 1402  vim simulate.py
+ 1403  python simulate.py events/1e18_n1e4.hdf5 1 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5
+ 1404  vim simulate.py
+ 1405  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5
+ 1406  vim simulate.py
+ 1407  ls
+ 1408  vim T02RunSimulation.py
+ 1409  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5
+ 1410  ls
+ 1411  cd Documents/thesis/programs/RadioPropa/radio_example
+ 1412  ls
+ 1413  cd ..
+ 1414  clear
+ 1415  cd NuRadioMC
+ 1416  cd ..
+ 1417  clear
+ 1418  cd RadioPropa
+ 1419  ls
+ 1420  cd Documents/thesis/programs/RadioPropa/radio_example
+ 1421  ls
+ 1422  vim atmosphere_cloud_sim.py
+ 1423  vim check_raytracing.py
+ 1424  vim Gradient.py
+ 1425  vim n2linear.py
+ 1426  vim plot_traj.py
+ 1427  vim ReflectionRefraction.py
+ 1428  cd ..
+ 1429  ls
+ 1430  vim README.md
+ 1431  vim radiopropa
+ 1432  ls radiopropa
+ 1433  cd radiopropa/plugin-template
+ 1434  ls
+ 1435  vim testPlugin.py
+ 1436  vim myPlugin.i
+ 1437  vim myPlugin.h
+ 1438  neofetch
+ 1439  clear
+ 1440  neofetch
+ 1441  exit
+ 1442  clear
+ 1443  vim T02RunSimulation.py
+ 1444  ls
+ 1445  vim simulate.py
+ 1446  ls
+ 1447  vim testPlugin.py
+ 1448  cd .
+ 1449  ls
+ 1450  cd ..
+ 1451  ls
+ 1452  cd ..
+ 1453  ls
+ 1454  cd NuRadioMC/NuRadioMC/examples/01_Veff_simulation
+ 1455  ls
+ 1456  vim T01generate_event_list.py
+ 1457  vim T02RunSimulation.py
+ 1458  exit
+ 1459  ls
+ 1460  vim basic.txt
+ 1461  ls
+ 1462  cat basic.txt
+ 1463  cp basic.txt basic
+ 1464  rm basic.txt
+ 1465  cat basic
+ 1466  ls
+ 1467  cd Documents/thesis/programs/tests/radiopropa/radio_example
+ 1468  ls
+ 1469  cd ..
+ 1470  ls
+ 1471  vim nuradio/Veff
+ 1472  cd Documents/thesis/programs/tests/nuradio/Veff
+ 1473  ls
+ 1474  vim T02RunSimulation.py
+ 1475  cd ..
+ 1476  ls
+ 1477  cd NuRadioMC/NuRadioMC/simulation
+ 1478  ls
+ 1479  vim simulation.py
+ 1480  ls
+ 1481  cd ..
+ 1482  ls
+ 1483  cd NuRadioMC/NuRadioMC/EvtGen/
+ 1484  ls
+ 1485  vim generate_cylinder.py
+ 1486  vim generator.py
+ 1487  rm Gorham.py
+ 1488  ls
+ 1489  vim simulate.py
+ 1490  cat basic
+ 1491  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5\n
+ 1492  vim simulate.py
+ 1493  exit
+ 1494  cd ..
+ 1495  ls
+ 1496  cd nuradio/Veff
+ 1497  ls
+ 1498  vim T02RunSimulation.py
+ 1499  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5
+ 1500  exit
+ 1501  vim simulate.py
+ 1502  exit
+ 1503  ls
+ 1504  cd Documents/thesis/programs/projects/ice_density_profiles/
+ 1505  ls
+ 1506  python simulate.py
+ 1507  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5
+ 1508  vim simulate.py
+ 1509  ls
+ 1510  cd Documents/thesis/programs/tests/nuradio/Veff
+ 1511  ls
+ 1512  vim T02RunSimulation.py
+ 1513  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5
+ 1514  exit
+ 1515  ls
+ 1516  mkdir outputs
+ 1517  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml outputs/Gorham.hdf5
+ 1518  python simulate.py 2 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml outputs/Exponential.hdf5
+ 1519  ls outputs
+ 1520  mkdir visualizer
+ 1521  sudo pacman -S dash
+ 1522  pip install dash
+ 1523  pip install pandas
+ 1524  exit
+ 1525  cd ..
+ 1526  ls
+ 1527  cd ..
+ 1528  ls
+ 1529  cd nuradio
+ 1530  ls
+ 1531  cd Veff
+ 1532  ls
+ 1533  python T03visualizeVeff.py
+ 1534  vim T03visualizeVeff.py
+ 1535  python T03visualizeVeff.py
+ 1536  z programs
+ 1537  ls
+ 1538  cd outputs
+ 1539  ls
+ 1540  cp Exponential.hdf5 Exponential.nur
+ 1541  cp Gorham.hdf5 Gorham.nur
+ 1542  python index.py
+ 1543  cd ..
+ 1544  ls
+ 1545  cd projects
+ 1546  ls
+ 1547  cd ice_density_profiles/outputs
+ 1548  ls
+ 1549  pwd
+ 1550  cd
+ 1551  python '/home/arthur/Documents/thesis/programs/NuRadioMC/NuRadioReco/eventbrowser/index.py' /home/arthur/Documents/thesis/programs/projects/ice_density_profiles/outputs
+ 1552  python '/home/arthur/Documents/thesis/programs/NuRadioMC/NuRadioReco/eventbrowser/index.py' /home/arthur/Documents/thesis/programs/projects/ice_density_profiles/outputs/
+ 1553  z programs
+ 1554  ls
+ 1555  z programs
+ 1556  ls
+ 1557  python T05visualize_sim_output.py outputs/Exponential.hdf5
+ 1558  cd outputs
+ 1559  ls
+ 1560  rm Exponential.nur Gorham.nur
+ 1561  ls
+ 1562  cd plots
+ 1563  ls
+ 1564  cd Exponential
+ 1565  ls
+ 1566  cd ..
+ 1567  ls
+ 1568  cd ..
+ 1569  ls
+ 1570  vim visualizer
+ 1571  clear
+ 1572  ls
+ 1573  cd
+ 1574  ls
+ 1575  z programs
+ 1576  vim T05visualize_sim_output.py
+ 1577  python T05visualize_sim_output.py outputs/Exponential.hdf5
+ 1578  python T05visualize_sim_output.py outputs/Gorham.hdf5
+ 1579  cp T05visualize_sim_output.py compare.py
+ 1580  vim compare.py
+ 1581  vim .vimrc
+ 1582  exit
+ 1583  ls
+ 1584  vim compare.py
+ 1585  exit
+ 1586  vim compare.py
+ 1587  vim .vimrc
+ 1588  exit
+ 1589  vim compare.py
+ 1590  vim .vimrc
+ 1591  vim compare.py
+ 1592  exit
+ 1593  vim compare.py
+ 1594  vim .vimrc
+ 1595  vim compare.py
+ 1596  vim .vimrc
+ 1597  vim compare.py
+ 1598  vim .vimrc
+ 1599  vim compare.py
+ 1600  exit
+ 1601  vim compare.py
+ 1602  vim .vimrc
+ 1603  vim
+ 1604  exit
+ 1605  vim
+ 1606  vim +PlugClean
+ 1607  exit
+ 1608  vim .vimrc
+ 1609  exit
+ 1610  vim compare.py
+ 1611  pkill vim
+ 1612  vim
+ 1613  vim .vimrc
+ 1614  vim
+ 1615  exit
+ 1616  vim compare.py
+ 1617  python compare.py
+ 1618  python compare.py outputs
+ 1619  vim compare.py
+ 1620  python compare.py outputs
+ 1621  vim compare.py
+ 1622  python compare.py outputs
+ 1623  vim compare.py
+ 1624  z programs
+ 1625  ls
+ 1626  vim T05visualize_sim_output.py
+ 1627  python compare.py outputs
+ 1628  vim T05visualize_sim_output.py
+ 1629  vim compare.py
+ 1630  python compare.py outputs
+ 1631  vim compare.py
+ 1632  python compare.py outputs
+ 1633  vim compare.py
+ 1634  python compare.py outputs
+ 1635  vim compare.py
+ 1636  python compare.py outputs
+ 1637  vim compare.py
+ 1638  python compare.py outputs
+ 1639  vim compare.py
+ 1640  python compare.py outputs
+ 1641  vim compare.py
+ 1642  python compare.py outputs
+ 1643  vim compare.py
+ 1644  python compare.py outputs
+ 1645  vim compare.py
+ 1646  python compare.py outputs
+ 1647  vim compare.py
+ 1648  python compare.py outputs
+ 1649  vim compare.py
+ 1650  python compare.py outputs
+ 1651  vim compare.py
+ 1652  python compare.py outputs
+ 1653  vim compare.py
+ 1654  python compare.py outputs
+ 1655  vim compare.py
+ 1656  python compare.py outputs
+ 1657  vim compare.py
+ 1658  python compare.py outputs
+ 1659  vim compare.py
+ 1660  python compare.py outputs
+ 1661  vim compare.py
+ 1662  python compare.py outputs
+ 1663  vim compare.py
+ 1664  python compare.py outputs
+ 1665  vim compare.py
+ 1666  python compare.py outputs
+ 1667  vim compare.py
+ 1668  python compare.py outputs
+ 1669  vim compare.py
+ 1670  python compare.py outputs
+ 1671  bc -l
+ 1672  vim compare.py
+ 1673  python compare.py outputs
+ 1674  vim compare.py
+ 1675  python compare.py outputs
+ 1676  vim compare.py
+ 1677  python compare.py outputs
+ 1678  vim compare.py
+ 1679  python compare.py outputs
+ 1680  vim compare.py
+ 1681  python compare.py outputs
+ 1682  vim compare.py
+ 1683  python compare.py outputs
+ 1684  vim compare.py
+ 1685  python compare.py outputs
+ 1686  vim compare.py
+ 1687  python compare.py outputs
+ 1688  vim compare.py
+ 1689  python compare.py outputs
+ 1690  vim compare.py
+ 1691  python compare.py outputs
+ 1692  vim compare.py
+ 1693  python compare.py outputs
+ 1694  vim compare.py
+ 1695  python compare.py outputs
+ 1696  vim compare.py
+ 1697  python compare.py outputs
+ 1698  vim compare.py
+ 1699  python compare.py outputs
+ 1700  vim compare.py
+ 1701  python compare.py outputs
+ 1702  vim compare.py
+ 1703  python compare.py outputs
+ 1704  cat basic
+ 1705  vim simulate.py
+ 1706  python simulate.py 3 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5\n
+ 1707  vim simulate.py
+ 1708  python simulate.py 3 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5\n
+ 1709  vim simulate.py
+ 1710  z project
+ 1711  ls
+ 1712  cd ..
+ 1713  ls
+ 1714  cd NuRadioMC/
+ 1715  ls
+ 1716  cd NuRadioMC
+ 1717  ls
+ 1718  vim simulation/simulation.py
+ 1719  python simulate.py 3 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5\n
+ 1720  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5\n
+ 1721  vim simulate.py
+ 1722  ls
+ 1723  z project
+ 1724  ls
+ 1725  cd ..
+ 1726  ls
+ 1727  cd RadioPropa
+ 1728  ls
+ 1729  cd radio_example
+ 1730  ls
+ 1731  vim Ice_trajectories.py
+ 1732  vim simulate.py
+ 1733  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5\n
+ 1734  vim simulate.py
+ 1735  vim run.py
+ 1736  cd ..
+ 1737  ls
+ 1738  cd radiopropa
+ 1739  ls
+ 1740  cd include
+ 1741  ls
+ 1742  cd radiopropa
+ 1743  ls
+ 1744  vim IceModel.h
+ 1745  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5\n
+ 1746  python simulate.py 2 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5\n
+ 1747  vim simulate.py
+ 1748  python simulate.py
+ 1749  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5\n
+ 1750  pacman -S thunderbird
+ 1751  sudo pacman -S thunderbird
+ 1752  vim .config/bspwm/bspwmrc
+ 1753  vim .config/sxhkd/sxhkdrc
+ 1754  ls
+ 1755  cd module
+ 1756  ls
+ 1757  cd ..
+ 1758  ls
+ 1759  cd ..
+ 1760  ls
+ 1761  cd ..
+ 1762  ls
+ 1763  cd plugin-template
+ 1764  ls
+ 1765  vim testPlugin.py
+ 1766  vim simulate.py
+ 1767  z project
+ 1768  ls
+ 1769  cd ice_density_profiles
+ 1770  ls
+ 1771  vim simulate.py
+ 1772  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5\n
+ 1773  vim simulate.py
+ 1774  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5\n
+ 1775  vim simulate.py
+ 1776  z ice
+ 1777  python compare.py
+ 1778  python compare.py outputs
+ 1779  python T05visualize_sim_output.py outputs/southpole_simple.hdf5
+ 1780  ls
+ 1781  vim T05visualize_sim_output.py
+ 1782  python T05visualize_sim_output.py outputs/southpole_simple.hdf5
+ 1783  python T05visualize_sim_output.py outputs/Exponential.hdf5
+ 1784  ls
+ 1785  vim T05visualize_sim_output.py
+ 1786  python T05visualize_sim_output.py outputs/southpole_simple.hdf5
+ 1787  python T05visualize_sim_output.py outputs/Exponential.hdf5
+ 1788  z project
+ 1789  cd ..
+ 1790  ls
+ 1791  cd NuRadioMC/NuRadioMC/simulation
+ 1792  ls
+ 1793  cd ..
+ 1794  ls
+ 1795  cd utilities
+ 1796  ls
+ 1797  vim medium_base.py
+ 1798  vim simulate.py
+ 1799  python simulate.py
+ 1800  cat basic
+ 1801  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml outputs/greenland_firn.hdf5
+ 1802  clear
+ 1803  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml outputs/greenland_firn.hdf5
+ 1804  vim simulate.py
+ 1805  cd ..
+ 1806  ls
+ 1807  cd ..
+ 1808  ls
+ 1809  cd RadioPropa
+ 1810  ls
+ 1811  cd radiopropa
+ 1812  ls
+ 1813  cd include
+ 1814  ls
+ 1815  cd radiopropa
+ 1816  ls
+ 1817  vim IceModel.h
+ 1818  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml outputs/greenland_firn.hdf5
+ 1819  vim IceModel.h
+ 1820  vim simulate.py
+ 1821  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml outputs/greenland_firn.hdf5
+ 1822  cd ..
+ 1823  ls
+ 1824  vim radiopropa
+ 1825  cd ..
+ 1826  cd NuRadioMC
+ 1827  ls
+ 1828  cd NuRadioMC
+ 1829  ls
+ 1830  cd utilities
+ 1831  cd ..
+ 1832  cd examples
+ 1833  ls
+ 1834  cd ..
+ 1835  ls
+ 1836  cd utilities/
+ 1837  ls
+ 1838  vim medium.py
+ 1839  ls
+ 1840  vim simulate.py
+ 1841  python simulate.py
+ 1842  cat basic
+ 1843  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5\n
+ 1844  vim simulate.py
+ 1845  python simulate.py 2 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml Southpole_2015.hdf5\n
+ 1846  z project
+ 1847  ls
+ 1848  cd ice_density_profiles
+ 1849  ls
+ 1850  cd example_config
+ 1851  ls
+ 1852  vim config.yaml
+ 1853  cd ..
+ 1854  ls
+ 1855  cd NuRadioMC/NuRadioMC/simulation
+ 1856  vim simulation.py
+ 1857  z ice
+ 1858  ls
+ 1859  python T05visualize_sim_output.py outputs/Southpole_2015.hdf5
+ 1860  neofetch
+ 1861  clear
+ 1862  vim simulate.py
+ 1863  exit
+ 1864  z ice
+ 1865  vim simulate.py
+ 1866  python simulate.py 4 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml outputs/greenland_simple.hdf5\n
+ 1867  z Nuradio
+ 1868  ls
+ 1869  cd NuRadioMC
+ 1870  ls
+ 1871  cd utilities
+ 1872  ls
+ 1873  cd ..
+ 1874  ls
+ 1875  cd radiopropa
+ 1876  z radipropa
+ 1877  z radiopropa
+ 1878  python T05visualize_sim_output.py outputs/greenland_simple.hdf5
+ 1879  ls
+ 1880  cd events
+ 1881  ls
+ 1882  cd ..
+ 1883  python simulate.py 4 events/1e19_n1e3.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml outputs/greenland_simple_1e19.hdf5\n
+ 1884  ls
+ 1885  python T05visualize_sim_output.py outputs/greenland_simple_1e19.hdf5
+ 1886  vim T05visualize_sim_output.py
+ 1887  python T05visualize_sim_output.py outputs/greenland_simple_1e19.hdf5
+ 1888  vim T05visualize_sim_output.py
+ 1889  python T05visualize_sim_output.py outputs/greenland_simple_1e19.hdf5
+ 1890  python T05visualize_sim_output.py outputs/greenland_simple_1e18.hdf5
+ 1891  python simulate.py 3 events/1e19_n1e3.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml outputs/greenland_simple_1e19.hdf5\n
+ 1892  python simulate.py 2 events/1e19_n1e3.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml outputs/Southpole_2015_1e19.hdf5\n
+ 1893  python T05visualize_sim_output.py outputs/Southpole_2015_1e19.hdf5
+ 1894  python T05visualize_sim_output.py outputs/Southpole_2015_1e18.hdf5
+ 1895  z ice
+ 1896  ls
+ 1897  cd events
+ 1898  vim T01generate_event_list.py
+ 1899  exit
+ 1900  z ice
+ 1901  ls
+ 1902  vim example_config/config.yaml
+ 1903  cd ..
+ 1904  cat basic
+ 1905  cd ice_density_profiles
+ 1906  cat basic
+ 1907  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5\n
+ 1908  z ice
+ 1909  vim simulate.py
+ 1910  python simulate.py 2 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5\n
+ 1911  python simulate.py 2 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml outputs/greenland_simple_1e18_GL1.hdf5\n
+ 1912  python T05visualize_sim_output.py outputs/greenland_simple_1e18_GL1.hdf5
+ 1913  z ice
+ 1914  ls
+ 1915  cd events
+ 1916  ls
+ 1917  cp T01generate_event_list.py generator
+ 1918  rm generator
+ 1919  cp T01generate_event_list.py generator.py
+ 1920  vim generator.py
+ 1921  python generator.py
+ 1922  ls
+ 1923  vim generator.py
+ 1924  cp 1e18_n1e4.hdf5 1e18_n1e6.hdf5
+ 1925  python T01generate_event_list.py
+ 1926  cd ..
+ 1927  cat basic
+ 1928  python simulate.py 2 events/1e18_n1e6.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml greenland_simple_1e6.hdf5\n
+ 1929  python simulate.py 2 events/1e18_n1e6.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml greenland_simple_1e18_n1e6.hdf5\n
+ 1930  systemctl suspend
+ 1931  z NuRadioMC
+ 1932  cd NuRadioMC
+ 1933  ls
+ 1934  cd utilities/
+ 1935  ls
+ 1936  vim medium_base.py
+ 1937  vim simulate.py
+ 1938  cd
+ 1939  vim .vimrc
+ 1940  exit
+ 1941  vim medium_base.py
+ 1942  ls
+ 1943  cd Documents/thesis/programs/RadioPropa
+ 1944  ls
+ 1945  cd radiopropa
+ 1946  ls
+ 1947  cd include
+ 1948  ls
+ 1949  cd radiopropa
+ 1950  ls
+ 1951  vim IceModel.h
+ 1952  vim medium.py
+ 1953  z ice
+ 1954  ls
+ 1955  vim simulate.py
+ 1956  exit
+ 1957  cat basic
+ 1958  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5
+ 1959  z NuRadioMC
+ 1960  cd NuRadio
+ 1961  cd NuRadioMC
+ 1962  ls
+ 1963  clear
+ 1964  ls
+ 1965  cd simulation
+ 1966  ls
+ 1967  vim simulation.py
+ 1968  vim medium.py
+ 1969  vim simulate.py
+ 1970  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5
+ 1971  ls
+ 1972  z ice
+ 1973  ls
+ 1974  vim simulate.py
+ 1975  python simulate.py 1 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5
+ 1976  python simulate.py 2 events/1e18_n1e4.hdf5 example_config/surface_station_1GHz.json example_config/config.yaml output.hdf5
+ 1977  vim simulate.py
+ 1978  cd ..
+ 1979  mkdir 56GradenDetectie
+ 1980  cp -r ice_density_profiles/events/ 56GradenDetectie
+ 1981  ls 56GradenDetectie
+ 1982  cd 56GradenDetectie
+ 1983  ls
+ 1984  cd events
+ 1985  ls
+ 1986  rm 1e18_n1e4.hdf5 1e18_n1e6.hdf5 1e19_n1e3.hdf5
+ 1987  ls
+ 1988  vim generator.py
+ 1989  z NuRadioMC
+ 1990  cd NuRadioMC
+ 1991  cd EvtGen
+ 1992  ls
+ 1993  vim generator.py
+ 1994  exit
+ 1995  pacman -S slack
+ 1996  sudo pacman -S slack
+ 1997  vim generator.py
+ 1998  python generator.py
+ 1999  ls
+ 2000  rm T01generate_event_list.py
+ 2001  ls
+ 2002  rm 1e18_n1e6.hdf5
+ 2003  python generator.py
+ 2004  ls
+ 2005  rm 1e18_n1e6.hdf5
+ 2006  vim gen
+ 2007  vim generator.py
+ 2008  python generator.py
+ 2009  vim generator.py
+ 2010  python generator.py
+ 2011  ls
+ 2012  vim generator.py
+ 2013  cd ..
+ 2014  ls
+ 2015  cd ..
+ 2016  cp ice_density_profiles/simulate.py 56GradenDetectie
+ 2017  cp -r ice_density_profiles/example_config/ 56GradenDetectie
+ 2018  cd 56GradenDetectie
+ 2019  ls
+ 2020  cd config
+ 2021  ls
+ 2022  vim config.yaml
+ 2023  vim surface_station_1GHz.json
+ 2024  ls
+ 2025  cd ..
+ 2026  ls
+ 2027  vim simulate.py
+ 2028  vim config/surface_station_1GHz.json
+ 2029  vim config/config.yaml
+ 2030  mkdir output
+ 2031  python simulate.py
+ 2032  python simulate.py events/1e18_n1e6.hdf5 config/surface_station_1GHz.json config/config.yaml output/output_1e18_n1e4.hdf5
+ 2033  cd events
+ 2034  cp 1e18_n1e6.hdf5 1e18_n1e4.hdf5
+ 2035  rm 1e18_n1e6.hdf5
+ 2036  vim generator.py
+ 2037  cd ..
+ 2038  ls
+ 2039  vim simulate.py
+ 2040  python simulate.py events/1e18_n1e4.hdf5 config/surface_station_1GHz.json config/config.yaml output/output_1e18_n1e4.hdf5
+ 2041  ls
+ 2042  cd ..
+ 2043  ls
+ 2044  cp ice_density_profiles/T05visualize_sim_output.py 56GradenDetectie
+ 2045  mkdir plots
+ 2046  ls
+ 2047  rm -r plots
+ 2048  cd 56GradenDetectie
+ 2049  mkdir plots
+ 2050  ls
+ 2051  python T05visualize_sim_output.py output/output_1e18_n1e4.hdf5
+ 2052  ls
+ 2053  cd events
+ 2054  ls
+ 2055  vim 1e18_n1e4.hdf5
+ 2056  vim generator.py
+ 2057  python generator.py
+ 2058  vim generator.py
+ 2059  cd ..
+ 2060  ls
+ 2061  cd ice_density_profiles
+ 2062  ls
+ 2063  cd events
+ 2064  vim generator.py
+ 2065  cd .
+ 2066  cd ..
+ 2067  ls
+ 2068  cd 56GradenDetectie
+ 2069  ls
+ 2070  vim events/generator.py
+ 2071  ls
+ 2072  python simulate.py events/1e18_n1e4.hdf5 config/surface_station_1GHz.json config/config.yaml output/output_1e18_n1e4.hdf5
+ 2073  ls
+ 2074  vim events/generator.py
+ 2075  python events/generator.py
+ 2076  rm 1e19_n1e4.hdf5
+ 2077  ls
+ 2078  cd events
+ 2079  vim generator.py
+ 2080  python generator.py
+ 2081  ls
+ 2082  vim generator.py
+ 2083  python generator.py
+ 2084  ls
+ 2085  cd ..
+ 2086  ls
+ 2087  vim simulate.py
+ 2088  z 56
+ 2089  ls
+ 2090  cd even
+ 2091  cd events
+ 2092  ls
+ 2093  vim filter.py
+ 2094  vim generator.py
+ 2095  cd ..
+ 2096  vim simulate.py
+ 2097  cd events
+ 2098  vim filter.py
+ 2099  python filter.py 1e18_n1e4.hdf5
+ 2100  cd ..
+ 2101  vim simulate.py
+ 2102  cd events
+ 2103  vim filter.py
+ 2104  python filter.py 1e18_n1e4.hdf5
+ 2105  z 56
+ 2106  vim simulate.py
+ 2107  vim filter.py
+ 2108  python filter.py 1e18_n1e4.hdf5
+ 2109  vim filter.py
+ 2110  python filter.py 1e18_n1e4.hdf5
+ 2111  vim filter.py
+ 2112  python filter.py 1e18_n1e4.hdf5
+ 2113  vim filter.py
+ 2114  python filter.py 1e18_n1e4.hdf5
+ 2115  vim filter.py
+ 2116  python filter.py 1e18_n1e4.hdf5
+ 2117  vim filter.py
+ 2118  python filter.py 1e18_n1e4.hdf5
+ 2119  vim filter.py
+ 2120  python filter.py 1e18_n1e4.hdf5
+ 2121  vim filter.py
+ 2122  python filter.py 1e18_n1e4.hdf5
+ 2123  vim filter.py
+ 2124  python filter.py 1e18_n1e4.hdf5
+ 2125  ls
+ 2126  vim filter.py
+ 2127  python filter.py 1e18_n1e4.hdf5
+ 2128  vim filter.py
+ 2129  python filter.py 1e18_n1e4.hdf5
+ 2130  vim filter.py
+ 2131  python filter.py 1e18_n1e4.hdf5
+ 2132  vim filter.py
+ 2133  python filter.py 1e18_n1e4.hdf5
+ 2134  vim filter.py
+ 2135  ls
+ 2136  vim events/generator.py
+ 2137  python filter.py 1e18_n1e4.hdf5
+ 2138  vim filter.py
+ 2139  python filter.py 1e18_n1e4.hdf5
+ 2140  vim filter.py
+ 2141  python filter.py 1e18_n1e4.hdf5
+ 2142  ls
+ 2143  vim filter.py
+ 2144  cd ..
+ 2145  ls
+ 2146  cd events
+ 2147  ls
+ 2148  vim generator.py
+ 2149  ls
+ 2150  vim filter.py
+ 2151  python filter.py 1e18_n1e4.hdf5
+ 2152  vim filter.py
+ 2153  python filter.py 1e18_n1e4.hdf5
+ 2154  vim filter.py
+ 2155  python filter.py 1e18_n1e4.hdf5
+ 2156  vim filter.py
+ 2157  python filter.py 1e18_n1e4.hdf5
+ 2158  vim filter.py
+ 2159  python filter.py 1e18_n1e4.hdf5
+ 2160  vim filter.py
+ 2161  python filter.py 1e18_n1e4.hdf5
+ 2162  vim filter.py
+ 2163  z generator
+ 2164  z evtgen
+ 2165  vim generator.py
+ 2166  cd ..
+ 2167  ls
+ 2168  cd ..
+ 2169  ls
+ 2170  cd ..
+ 2171  ls
+ 2172  cd radiotools
+ 2173  ls
+ 2174  cd radiotools
+ 2175  ls
+ 2176  exit
+ 2177  cd ..
+ 2178  ls
+ 2179  z NuRadioMC
+ 2180  ls
+ 2181  cd Nuraciomc
+ 2182  cd NuRadioMC
+ 2183  ls
+ 2184  cd simulation
+ 2185  ls
+ 2186  cd ..
+ 2187  ls
+ 2188  cd utilities
+ 2189  ls
+ 2190  cd ..
+ 2191  vim SignalProp/analyticraytracing.py
+ 2192  cd SignalProp
+ 2193  ls
+ 2194  cd examples
+ 2195  ls
+ 2196  vim ray_tracing_modules.py
+ 2197  cp /home/arthur/Documents/thesis/programs/NuRadioMC/NuRadioMC/SignalProp/examples/ray_tracing_modules.py Documents/thesis/programs/projects/56GradenDetectie
+ 2198  z ice
+ 2199  ls
+ 2200  cd ..
+ 2201  rm -R 56GradenDetectie
+ 2202  mkdir 56GradenDetectie
+ 2203  cp /home/arthur/Documents/thesis/programs/NuRadioMC/NuRadioMC/SignalProp/examples/ray_tracing_modules.py Documents/thesis/programs/projects/56GradenDetectie/raytrace.py
+ 2204  cp /home/arthur/Documents/thesis/programs/NuRadioMC/NuRadioMC/SignalProp/examples/ray_tracing_modules.py 56GradenDetectie
+ 2205  cd 56GradenDetectie
+ 2206  ls
+ 2207  vim ray_tracing_modules.py
+ 2208  python ray_tracing_modules.py
+ 2209  vim ray_tracing_modules.py
+ 2210  python ray_tracing_modules.py
+ 2211  vim ray_tracing_modules.py
+ 2212  python ray_tracing_modules.py
+ 2213  vim ray_tracing_modules.py
+ 2214  z NuRadioMC
+ 2215  ls
+ 2216  cd NuRadioMC
+ 2217  ls
+ 2218  cd SignalProp
+ 2219  ls
+ 2220  cd examples
+ 2221  ls
+ 2222  vim ray_tracing_modules.py
+ 2223  python ray_tracing_modules.py
+ 2224  vim ray_tracing_modules.py
+ 2225  cp /home/arthur/Documents/thesis/programs/NuRadioMC/NuRadioMC/SignalProp/examples/ray_tracing_modules.py raytracingorig.py
+ 2226  vim raytracingorig.py
+ 2227  exit
+ 2228  python ray
+ 2229  python raytracingorig.py
+ 2230  vim raytracingorig.py
+ 2231  python ray
+ 2232  python raytracingorig.py
+ 2233  vim raytracingorig.py
+ 2234  python raytracingorig.py
+ 2235  vim raytracingorig.py
+ 2236  python raytracingorig.py
+ 2237  vim raytracingorig.py
+ 2238  python raytracingorig.py
+ 2239  vim raytracingorig.py
+ 2240  systemctl suspend
+ 2241  python raytracingorig.py
+ 2242  vim raytracingorig.py
+ 2243  ls
+ 2244  cd
+ 2245  vim Documents/thesis/programs/RadioPropa/radio_example/check_raytracing.py
+ 2246  python Documents/thesis/programs/RadioPropa/radio_example/check_raytracing.py
+ 2247  vim Documents/thesis/programs/RadioPropa/radio_example/Ice_trajectories.py
+ 2248  python Documents/thesis/programs/RadioPropa/radio_example/Ice_trajectories.py
+ 2249  ls
+ 2250  vim Documents/thesis/programs/RadioPropa/radio_example/Ice_trajectories.py
+ 2251  z 59
+ 2252  z ice
+ 2253  ls
+ 2254  cd ..
+ 2255  ls
+ 2256  cd 56GradenDetectie
+ 2257  ls
+ 2258  vim raytracingorig.py
+ 2259  z 56
+ 2260  ls
+ 2261  vim ray_tracing_modules.py
+ 2262  z SignalProp
+ 2263  ls
+ 2264  vim propagation.py
+ 2265  vim analyticraytracing.py
+ 2266  z ice
+ 2267  ls
+ 2268  cd ..
+ 2269  ls
+ 2270  cd 56GradenDetectie
+ 2271  ls
+ 2272  vim raytracingorig.py
+ 2273  z ice
+ 2274  ls
+ 2275  cd events
+ 2276  ls
+ 2277  vim generator.py
+ 2278  vim T01generate_event_list.py
+ 2279  cd ..
+ 2280  ls
+ 2281  vim simulate.py
+ 2282  ls
+ 2283  vim T05visualize_sim_output.py
+ 2284  ls
+ 2285  cd ..
+ 2286  ls
+ 2287  cd 56GradenDetectie
+ 2288  ls
+ 2289  vim ray_tracing_modules.py
+ 2290  z utilities
+ 2291  ls
+ 2292  vim medium.py
+ 2293  python ray_tracing_modules.py
+ 2294  vim medium.py
+ 2295  vim ray_tracing_modules.py
+ 2296  python ray_tracing_modules.py
+ 2297  vim ray_tracing_modules.py
+ 2298  python ray_tracing_modules.py
+ 2299  vim ray_tracing_modules.py
+ 2300  python ray_tracing_modules.py
+ 2301  vim ray_tracing_modules.py
+ 2302  exit
+ 2303  vim analyticraytracing.py
+ 2304  python ray_tracing_modules.py
+ 2305  vim analyticraytracing.py
+ 2306  vim ray_tracing_modules.py
+ 2307  vim analyticraytracing.py
+ 2308  python ray_tracing_modules.py
+ 2309  ls
+ 2310  rm raytracingorig.py
+ 2311  ls
+ 2312  vim ray_tracing_modules.py
+ 2313  python ray_tracing_modules.py
+ 2314  vim ray_tracing_modules.py
+ 2315  python ray_tracing_modules.py
+ 2316  vim ray_tracing_modules.py
+ 2317  python ray_tracing_modules.py
+ 2318  vim ray_tracing_modules.py
+ 2319  python ray_tracing_modules.py
+ 2320  vim ray_tracing_modules.py
+ 2321  python ray_tracing_modules.py
+ 2322  vim ray_tracing_modules.py
+ 2323  python ray_tracing_modules.py
+ 2324  vim ray_tracing_modules.py
+ 2325  python ray_tracing_modules.py
+ 2326  vim ray_tracing_modules.py
+ 2327  python ray_tracing_modules.py
+ 2328  vim ray_tracing_modules.py
+ 2329  python ray_tracing_modules.py
+ 2330  vim ray_tracing_modules.py
+ 2331  python ray_tracing_modules.py
+ 2332  vim ray_tracing_modules.py
+ 2333  python ray_tracing_modules.py
+ 2334  vim ray_tracing_modules.py
+ 2335  python ray_tracing_modules.py
+ 2336  vim ray_tracing_modules.py
+ 2337  python ray_tracing_modules.py
+ 2338  vim ray_tracing_modules.py
+ 2339  python ray_tracing_modules.py
+ 2340  vim ray_tracing_modules.py
+ 2341  python ray_tracing_modules.py
+ 2342  vim ray_tracing_modules.py
+ 2343  python ray_tracing_modules.py
+ 2344  vim ray_tracing_modules.py
+ 2345  python ray_tracing_modules.py
+ 2346  vim ray_tracing_modules.py
+ 2347  python ray_tracing_modules.py
+ 2348  vim ray_tracing_modules.py
+ 2349  python ray_tracing_modules.py
+ 2350  vim ray_tracing_modules.py
+ 2351  python ray_tracing_modules.py
+ 2352  vim ray_tracing_modules.py
+ 2353  python ray_tracing_modules.py
+ 2354  vim ray_tracing_modules.py
+ 2355  python ray_tracing_modules.py
+ 2356  vim ray_tracing_modules.py
+ 2357  python ray_tracing_modules.py
+ 2358  vim ray_tracing_modules.py
+ 2359  python ray_tracing_modules.py
+ 2360  vim ray_tracing_modules.py
+ 2361  python ray_tracing_modules.py
+ 2362  vim ray_tracing_modules.py
+ 2363  python ray_tracing_modules.py
+ 2364  vim ray_tracing_modules.py
+ 2365  python ray_tracing_modules.py
+ 2366  vim ray_tracing_modules.py
+ 2367  python ray_tracing_modules.py
+ 2368  vim ray_tracing_modules.py
+ 2369  python ray_tracing_modules.py
+ 2370  vim ray_tracing_modules.py
+ 2371  python ray_tracing_modules.py
+ 2372  vim ray_tracing_modules.py
+ 2373  python ray_tracing_modules.py
+ 2374  vim ray_tracing_modules.py
+ 2375  python3 ray_tracing_modules.py
+ 2376  z 56
+ 2377  python ray_tracing_modules.py
+ 2378  vim ray_tracing_modules.py
+ 2379  python ray_tracing_modules.py
+ 2380  vim ray_tracing_modules.py
+ 2381  python ray_tracing_modules.py
+ 2382  vim ray_tracing_modules.py
+ 2383  sudo pacman -Syu
+ 2384  exit
+ 2385  vim ray_tracing_modules.py
+ 2386  python ray_tracing_modules.py
+ 2387  vim ray_tracing_modules.py
+ 2388  python ray_tracing_modules.py
+ 2389  vim ray_tracing_modules.py
+ 2390  python ray_tracing_modules.py
+ 2391  vim ray_tracing_modules.py
+ 2392  python ray_tracing_modules.py
+ 2393  vim ray_tracing_modules.py
+ 2394  python ray_tracing_modules.py
+ 2395  vim ray_tracing_modules.py
+ 2396  python ray_tracing_modules.py
+ 2397  vim ray_tracing_modules.py
+ 2398  python ray_tracing_modules.py
+ 2399  vim ray_tracing_modules.py
+ 2400  python ray_tracing_modules.py
+ 2401  vim ray_tracing_modules.py
+ 2402  python ray_tracing_modules.py
+ 2403  vim ray_tracing_modules.py
+ 2404  python ray_tracing_modules.py
+ 2405  vim ray_tracing_modules.py
+ 2406  python ray_tracing_modules.py
+ 2407  vim ray_tracing_modules.py
+ 2408  python ray_tracing_modules.py
+ 2409  vim ray_tracing_modules.py
+ 2410  python ray_tracing_modules.py
+ 2411  vim ray_tracing_modules.py
+ 2412  python ray_tracing_modules.py
+ 2413  vim ray_tracing_modules.py
+ 2414  python ray_tracing_modules.py
+ 2415  vim ray_tracing_modules.py
+ 2416  python ray_tracing_modules.py
+ 2417  vim ray_tracing_modules.py
+ 2418  python ray_tracing_modules.py
+ 2419  vim ray_tracing_modules.py
+ 2420  python ray_tracing_modules.py
+ 2421  vim ray_tracing_modules.py
+ 2422  python ray_tracing_modules.py
+ 2423  vim ray_tracing_modules.py
+ 2424  python ray_tracing_modules.py
+ 2425  vim ray_tracing_modules.py
+ 2426  python ray_tracing_modules.py
+ 2427  vim ray_tracing_modules.py
+ 2428  python ray_tracing_modules.py
+ 2429  vim ray_tracing_modules.py
+ 2430  python ray_tracing_modules.py
+ 2431  vim ray_tracing_modules.py
+ 2432  python ray_tracing_modules.py
+ 2433  vim ray_tracing_modules.py
+ 2434  python ray_tracing_modules.py
+ 2435  ls
+ 2436  vim ray_tracing_modules.py
+ 2437  python ray_tracing_modules.py
+ 2438  vim ray_tracing_modules.py
+ 2439  python ray_tracing_modules.py
+ 2440  vim ray_tracing_modules.py
+ 2441  python ray_tracing_modules.py
+ 2442  vim ray_tracing_modules.py
+ 2443  python ray_tracing_modules.py
+ 2444  vim ray_tracing_modules.py
+ 2445  python ray_tracing_modules.py
+ 2446  vim ray_tracing_modules.py
+ 2447  python ray_tracing_modules.py
+ 2448  vim ray_tracing_modules.py
+ 2449  python ray_tracing_modules.py
+ 2450  vim ray_tracing_modules.py
+ 2451  python ray_tracing_modules.py
+ 2452  vim ray_tracing_modules.py
+ 2453  python ray_tracing_modules.py
+ 2454  vim ray_tracing_modules.py
+ 2455  python ray_tracing_modules.py
+ 2456  vim ray_tracing_modules.py
+ 2457  python ray_tracing_modules.py
+ 2458  vim ray_tracing_modules.py
+ 2459  python ray_tracing_modules.py
+ 2460  vim ray_tracing_modules.py
+ 2461  python ray_tracing_modules.py
+ 2462  vim ray_tracing_modules.py
+ 2463  z utilities
+ 2464  ls
+ 2465  vim units.h
+ 2466  python ray_tracing_modules.py
+ 2467  vim units.h
+ 2468  vim ray_tracing_modules.py
+ 2469  vim units.h
+ 2470  python ray_tracing_modules.py
+ 2471  vim ray_tracing_modules.py
+ 2472  python ray_tracing_modules.py
+ 2473  vim ray_tracing_modules.py
+ 2474  python ray_tracing_modules.py
+ 2475  ls
+ 2476  cp ray_tracing_modules.py ray_tracing_modules_radiopropa.py
+ 2477  vim ray_tracing_modules_radiopropa.py
+ 2478  z SignalProp
+ 2479  ls
+ 2480  vim radioproparaytracing.py
+ 2481  python ray_tracing_modules_radiopropa.py
+ 2482  vim radioproparaytracing.py
+ 2483  vim ray_tracing_modules_radiopropa.py
+ 2484  python ray_tracing_modules_radiopropa.py
+ 2485  vim ray_tracing_modules_radiopropa.py
+ 2486  python ray_tracing_modules_radiopropa.py
+ 2487  vim ray_tracing_modules_radiopropa.py
+ 2488  python ray_tracing_modules
+ 2489  python ray_tracing_modules_radiopropa.py
+ 2490  cd ..
+ 2491  ls
+ 2492  cd .
+ 2493  cd ..
+ 2494  ls
+ 2495  cd RadioPropa
+ 2496  ls
+ 2497  cd radio_example
+ 2498  ls
+ 2499  vim Ice_trajectories.py
+ 2500  python Ice_trajectories.py
+ 2501  ls
+ 2502  python plot_traj.py
+ 2503  vim plot_traj.py
+ 2504  ls
+ 2505  rm output_traj.h5
+ 2506  python Ice_trajectories.py
+ 2507  ls
+ 2508  vim Ice_trajectories.py
+ 2509  systemctl suspend
+ 2510  ls
+ 2511  vim ray_tracing_modules.py
+ 2512  python ray_tracing_modules.py
+ 2513  vim ray_tracing_modules.py
+ 2514  python ray_tracing_modules
+ 2515  python ray_tracing_modules.py
+ 2516  vim ray_tracing_modules.py
+ 2517  python ray_tracing_modules.py
+ 2518  vim ray_tracing_modules.py
+ 2519  python ray_tracing_modules.py
+ 2520  z 56
+ 2521  ls
+ 2522  vim ray_tracing_modules.py
+ 2523  python ray_tracing_modules.py
+ 2524  vim ray_tracing_modules.py
+ 2525  python ray_tracing_modules.py
+ 2526  vim ray_tracing_modules.py
+ 2527  python ray_tracing_modules.py
+ 2528  vim ray_tracing_modules.py
+ 2529  python ray_tracing_modules.py
+ 2530  vim ray_tracing_modules.py
+ 2531  python ray_tracing_modules.py
+ 2532  vim ray_tracing_modules.py
+ 2533  python ray_tracing_modules.py
+ 2534  vim ray_tracing_modules.py
+ 2535  python ray_tracing_modules
+ 2536  python ray_tracing_modules.py
+ 2537  vim ray_tracing_modules.py
+ 2538  python ray_tracing_modules.py
+ 2539  vim ray_tracing_modules.py
+ 2540  python ray_tracing_modules.py
+ 2541  vim ray_tracing_modules.py
+ 2542  python ray_tracing_modules.py
+ 2543  vim ray_tracing_modules.py
+ 2544  python ray_tracing_modules.py
+ 2545  vim ray_tracing_modules.py
+ 2546  python ray_tracing_modules.py
+ 2547  vim ray_tracing_modules.py
+ 2548  python ray_tracing_modules.py
+ 2549  vim ray_tracing_modules.py
+ 2550  python ray_tracing_modules.py
+ 2551  vim ray_tracing_modules.py
+ 2552  python ray_tracing_modules.py
+ 2553  vim ray_tracing_modules.py
+ 2554  python ray_tracing_modules.py
+ 2555  vim ray_tracing_modules.py
+ 2556  python ray_tracing_modules.py
+ 2557  vim ray_tracing_modules.py
+ 2558  python ray_tracing_modules.py
+ 2559  vim ray_tracing_modules.py
+ 2560  python ray_tracing_modules.py
+ 2561  clear
+ 2562  neofetch
+ 2563  clear
+ 2564  ls
+ 2565  vim ray_tracing_modules.py
+ 2566  z 56
+ 2567  python ray_tracing_modules.py
+ 2568  clear
+ 2569  cd
+ 2570  clear
+ 2571  z 56
+ 2572  ls
+ 2573  vim ray_tracing_modules
+ 2574  vim ray_tracing_modules.py
+ 2575  z 56
+ 2576  python ray_tracing_modules.py
+ 2577  clear
+ 2578  cd
+ 2579  clear
+ 2580  cbonsai
+ 2581  clear
+ 2582  cmatrix
+ 2583  clear
+ 2584  neofetch
+ 2585  systemctl suspend
+ 2586  clear
+ 2587  systemctl suspend
+ 2588  cd
+ 2589  clear
+ 2590  ls
+ 2591  z radiopropa
+ 2592  checkout radiopropa/minimizer_rt
+ 2593  git checkout radiopropa/minimizer_rt
+ 2594  cd ..
+ 2595  git checkout radiopropa/minimizer_rt
+ 2596  git checkout RadioPropa/minimizer_rt
+ 2597  cd ..
+ 2598  cd NuRadioMC
+ 2599  git checkout RadioPropa/minimizer_rt
+ 2600  git checkout radiopropa/minimizer_rt
+ 2601  ls
+ 2602  cd NuRadioMC
+ 2603  ls
+ 2604  cd SignalProp
+ 2605  ls
+ 2606  vim radioproparaytracing.py
+ 2607  z radiopropa
+ 2608  ls
+ 2609  git checkout RadioPropa/minimizer_rt
+ 2610  cd ..
+ 2611  cd .
+ 2612  ls
+ 2613  clear
+ 2614  z 56
+ 2615  ls
+ 2616  vim ray_tracing_modules.py
+ 2617  python ray_tracing_modules.py
+ 2618  vim ray_tracing_modules.py
+ 2619  python ray_tracing_modules.py
+ 2620  vim ray_tracing_modules.py
+ 2621  python ray_tracing_modules.py
+ 2622  vim ray_tracing_modules.py
+ 2623  python ray_tracing_modules.py
+ 2624  vim ray_tracing_modules.py
+ 2625  python ray_tracing_modules.py
+ 2626  vim ray_tracing_modules.py
+ 2627  python ray_tracing_modules.py
+ 2628  vim ray_tracing_modules.py
+ 2629  python ray_tracing_modules.py
+ 2630  neofetch
+ 2631  exit
+ 2632  vim ray_tracing_modules.py
+ 2633  exit
+ 2634  z 56
+ 2635  python ray_tracing_modules.py
+ 2636  vim ray_tracing_modules.py
+ 2637  z 56
+ 2638  ls
+ 2639  vim ray_tracing_modules.py
+ 2640  python ray_tracing_modules.py
+ 2641  vim ray_tracing_modules.py
+ 2642  python ray_tracing_modules.py
+ 2643  vim ray_tracing_modules.py
+ 2644  python ray_tracing_modules.py
+ 2645  vim radioproparaytracing.py
+ 2646  z radiopropa
+ 2647  ls
+ 2648  cd include
+ 2649  ls
+ 2650  cd radiopropa
+ 2651  ls
+ 2652  cd module
+ 2653  ls
+ 2654  cd ..
+ 2655  ls
+ 2656  vim Geometry.h
+ 2657  cd module
+ 2658  ls
+ 2659  cd ..
+ 2660  ls
+ 2661  cd ..
+ 2662  ls
+ 2663  cd ..
+ 2664  ls
+ 2665  cd ..
+ 2666  ls
+ 2667  cd radiotools
+ 2668  ls
+ 2669  cd radiotools
+ 2670  ls
+ 2671  vim helper.py
+ 2672  z radiotools
+ 2673  ls
+ 2674  vim radiotools
+ 2675  systemctl suspend
+ 2676  clear
+ 2677  neofetch
+ 2678  ls
+ 2679  vim .config/bspwm/own_script_bspwm_laptop_dual_monitor
+ 2680  xrandr --output eDP1 --primary --mode 1920x1080 --rotate normal --output DP1 --mode 1920x1080 --rotate normal --right-of eDP1\n
+ 2681  cd radiopropa
+ 2682  cd NuRadioMC
+ 2683  z NuradioMc
+ 2684  ls
+ 2685  cd NuRadioMC
+ 2686  ls
+ 2687  cd SignalProp
+ 2688  ls
+ 2689  clear
+ 2690  ls
+ 2691  vim radioproparaytracing.py
+ 2692  neofetch
+ 2693  exit
+ 2694  gnuplot
+ 2695  exit
+ 2696  cd Documents/thesis/programs/radiotools/radiotools
+ 2697  ls
+ 2698  vim helper.py
+ 2699  python
+ 2700  exit
+ 2701  vim radioproparaytracing.py
+ 2702  exit
+ 2703  python
+ 2704  z tests
+ 2705  ls
+ 2706  vim radiopropaangletest.py
+ 2707  python radiopropaangletest.py
+ 2708  vim radiopropaangletest.py
+ 2709  python radiopropaangletest.py
+ 2710  vim radiopropaangletest.py
+ 2711  python radiopropaangletest.py
+ 2712  vim radiopropaangletest.py
+ 2713  z 56
+ 2714  ls
+ 2715  vim ray_tracing_modules.py
+ 2716  python radiopropaangletest.py
+ 2717  vim ray_tracing_modules.py
+ 2718  vim radiopropaangletest.py
+ 2719  python radiopropaangletest.py
+ 2720  vim radiopropaangletest.py
+ 2721  python radiopropaangletest.py
+ 2722  ls
+ 2723  cd Documents/thesis/
+ 2724  git clone https://github.com/arthuradriaens-code/master-thesis.git
+ 2725  ls
+ 2726  cd master-thesis
+ 2727  clear
+ 2728  ls
+ 2729  vim thesis.tex
+ 2730  vim .vimrc
+ 2731  exit
+ 2732  vim thesis.tex
+ 2733  z tests
+ 2734  ls
+ 2735  vim radiopropaangletest.py
+ 2736  python radiopropaangletest.py
+ 2737  vim radiopropaangletest.py
+ 2738  python radiopropaangletest.py
+ 2739  vim radiopropaangletest.py
+ 2740  python radiopropaangletest.py
+ 2741  vim radiopropaangletest.py
+ 2742  python radiopropaangletest.py
+ 2743  vim .config/bspwm/own_script_bspwm_laptop_dual_monitor
+ 2744  xrandr --output eDP1 --primary --mode 1920x1080 --rotate normal --output DP1 --mode 1920x1080 --rotate normal --right-of eDP1
+ 2745  z NuRadioMC
+ 2746  clear
+ 2747  ls
+ 2748  cd NuRadioMC
+ 2749  ls
+ 2750  cd SignalProp
+ 2751  ls
+ 2752  vim radioproparaytracing.py
+ 2753  ls
+ 2754  E\nz
+ 2755  z 56
+ 2756  ls
+ 2757  vim ray_tracing_modules_radiopropa.py
+ 2758  z 56
+ 2759  vim ray_tracing_modules.py
+ 2760  python ray_tracing_modules_radiopropa.py
+ 2761  vim ray_tracing_modules.py
+ 2762  ls
+ 2763  vim ray_tracing_modules_radiopropa.py
+ 2764  neofetch
+ 2765  z radiopropa
+ 2766  ls
+ 2767  cd test
+ 2768  ls
+ 2769  vim testPropagation.cpp
+ 2770  cd ..
+ 2771  ls
+ 2772  cd python
+ 2773  ls
+ 2774  cd radiopropa
+ 2775  ls
+ 2776  cd ..
+ 2777  ls
+ 2778  cd tse
+ 2779  cd test
+ 2780  ls
+ 2781  cd ..
+ 2782  ls
+ 2783  cd ..
+ 2784  ls
+ 2785  cd radio_example
+ 2786  ls
+ 2787  vim check_raytracing.py
+ 2788  ls
+ 2789  exit
+ 2790  vim .vimrc
+ 2791  exit
+ 2792  vim radioproparaytracing.py
+ 2793  vim .vimrc
+ 2794  exit
+ 2795  vim radioproparaytracing.py
+ 2796  vim .vimrc
+ 2797  exit
+ 2798  vim radioproparaytracing.py
+ 2799  vim .vimrc
+ 2800  exit
+ 2801  vim radioproparaytracing.py
+ 2802  z Nuradiomc
+ 2803  git pull
+ 2804  exit
+ 2805  ls
+ 2806  cd NuRadioMC/SignalProp/
+ 2807  ls
+ 2808  vim radioproparaytracing.py
+ 2809  z radiopropa
+ 2810  cd ..
+ 2811  ls
+ 2812  cd radio_example
+ 2813  ls
+ 2814  vim Ice_trajectories.py
+ 2815  python Ice_trajectories.py
+ 2816  hdf5 --version
+ 2817  pacman -S hdf5
+ 2818  sudo pacman -S hdf5
+ 2819  z NuRadioMC
+ 2820  ls
+ 2821  z radiopropa
+ 2822  ls
+ 2823  cd ..
+ 2824  cd radio_te
+ 2825  cd radio_example
+ 2826  ls
+ 2827  cd ..
+ 2828  git checkout complex_eyes
+ 2829  git checkout radiopropa/complex_eyes
+ 2830  git checkout complex_eyes
+ 2831  git checkout complex_ice
+ 2832  git checkout radiopropa/complex_ice
+ 2833  git checkout complex_ice
+ 2834  git pull
+ 2835  git checkout complex_ice
+ 2836  cd radio_example
+ 2837  ls
+ 2838  python Ice_trajectories.py
+ 2839  cd ..
+ 2840  ls
+ 2841  cd radiopropa
+ 2842  ls
+ 2843  mv -r build build_old
+ 2844  mv build build_old
+ 2845  ls
+ 2846  mkdir build
+ 2847  cd build
+ 2848  cmake ..
+ 2849  make install
+ 2850  cd ..
+ 2851  ls
+ 2852  rm -r build
+ 2853  ls
+ 2854  mv build_old build
+ 2855  ls
+ 2856  cd ..
+ 2857  git checkout master
+ 2858  cd ..
+ 2859  z NuRadioMC
+ 2860  ls
+ 2861  sudo pacman -Syu
+ 2862  exit
+ 2863  neofetch
+ 2864  vim .config/bspwm/bspwmrc
+ 2865  vim .config/sxhkd/sxhkdrc
+ 2866  exit
+ 2867  htop
+ 2868  exit
+ 2869  z Nuradiomc
+ 2870  ls
+ 2871  cd NuRadioMc
+ 2872  ls
+ 2873  clear
+ 2874  cd NuRadioMC
+ 2875  ls
+ 2876  cd SignalProp
+ 2877  ls
+ 2878  vim radioproparaytracing.py
+ 2879  z master
+ 2880  ls
+ 2881  vim thesis.tex
+ 2882  z 56
+ 2883  ls
+ 2884  cp ray_tracing_modules.py simple.py
+ 2885  vim simple.py
+ 2886  python simple.py
+ 2887  vim simple.py
+ 2888  python simple.py
+ 2889  vim simple.py
+ 2890  python simple.py
+ 2891  vim simple.py
+ 2892  python simple.py
+ 2893  vim simple.py
+ 2894  python simple.py
+ 2895  vim simple.py
+ 2896  python simple.py
+ 2897  vim simple.py
+ 2898  python simple.py
+ 2899  vim simple.py
+ 2900  python simple.py
+ 2901  vim simple.py
+ 2902  python simple.py
+ 2903  vim simple.py
+ 2904  python simple.py
+ 2905  vim simple.py
+ 2906  vim thesis.tex
+ 2907  python simple.py
+ 2908  vim thesis.tex
+ 2909  vim simple.py
+ 2910  python simple.py
+ 2911  vim simple.py
+ 2912  python simple.py
+ 2913  vim simple.py
+ 2914  python simple.py
+ 2915  neofetch
+ 2916  git remote set-url origin git@github.com:arthuradriaens-code/master-thesis
+ 2917  git remote set-url origin git@github.com:arthuradriaens-code/master-thesis.git
+ 2918  git push
+ 2919  git add .
+ 2920  git commit -m "write on the detector"
+ 2921  git config --global user.email "arthur99.adriaens@gmail.com"
+ 2922  git config --global user.name "arthuradriaens-code"
+ 2923  git push
+ 2924  vim simple.py
+ 2925  ls
+ 2926  rm simple.py
+ 2927  vim thesis.tex
+ 2928  systemctl suspend
+ 2929  ls
+ 2930  cd Documents/thesis/programs/projects
+ 2931  ls
+ 2932  mkdir minimizer
+ 2933  cd minimizer
+ 2934  vim minimizer.py
+ 2935  exit
+ 2936  z minimizer
+ 2937  touch minimizer.py
+ 2938  exit
+ 2939  neofetch
+ 2940  git set origin git@github.com:arthuradriaens-code/master-thesis.git
+ 2941  git remote set-url origin git@github.com:arthuradriaens-code/master-thesis.git
+ 2942  git add .
+ 2943  git commit -m "write on the detector"
+ 2944  git push
+ 2945  ssh-keygen -t ed25519 -C "arthur99.adriaens@gmail.com"
+ 2946  eval "$(ssh-agent -s)"
+ 2947  ssh-add .ssh/id_ed25519
+ 2948  vim .config/bspwm/own_script_bspwm_laptop_dual_monitor
+ 2949  cat .ssh/id_ed25519.pub
+ 2950  whoami
+ 2951  git push
+ 2952  git pull
+ 2953  ls
+ 2954  vim radioproparaytracing.py
+ 2955  git branch hybrid_minimizer
+ 2956  git pull
+ 2957  git checkout hybrid_minimizer
+ 2958  git branch -a
+ 2959  git show-branch
+ 2960  git branch -d hybrid_minimizer
+ 2961  git checkout minimizer_rt
+ 2962  git checkout radiopropa/minimizer_rt
+ 2963  git branch -d hybrid_minimizer
+ 2964  git branch hybrid_minimizer radiopropa/minimizer_rt
+ 2965  git checkout hybrid_minimizer
+ 2966  git show-branch
+ 2967  git branch
+ 2968  ls
+ 2969  vim radioproparaytracing.py
+ 2970  exit
+ 2971  cd ..
+ 2972  ls
+ 2973  cd NuRadioMC
+ 2974  ls
+ 2975  cd NuRadioMC
+ 2976  ls
+ 2977  cd SignalProp
+ 2978  ls
+ 2979  vim radioproparaytracing.py
+ 2980  ls
+ 2981  vim ray_tracing_modules_radiopropa.py
+ 2982  python ray_tracing_modules_radiopropa.py
+ 2983  vim ray_tracing_modules_radiopropa.py
+ 2984  z Nuradiomc
+ 2985  ls
+ 2986  cd NuRadioMC
+ 2987  ls
+ 2988  cd SignalProp
+ 2989  ls
+ 2990  vim radioproparaytracing.py
+ 2991  exit
+ 2992  python ray_tracing_modules_radiopropa.py
+ 2993  vim radioproparaytracing.py
+ 2994  python ray_tracing_modules_radiopropa.py
+ 2995  ls
+ 2996  vim ray_tracing_modules.py
+ 2997  vim ray_tracing_modules_radiopropa.py
+ 2998  python ray_tracing_modules_radiopropa.py
+ 2999  vim ray_tracing_modules_radiopropa.py
+ 3000  ls
+ 3001  vim ray_tracing_modules_radiopropa.py
+ 3002  python ray_tracing_modules_radiopropa.py
+ 3003  vim ray_tracing_modules_radiopropa.py
+ 3004  python ray_tracing_modules_radiopropa.py
+ 3005  z radiopropa
+ 3006  cd ..
+ 3007  ls
+ 3008  cd NuRadioMC
+ 3009  git checkout master
+ 3010  git add .
+ 3011  git commit -m "added hybrid minimizer"
+ 3012  git push
+ 3013  git checkout master
+ 3014  ls
+ 3015  cd NuRadioMC
+ 3016  ls
+ 3017  cd SignalProp
+ 3018  ls
+ 3019  vim radioproparaytracing.py
+ 3020  git checkout hybrid
+ 3021  git checkout hybrid_minimizer
+ 3022  vim radioproparaytracing.py
+ 3023  git checkout master
+ 3024  python ray_tracing_modules_radiopropa.py
+ 3025  z 56
+ 3026  ls
+ 3027  vim ray_tracing_modules_radiopropa.py
+ 3028  exit
+ 3029  ls
+ 3030  cp simple.py simple_propa.py
+ 3031  vim simple_propa.py
+ 3032  python simple_propa.py
+ 3033  z 56
+ 3034  ls
+ 3035  python simple.py
+ 3036  vim simple_propa.py
+ 3037  ls
+ 3038  vim simple
+ 3039  vim simple.py
+ 3040  python simple_propa.py
+ 3041  python simple.py
+ 3042  git pull
+ 3043  git checkout minimizer_rt
+ 3044  git checkout radiopropa/minimizer_rt
+ 3045  python simple_propa.py
+ 3046  git pull
+ 3047  z nuradiomc
+ 3048  git checkout hybrid_minimizer
+ 3049  git branch --list
+ 3050  git branch -m radiopropa/hybrid_minimizer
+ 3051  git branch --list
+ 3052  exit
+ 3053  python simple.py
+ 3054  ls
+ 3055  cd ..
+ 3056  ls
+ 3057  python simple_propa.py
+ 3058  cd SignalProp
+ 3059  vim radioproparaytracing.py
+ 3060  z nuradiomc
+ 3061  ls
+ 3062  git checkout radiopropa/minimizer_rt
+ 3063  git checkout master
+ 3064  ls
+ 3065  cd NuRadioMC
+ 3066  ls
+ 3067  cd SignalProp
+ 3068  ls
+ 3069  vim radioproparaytracing.py
+ 3070  exit
+ 3071  git checkout develop
+ 3072  git pull
+ 3073  python simple_propa.py
+ 3074  git checkout master
+ 3075  python simple_propa.py
+ 3076  git branch
+ 3077  git checkout radiopropa/hybrid_minimizer
+ 3078  ls
+ 3079  git checkout master
+ 3080  git checkout radiopropa/hybrid_minimizer
+ 3081  ls
+ 3082  vim radioproparaytracing.py
+ 3083  python simple_propa.py
+ 3084  z radiopropa
+ 3085  git pull
+ 3086  ls
+ 3087  rm -r build
+ 3088  mv build build_old
+ 3089  mkdir build
+ 3090  cd build
+ 3091  cmake ..
+ 3092  sudo make install
+ 3093  ls
+ 3094  vim simple_propa.py
+ 3095  python simple_propa.py
+ 3096  git checkout master
+ 3097  git pull
+ 3098  git checkout master
+ 3099  git add .
+ 3100  git checkout master --force
+ 3101  python simple_propa.py
+ 3102  ls
+ 3103  cd ..
+ 3104  ls
+ 3105  rm -R build_old
+ 3106  sudo rm -R build_old
+ 3107  ls
+ 3108  python simple_propa.py
+ 3109  git checkout develop
+ 3110  ls
+ 3111  git pull
+ 3112  vim radioproparaytracing.py
+ 3113  git checkout radiopropa/hybrid_minimizer
+ 3114  ls
+ 3115  vim radioproparaytracing.py
+ 3116  python simple_propa.py
+ 3117  cd ..
+ 3118  ls
+ 3119  cd NuRadioMC
+ 3120  ls
+ 3121  cd NuRadioMC
+ 3122  ls
+ 3123  cd SignalProp
+ 3124  ls
+ 3125  vim radioproparaytracing.py
+ 3126  git checkout master
+ 3127  git checkout master --force
+ 3128  ls
+ 3129  vim radioproparaytracing.py
+ 3130  git checkout radiopropa/hybrid_minimizer
+ 3131  ls
+ 3132  vim radioproparaytracing.py
+ 3133  python simple_propa.py
+ 3134  exit
+ 3135  git checkout master
+ 3136  python simple_propa.py
+ 3137  git checkout fix/radiopropa_rt_auto_step
+ 3138  git pull
+ 3139  fix/radiopropa_rt_auto_step
+ 3140  cd ..
+ 3141  git checkout fix/radiopropa_rt_auto_step
+ 3142  python simple_propa.py
+ 3143  git checkout radiopropa/hybrid_minimizer
+ 3144  ls
+ 3145  cd SignalProp
+ 3146  ls
+ 3147  vim radioproparaytracing.py
+ 3148  ls
+ 3149  cd Documents
+ 3150  ls
+ 3151  cd thesis
+ 3152  ls
+ 3153  cd programs
+ 3154  ls
+ 3155  cd projects
+ 3156  ls
+ 3157  cd 56GradenDetectie
+ 3158  ls
+ 3159  vim test.py
+ 3160  ls
+ 3161  git branch -d radiopropa/hybrid_minimizer
+ 3162  git checkout fix/radiopropa_rt_auto_step
+ 3163  git branch -d radiopropa/hybrid_minimizer
+ 3164  git branch -D radiopropa/hybrid_minimizer
+ 3165  git branch radiopropa/hybrid_minimizer fix/radiopropa_rt_auto_step
+ 3166  git checkout radiopropa/hybrid_minimizer
+ 3167  python simple_propa.py
+ 3168  ls
+ 3169  vim radioproparaytracing.py
+ 3170  python simple_propa.py
+ 3171  vim radioproparaytracing.py
+ 3172  python simple_propa.py
+ 3173  vim simple
+ 3174  cp simple_propa.py simple_hybrid_propa.py
+ 3175  vim simple
+ 3176  vim simple_hybrid_propa.py
+ 3177  python simple_hybrid_propa.py
+ 3178  vim simple_hybrid_propa.py
+ 3179  python simple_hybrid_propa.py
+ 3180  vim simple_hybrid_propa.py
+ 3181  cp simple_hybrid_propa.py simple_minimizer.py
+ 3182  vim simple_minimizer.py
+ 3183  python simple_minimizer.py
+ 3184  vim simple_minimizer.py
+ 3185  python simple_minimizer.py
+ 3186  vim simple_minimizer.py
+ 3187  python simple_minimizer.py
+ 3188  vim simple_minimizer.py
+ 3189  python simple_minimizer.py
+ 3190  vim simple_minimizer.py
+ 3191  python simple_minimizer.py
+ 3192  vim simple_minimizer.py
+ 3193  python simple_minimizer.py
+ 3194  vim simple_minimizer.py
+ 3195  python simple_minimizer.py
+ 3196  vim simple_minimizer.py
+ 3197  cp simple_minimizer.py simple_testbench.py
+ 3198  vim simple_minimizer.py
+ 3199  python simple_minimizer.py
+ 3200  vim simple_minimizer.py
+ 3201  python simple_minimizer.py
+ 3202  vim simple_minimizer.py
+ 3203  python simple_minimizer.py
+ 3204  vim simple_minimizer.py
+ 3205  python simple_minimizer.py
+ 3206  git checkout radiopropa/minimizer_rt
+ 3207  git checkout --force radiopropa/minimizer_rt
+ 3208  git branch -D radiopropa/hybrid_minimizer
+ 3209  git branch radiopropa/hybrid_minimizer radiopropa/minimizer_rt
+ 3210  git pull
+ 3211  git checkout radiopropa/hybrid_minimizer
+ 3212  ls
+ 3213  python simple_propa.py
+ 3214  git checkout master
+ 3215  git pull
+ 3216  git checkout radiopropa/minimizer_rt
+ 3217  git pull
+ 3218  python simple_propa.py
+ 3219  git pull
+ 3220  python simple_propa.py
+ 3221  git checkout master
+ 3222  python simple_propa.py
+ 3223  git checkout radiopropa/minimizer_rt
+ 3224  git pull
+ 3225  python simple_propa.py
+ 3226  git branch -D radiopropa/minimizer_rt
+ 3227  git branch -D radiopropa/hybrid
+ 3228  git branch
+ 3229  git branch -D radiopropa/hybrid_minimizer
+ 3230  git branch
+ 3231  ls
+ 3232  python simple_minimizer.py
+ 3233  vim simple_minimizer.py
+ 3234  ls
+ 3235  vim radioproparaytracing.py
+ 3236  vim simple_minimizer.py
+ 3237  neofetch
+ 3238  exit
+ 3239  python simple_minimizer.py
+ 3240  vim simple_minimizer.py
+ 3241  python simple_minimizer.py
+ 3242  vim simple_minimizer.py
+ 3243  python simple
+ 3244  python simple_minimizer.py
+ 3245  git pull
+ 3246  vim simple_minimizer.py
+ 3247  python simple_minimizer.py
+ 3248  vim simple_minimizer.py
+ 3249  python simple_minimizer.py
+ 3250  vim simple_minimizer.py
+ 3251  python simple_minimizer.py
+ 3252  vim radioproparaytracing.py
+ 3253  vim simple_minimizer.py
+ 3254  python simple_minimizer.py
+ 3255  vim simple_minimizer.py
+ 3256  python simple_minimizer.py
+ 3257  vim simple_minimizer.py
+ 3258  ls
+ 3259  z nuradiomc
+ 3260  ls
+ 3261  cd NuRadioMC
+ 3262  l
+ 3263  ls
+ 3264  cd simulation
+ 3265  ls
+ 3266  cd ..
+ 3267  ls
+ 3268  cd utilities
+ 3269  ls
+ 3270  vim medium.py
+ 3271  python simple_minimizer.py
+ 3272  vim medium.py
+ 3273  vim simple_minimizer.py
+ 3274  ls
+ 3275  vim medium_base.py
+ 3276  python simple_minimizer.py
+ 3277  vim medium_base.py
+ 3278  vim simple_minimizer.py
+ 3279  python simple_minimizer.py
+ 3280  vim simple_minimizer.py
+ 3281  python simple_minimizer.py
+ 3282  z NuradioMC
+ 3283  ls
+ 3284  cd NuRadioMC
+ 3285  ls
+ 3286  cd SignalProp
+ 3287  ls
+ 3288  git branch
+ 3289  git branch radiopropa/hybrid_minimizer
+ 3290  git checkout radiopropa/hybrid_minimizer
+ 3291  vim radioproparaytracing.py
+ 3292  exit
+ 3293  vim radioproparaytracing.py
+ 3294  python simple_minimizer.py
+ 3295  cp simple_minimizer.py simple_hybrid.py
+ 3296  ls
+ 3297  rm simple_testbench.py
+ 3298  rm simple_hybrid_propa.py
+ 3299  vim simple_hybrid.py
+ 3300  python simple_hybrid.py
+ 3301  :q
+ 3302  vim simple_minimizer.py
+ 3303  python simple_minimizer.py
+ 3304  vim simple_minimizer.py
+ 3305  python simple_minimizer.py
+ 3306  vim simple_minimizer.py
+ 3307  cp simple_minimizer.py test_fail_case.py
+ 3308  vim test_fail_case.py
+ 3309  python test_fail_case.py
+ 3310  vim test_fail_case.py
+ 3311  python test_fail_case.py
+ 3312  rm test_fail_case.py
+ 3313  ls
+ 3314  python simple_minimizer.py
+ 3315  vim simple_minimizer.py
+ 3316  python simple_minimizer.py
+ 3317  python simple_hybrid.py
+ 3318  vim radioproparaytracing.py
+ 3319  neofetch
+ 3320  clear
+ 3321  python simple_hybrid.py
+ 3322  vim simple_hybrid.py
+ 3323  python simple_hybrid.py
+ 3324  vim simple_hybrid.py
+ 3325  python simple_hybrid.py
+ 3326  ls
+ 3327  z nuradiomc
+ 3328  ls
+ 3329  cd NuRadioMC
+ 3330  ls
+ 3331  cd SignalProp
+ 3332  vim radioproparaytracing.py
+ 3333  python simple_hybrid.py
+ 3334  vim radioproparaytracing.py
+ 3335  ls
+ 3336  vim simple_hybrid.py
+ 3337  python simple_hybrid.py
+ 3338  vim simple_hybrid.py
+ 3339  python simple_hybrid.py
+ 3340  vim radioproparaytracing.py
+ 3341  python simple_hybrid.py
+ 3342  ls
+ 3343  cp simple_hybrid.py compare_hybrid_minimizer
+ 3344  cp simple_hybrid.py compare_hybrid_minimizer.py
+ 3345  rm compare_hybrid_minimizer
+ 3346  vim compare_hybrid_minimizer.py
+ 3347  exit
+ 3348  python simple_hybrid.py
+ 3349  ls
+ 3350  vim compare_hybrid_minimizer.py
+ 3351  python compare_hybrid_minimizer.py
+ 3352  vim compare_hybrid_minimizer.py
+ 3353  python compare_hybrid_minimizer.py
+ 3354  vim compare_hybrid_minimizer.py
+ 3355  python compare_hybrid_minimizer.py
+ 3356  vim compare_hybrid_minimizer.py
+ 3357  ls
+ 3358  z 56
+ 3359  ls
+ 3360  vim simple.py
+ 3361  python compare_hybrid_minimizer.py
+ 3362  exit
+ 3363  vim compare_hybrid_minimizer.py
+ 3364  python compare_hybrid_minimizer.py
+ 3365  vim compare_hybrid_minimizer.py
+ 3366  python compare_hybrid_minimizer.py
+ 3367  vim compare_hybrid_minimizer.py
+ 3368  python compare_hybrid_minimizer.py
+ 3369  vim compare_hybrid_minimizer.py
+ 3370  ls
+ 3371  vim simple_hybrid.py
+ 3372  python simple_hybrid.py
+ 3373  z 56
+ 3374  ls
+ 3375  vim simple.py
+ 3376  python simple
+ 3377  python simple.py
+ 3378  z 56
+ 3379  ls
+ 3380  vim simple_minimizer.py
+ 3381  python simple
+ 3382  python simple_minimizer.py
+ 3383  vim compare_hybrid_minimizer.py
+ 3384  python simple_minimizer.py
+ 3385  python compare_hybrid_minimizer.py
+ 3386  vim compare_hybrid_minimizer.py
+ 3387  python compare_hybrid_minimizer.py
+ 3388  vim compare_hybrid_minimizer.py
+ 3389  python compare_hybrid_minimizer.py
+ 3390  vim compare_hybrid_minimizer.py
+ 3391  python compare_hybrid_minimizer.py
+ 3392  vim compare_hybrid_minimizer.py
+ 3393  python compare_hybrid_minimizer.py
+ 3394  vim compare_hybrid_minimizer.py
+ 3395  python compare_hybrid_minimizer.py
+ 3396  vim compare_hybrid_minimizer.py
+ 3397  ls
+ 3398  vim ray_tracing_modules.py
+ 3399  ls
+ 3400  vim compare_hybrid_minimizer.py
+ 3401  python compare_hybrid_minimizer.py
+ 3402  vim compare_hybrid_minimizer.py
+ 3403  python compare_hybrid_minimizer.py
+ 3404  vim compare_hybrid_minimizer.py
+ 3405  python compare_hybrid_minimizer.py
+ 3406  vim compare_hybrid_minimizer.py
+ 3407  python compare_hybrid_minimizer.py
+ 3408  z 56
+ 3409  ls
+ 3410  vim compare_hybrid_minimizer.py
+ 3411  python compare_hybrid_minimizer.py
+ 3412  vim compare_hybrid_minimizer.py
+ 3413  python compare_hybrid_minimizer.py
+ 3414  ls
+ 3415  vim compare_hybrid_minimizer.py
+ 3416  python compare_hybrid_minimizer.py
+ 3417  vim compare_hybrid_minimizer.py
+ 3418  python compare_hybrid_minimizer.py
+ 3419  vim compare_hybrid_minimizer.py
+ 3420  python compare_hybrid_minimizer.py
+ 3421  vim compare_hybrid_minimizer.py
+ 3422  python compare_hybrid_minimizer.py
+ 3423  vim compare_hybrid_minimizer.py
+ 3424  python compare_hybrid_minimizer.py
+ 3425  vim compare_hybrid_minimizer.py
+ 3426  python compare_hybrid_minimizer.py
+ 3427  vim compare_hybrid_minimizer.py
+ 3428  python compare_hybrid_minimizer.py
+ 3429  vim compare_hybrid_minimizer.py
+ 3430  python compare_hybrid_minimizer.py
+ 3431  vim compare_hybrid_minimizer.py
+ 3432  z 56
+ 3433  ls
+ 3434  vim simple.py
+ 3435  python compare_hybrid_minimizer.py
+ 3436  vim simple.py
+ 3437  vim compare_hybrid_minimizer.py
+ 3438  python compare_hybrid_minimizer.py
+ 3439  vim compare_hybrid_minimizer.py
+ 3440  python compare_hybrid_minimizer.py
+ 3441  vim compare_hybrid_minimizer.py
+ 3442  python compare_hybrid_minimizer.py
+ 3443  vim compare_hybrid_minimizer.py
+ 3444  python compare_hybrid_minimizer.py
+ 3445  vim compare_hybrid_minimizer.py
+ 3446  python compare_hybrid_minimizer.py
+ 3447  vim compare_hybrid_minimizer.py
+ 3448  python compare_hybrid_minimizer.py
+ 3449  vim compare_hybrid_minimizer.py
+ 3450  python compare_hybrid_minimizer.py
+ 3451  vim compare_hybrid_minimizer.py
+ 3452  python compare_hybrid_minimizer.py
+ 3453  vim compare_hybrid_minimizer.py
+ 3454  python compare_hybrid_minimizer.py
+ 3455  vim compare_hybrid_minimizer.py
+ 3456  python compare_hybrid_minimizer.py
+ 3457  vim compare_hybrid_minimizer.py
+ 3458  python compare_hybrid_minimizer.py
+ 3459  ls
+ 3460  vim simple_minimizer.py
+ 3461  python simple_minimizer.py
+ 3462  z 56
+ 3463  ls
+ 3464  vim simple.py
+ 3465  python simple
+ 3466  python simple.py
+ 3467  vim simple.py
+ 3468  python simple.py
+ 3469  vim simple.py
+ 3470  python simple.py
+ 3471  vim simple_minimizer.py
+ 3472  python simple_minimizer.py
+ 3473  vim simple_minimizer.py
+ 3474  python simple_minimizer.py
+ 3475  z 56
+ 3476  ls
+ 3477  vim simple_hybrid.py
+ 3478  python simple_hybrid.py
+ 3479  vim simple_minimizer.py
+ 3480  python simple_hybrid.py
+ 3481  python simple_minimizer.py
+ 3482  vim simple.py
+ 3483  python simple.py
+ 3484  ls
+ 3485  vim simple_hybrid.py
+ 3486  python simple_hybrid.py
+ 3487  vim compare_hybrid_minimizer.py
+ 3488  python compare_hybrid_minimizer.py
+ 3489  vim compare_hybrid_minimizer.py
+ 3490  python compare_hybrid_minimizer.py
+ 3491  systemctl suspend
+ 3492  vim simple_propa.py
+ 3493  vim simple.py
+ 3494  python simple_propa.py
+ 3495  python simple_hybrid.py
+ 3496  ls
+ 3497  python simple_minimizer.py
+ 3498  vim simple.py
+ 3499  vim simple_propa.py
+ 3500  python simple_propa.py
+ 3501  ls
+ 3502  clear
+ 3503  sudo pacman -S otp-pass
+ 3504  sudo pacman -S pass-otp
+ 3505  clear
+ 3506  pass
+ 3507  pass insert github/recoverycodes
+ 3508  pass init
+ 3509  pass init gpg-id
+ 3510  pass ls
+ 3511  pass insert github/recoverycodes
+ 3512  94ffb-332e1
+ 3513  661b6-cdf6b
+ 3514  dc4c8-91c5f
+ 3515  3e135-6f13e
+ 3516  667b6-439a2
+ 3517  a82cf-3a321
+ 3518  26198-940c4
+ 3519  52254-f9f0c
+ 3520  263c7-08f57
+ 3521  f5411-a0333
+ 3522  b80a9-862fe
+ 3523  8845a-43e6e
+ 3524  ac7fc-13d41
+ 3525  pass insert github/recoverycodes
+ 3526  gpg --list-keys
+ 3527  gpg --full-generate-key
+ 3528  pass insert github/recoverycodes
+ 3529  gpg --list-keys
+ 3530  pass init gpg-id 8FDCD7D698E52E54500C68A4487CDB3B7DE89AB8
+ 3531  pass insert github/recoverycodes
+ 3532  gpg --export-secret-keys > keyfile
+ 3533  gpg2 --import keyfile
+ 3534  gpg2 --edit-key FA829B53
+ 3535  gpg2 --edit-key rsa3072
+ 3536  gpg2 --edit-key 8FDCD7D698E52E54500C68A4487CDB3B7DE89AB8
+ 3537  pass init 8FDCD7D698E52E54500C68A4487CDB3B7DE89AB8
+ 3538  pass -list
+ 3539  pass
+ 3540  pass insert github/recoverycodes
+ 3541  pass github/recoverycodes
+ 3542  pass
+ 3543  pass otp insert github/otp
+ 3544  sudo pacman -S which
+ 3545  pass otp insert github/otp
+ 3546  pass otp insert -e github/otp
+ 3547  pass
+ 3548  pass github/otp
+ 3549  pass github/recoverycodes
+ 3550  pass rm github/otp
+ 3551  pass
+ 3552  zbarimg
+ 3553  sudo pacman -S zbar
+ 3554  zbarimg -q --raw downloads/download.svg | pass otp insert github/otp
+ 3555  zbarimg -q --raw Downloads/download.svg | pass otp insert github/otp
+ 3556  pass
+ 3557  pass github/otp
+ 3558  pass otp github/otp
+ 3559  exit
+ 3560  pass
+ 3561  pass github/recoverycodes
+ 3562  exit
+ 3563  pass otp github/otp
+ 3564  pass
+ 3565  pass rm recoverycodes
+ 3566  pass rm github/recoverycodes
+ 3567  cd Downloads
+ 3568  cat github-recovery-codes.txt
+ 3569  pass insert github/recoverycodes
+ 3570  pass github/recoverycodes
+ 3571  pkill pass
+ 3572  pass
+ 3573  pass github/otp
+ 3574  pass github/recoverycodes
+ 3575  exit
+ 3576  ls -a
+ 3577  vim .gnupg/
+ 3578  pkill gpg
+ 3579  pkill pass
+ 3580  clear
+ 3581  ls
+ 3582  clear
+ 3583  pass
+ 3584  pass github/otp
+ 3585  exit
+ 3586  pass otp github/otp
+ 3587  exit
+ 3588  ls
+ 3589  vim thesis.tex
+ 3590  z nuradiomc
+ 3591  ls
+ 3592  cd NuRadioMC
+ 3593  ls
+ 3594  cd SignalProp
+ 3595  ls
+ 3596  vim radioproparaytracing.py
+ 3597  exit
+ 3598  vim radioproparaytracing.py
+ 3599  python simple_hybrid.py
+ 3600  vim simple_hybrid.py
+ 3601  python simple_hybrid.py
+ 3602  vim simple_hybrid.py
+ 3603  python simple_hybrid.py
+ 3604  neofetch
+ 3605  xrandr
+ 3606  exit
+ 3607  vim radioproparaytracing.py
+ 3608  python simple_hybrid.py
+ 3609  vim simple_hybrid.py
+ 3610  z nuradiomc
+ 3611  ls
+ 3612  cd NuRadioMC
+ 3613  ls
+ 3614  cd utilities
+ 3615  ls
+ 3616  vim medium.py
+ 3617  vim simple_propa.py
+ 3618  python simple_propa.py
+ 3619  python simple_hybrid.py
+ 3620  exit
+ 3621  ls
+ 3622  vim simple_hybrid.py
+ 3623  python simple_hybrid.py
+ 3624  vim simple_hybrid.py
+ 3625  python simple_hybrid.py
+ 3626  vim simple_hybrid.py
+ 3627  python simple_hybrid.py
+ 3628  neofetch
+ 3629  clear
+ 3630  vim radioproparaytracing.py
+ 3631  git add .
+ 3632  git commit -m "seems promising"
+ 3633  cheese
+ 3634  clear
+ 3635  z 56
+ 3636  ls
+ 3637  cd ..
+ 3638  ls
+ 3639  mkdir figure
+ 3640  cd figure
+ 3641  ls
+ 3642  cd ..
+ 3643  cp 56GradenDetectie/simple.py figure
+ 3644  ls
+ 3645  cd figure
+ 3646  ls
+ 3647  vim simple.py
+ 3648  python simple.py
+ 3649  vim simple.py
+ 3650  python simple.py
+ 3651  vim simple.py
+ 3652  python simple.py
+ 3653  vim simple.py
+ 3654  python simple.py
+ 3655  vim simple.py
+ 3656  python simple.py
+ 3657  vim simple.py
+ 3658  python simple.py
+ 3659  vim simple.py
+ 3660  python simple.py
+ 3661  vim simple.py
+ 3662  python simple.py
+ 3663  vim simple.py
+ 3664  python simple.py
+ 3665  vim simple.py
+ 3666  python simple.py
+ 3667  vim simple.py
+ 3668  python simple.py
+ 3669  vim simple.py
+ 3670  python simple.py
+ 3671  vim simple.py
+ 3672  python simple.py
+ 3673  vim simple.py
+ 3674  python simple.py
+ 3675  vim simple.py
+ 3676  python simple.py
+ 3677  vim simple.py
+ 3678  python simple.py
+ 3679  vim simple.py
+ 3680  python simple.py
+ 3681  vim simple.py
+ 3682  python simple.py
+ 3683  z figure
+ 3684  ls
+ 3685  vim simple.py
+ 3686  python simple.py
+ 3687  vim simple.py
+ 3688  python simple.py
+ 3689  sudo pacman -S gimp
+ 3690  ls
+ 3691  cd cls
+ 3692  ls
+ 3693  vim ugent-doc.cls
+ 3694  z master
+ 3695  ls
+ 3696  vim thesis.tex
+ 3697  python simple.py
+ 3698  exit
+ 3699  git add .
+ 3700  git commit -m "add my own front cover"
+ 3701  git push
+ 3702  ls
+ 3703  z Nuradiomc
+ 3704  ls
+ 3705  cd nuradiomc
+ 3706  ls
+ 3707  cd Nuradiomc
+ 3708  cd NuRadioMC
+ 3709  ls
+ 3710  cd SignalProp
+ 3711  ls
+ 3712  vim radioproparaytracing.py
+ 3713  vim simple_minimizer.py
+ 3714  python simple_minimizer.py
+ 3715  vim simple_minimizer.py
+ 3716  python simple_minimizer.py
+ 3717  z Nuradiomc
+ 3718  ls
+ 3719  cd NuRadioReco
+ 3720  ls
+ 3721  cd modules
+ 3722  ls
+ 3723  vim cosmicRayEnergyReconstructor.py
+ 3724  vim radioproparaytracing.py
+ 3725  vim sources.bib
+ 3726  vim thesis.tex
+ 3727  z master
+ 3728  vim sources.bib
+ 3729  z master
+ 3730  vim sources.bib
+ 3731  z master
+ 3732  vim sources.bib
+ 3733  z master
+ 3734  vim sources.bib
+ 3735  exit
+ 3736  z master
+ 3737  ls
+ 3738  vim sources.bib
+ 3739  neofetch
+ 3740  clear
+ 3741  systemctl suspend
+ 3742  ls
+ 3743  vim radioproparaytracing.py
+ 3744  vim simple_minimizer.py
+ 3745  python simple_minimizer.py
+ 3746  vim simple_minimizer.py
+ 3747  python simple_minimizer.py
+ 3748  vim simple_minimizer.py
+ 3749  z radiopropa
+ 3750  ls
+ 3751  cd ..
+ 3752  ls
+ 3753  cd NuRadioMC
+ 3754  ls
+ 3755  cd NuRadioMC
+ 3756  ls
+ 3757  cd utilities
+ 3758  ls
+ 3759  vim medium.py
+ 3760  vim medium_base.py
+ 3761  python simple_minimizer.py
+ 3762  vim simple_hybrid.py
+ 3763  ls
+ 3764  vim simple_propa.py
+ 3765  ls
+ 3766  vim simple_propa.py
+ 3767  python simple_propa.py
+ 3768  vim simple_propa.py
+ 3769  python simple_propa.py
+ 3770  python simple.py
+ 3771  cd ..
+ 3772  ls
+ 3773  mkdir testhybrid
+ 3774  cp 56GradenDetectie/compare_hybrid_minimizer.py testhybrid
+ 3775  ls testhybrid
+ 3776  cd testhybrid
+ 3777  ls
+ 3778  vim compare_hybrid_minimizer.py
+ 3779  exit
+ 3780  mv compare_hybrid_minimizer.py compare_hybrid_analytic.py
+ 3781  ls
+ 3782  vim compare_hybrid_analytic.py
+ 3783  touch random.py
+ 3784  vim random.py
+ 3785  z compare
+ 3786  ls
+ 3787  cd Documents/thesis/programs
+ 3788  ls
+ 3789  cd projects/compare
+ 3790  ls
+ 3791  vim journal.tex
+ 3792  python random.py
+ 3793  vim random.py
+ 3794  mv random.py testrandom.py
+ 3795  python testrandom.py
+ 3796  vim testrandom.py
+ 3797  python testrandom.py
+ 3798  vim testrandom.py
+ 3799  python testrandom.py
+ 3800  vim testrandom.py
+ 3801  python testrandom.py
+ 3802  vim testrandom.py
+ 3803  python testrandom.py
+ 3804  vim testrandom.py
+ 3805  python testrandom.py
+ 3806  vim testrandom.py
+ 3807  python testrandom.py
+ 3808  vim testrandom.py
+ 3809  python testrandom.py
+ 3810  vim testrandom.py
+ 3811  python testrandom.py
+ 3812  vim testrandom.py
+ 3813  python testrandom.py
+ 3814  vim testrandom.py
+ 3815  python testrandom.py
+ 3816  vim testrandom.py
+ 3817  python testrandom.py
+ 3818  vim testrandom.py
+ 3819  python testrandom.py
+ 3820  vim testrandom.py
+ 3821  python testrandom.py
+ 3822  vim testrandom.py
+ 3823  python testrandom.py
+ 3824  vim testrandom.py
+ 3825  python testrandom.py
+ 3826  vim testrandom.py
+ 3827  python testrandom.py
+ 3828  vim testrandom.py
+ 3829  python testrandom.py
+ 3830  cd ..
+ 3831  cd testhybrid
+ 3832  ls
+ 3833  cd juo
+ 3834  cd journal
+ 3835  ls
+ 3836  vim journal.tex
+ 3837  vim testrandom.py
+ 3838  vim journal.tex
+ 3839  python testrandom.py
+ 3840  vim journal.tex
+ 3841  vim testrandom.py
+ 3842  python testrandom.py
+ 3843  vim journal.tex
+ 3844  ls
+ 3845  vim compare_hybrid_analytic.py
+ 3846  vim testrandom.py
+ 3847  z nuradiomc
+ 3848  ls
+ 3849  cd NuRadioMC
+ 3850  ls
+ 3851  cd SignalProp
+ 3852  ls
+ 3853  vim analyticraytracing.py
+ 3854  z signalprop
+ 3855  ls
+ 3856  vim propagation.py
+ 3857  ls
+ 3858  z projects
+ 3859  ls
+ 3860  cd testhybrid
+ 3861  ls
+ 3862  vim configs.py
+ 3863  python compare_hybrid_analytic.py
+ 3864  vim compare_hybrid_analytic.py
+ 3865  python compare_hybrid_analytic.py
+ 3866  vim compare_hybrid_analytic.py
+ 3867  python compare_hybrid_analytic.py
+ 3868  vim compare_hybrid_analytic.py
+ 3869  python compare_hybrid_analytic.py
+ 3870  vim compare_hybrid_analytic.py
+ 3871  python compare_hybrid_analytic.py
+ 3872  vim compare_hybrid_analytic.py
+ 3873  python compare_hybrid_analytic.py
+ 3874  vim compare_hybrid_analytic.py
+ 3875  vim configs.py
+ 3876  python compare_hybrid_analytic.py
+ 3877  vim configs.py
+ 3878  vim compare_hybrid_analytic.py
+ 3879  vim configs.py
+ 3880  python compare_hybrid_analytic.py
+ 3881  vim compare_hybrid_analytic.py
+ 3882  python compare_hybrid_analytic.py
+ 3883  vim compare_hybrid_analytic.py
+ 3884  python compare_hybrid_analytic.py
+ 3885  vim compare_hybrid_analytic.py
+ 3886  python compare_hybrid_analytic.py
+ 3887  vim compare_hybrid_analytic.py
+ 3888  python compare_hybrid_analytic.py
+ 3889  ls
+ 3890  z 56
+ 3891  ls
+ 3892  vim simple.py
+ 3893  vim simple
+ 3894  vim simple.py
+ 3895  python simple.py
+ 3896  vim simple.py
+ 3897  python simple.py
+ 3898  z 56
+ 3899  ls
+ 3900  vim simple_hybrid.py
+ 3901  python simple_hybrid.py
+ 3902  vim simple_hybrid.py
+ 3903  python simple_hybrid.py
+ 3904  vim .config/sxhkd/sxhkdrc
+ 3905  exit
+ 3906  z journal
+ 3907  ls
+ 3908  vim journal.tex
+ 3909  python simple_hybrid.py
+ 3910  neofetch
+ 3911  clear
+ 3912  python simple_hybrid.py
+ 3913  python compare_hybrid_analytic.py
+ 3914  vim simple_hybrid.py
+ 3915  python simple_hybrid.py
+ 3916  vim simple_hybrid.py
+ 3917  vim simple.py
+ 3918  python simple.py
+ 3919  vim simple.py
+ 3920  python simple
+ 3921  python simple.py
+ 3922  python simple_hybrid.py
+ 3923  python compare_hybrid_analytic.py
+ 3924  vim simple.py
+ 3925  vim simple_hybrid.py
+ 3926  python simple_hybrid.py
+ 3927  python simple.py
+ 3928  python simple_hybrid.py
+ 3929  python simple.py
+ 3930  python simple_hybrid.py
+ 3931  git set remote origin git@github.com:arthuradriaens-code/master-projects.git
+ 3932  git set remote url git@github.com:arthuradriaens-code/master-projects.git
+ 3933  git set remote git@github.com:arthuradriaens-code/master-projects.git
+ 3934  git add remote git@github.com:arthuradriaens-code/master-projects.git
+ 3935  git add remote url git@github.com:arthuradriaens-code/master-projects.git
+ 3936  git remote add origin git@github.com:arthuradriaens-code/master-projects.git
+ 3937  git remote set origin git@github.com:arthuradriaens-code/master-projects.git
+ 3938  git remote set url git@github.com:arthuradriaens-code/master-projects.git
+ 3939  git remote set-url git@github.com:arthuradriaens-code/master-projects.git
+ 3940  git remote set-url origin git@github.com:arthuradriaens-code/master-projects.git
+ 3941  git push
+ 3942  git add .
+ 3943  git commit -m "first online commit"
+ 3944  git push
+ 3945  git push --set-upstream origin radiopropa/hybrid_minimizer
+ 3946  git remote set-url origin https://github.com/nu-radio/NuRadioMC.git
+ 3947  git add .
+ 3948  git commit -m "first online commit, this is going to be a hybrid between minimizer and iterator"
+ 3949  git push --set-upstream origin radiopropa/hybrid_minimizer
+ 3950  clear
+ 3951  git remote set-url origin git@github.com:arthuradriaens-code/master-projects.git
+ 3952  clear
+ 3953  git pull
+ 3954  ls
+ 3955  vim radioproparaytracing.py
+ 3956  z hybrid
+ 3957  ls
+ 3958  cd ..
+ 3959  ls
+ 3960  cd 56GradenDetectie
+ 3961  ls
+ 3962  vim simple_propa.py
+ 3963  vim simple_hybrid.py
+ 3964  python simple_propa.py
+ 3965  python simple_hybrid.py
+ 3966  ls
+ 3967  python simple_hybrid.py
+ 3968  exit
+ 3969  clear
+ 3970  ls
+ 3971  z hybrid
+ 3972  ls
+ 3973  cd ..
+ 3974  ls
+ 3975  z nuradiomc
+ 3976  ls
+ 3977  cd NuRadioMC
+ 3978  ls
+ 3979  cd SignalProp
+ 3980  ls
+ 3981  vim radioproparaytracing.py
+ 3982  z signalprop
+ 3983  vim radioproparaytracing.py
+ 3984  ls
+ 3985  vim compare_hybrid_analytic.py
+ 3986  python simple_hybrid.py
+ 3987  vim simple_hybrid.py
+ 3988  python simple_hybrid.py
+ 3989  vim simple_hybrid.py
+ 3990  python simple_hybrid.py
+ 3991  vim simple_hybrid.py
+ 3992  python simple_hybrid.py
+ 3993  vim simple_hybrid.py
+ 3994  python simple_hybrid.py
+ 3995  vim simple_hybrid.py
+ 3996  python simple_hybrid.py
+ 3997  python
+ 3998  vim simple_hybrid.py
+ 3999  python
+ 4000  python simple_hybrid.py
+ 4001  ls
+ 4002  vim simple_hybrid.py
+ 4003  cp radioproparaytracing.py radioproparaytracingbackup.py
+ 4004  vim radioproparaytracing
+ 4005  vim radioproparaytracing.py
+ 4006  ls
+ 4007  vim radioproparaytracingbackup.py
+ 4008  vim simple_hybrid.py
+ 4009  python simple_hybrid.py
+ 4010  vim radioproparaytracing
+ 4011  vim radioproparaytracing.py
+ 4012  python simple_hybrid.py
+ 4013  vim radioproparaytracing.py
+ 4014  python simple_hybrid.py
+ 4015  vim radioproparaytracing.py
+ 4016  python simple_hybrid.py
+ 4017  vim radioproparaytracing.py
+ 4018  vim simple
+ 4019  vim simple_
+ 4020  vim simple_hybrid.py
+ 4021  git add .
+ 4022  git commit -m "found case where it wouldn't detect the other solution because first iteration of the intervals has overlapping intervals"
+ 4023  git push
+ 4024  vim simple_hybrid.py
+ 4025  python simple_hybrid.py
+ 4026  vim radioproparaytracing.py
+ 4027  python simple_hybrid.py
+ 4028  vim radioproparaytracing.py
+ 4029  python simple_hybrid.py
+ 4030  vim radioproparaytracing.py
+ 4031  python simple_hybrid.py
+ 4032  vim radioproparaytracing.py
+ 4033  vim simple_hybrid.py
+ 4034  python simple_hybrid.py
+ 4035  git add .
+ 4036  git commit -m "time to go home, added loop counter"
+ 4037  git push
+ 4038  systemctl suspend
+ 4039  git add .
+ 4040  git commit
+ 4041  git commit -m "add detector stuff"
+ 4042  git push
+ 4043  python compare_hybrid_analytic.py
+ 4044  vim radioproparaytracing.py
+ 4045  ls
+ 4046  cd ..
+ 4047  ls
+ 4048  z projects
+ 4049  ls
+ 4050  cd testhybrid
+ 4051  python compare_hybrid_analytic.py
+ 4052  systemctl suspend
+ 4053  git pull
+ 4054  git --force  pull
+ 4055  git pull --force
+ 4056  rm radioproparaytracing.py
+ 4057  git pull
+ 4058  ls
+ 4059  vim radioproparaytracing.py
+ 4060  ls
+ 4061  python compare_hybrid_analytic.py
+ 4062  ls
+ 4063  cd ..
+ 4064  ls
+ 4065  vim .config/bspwm/bspwmrc
+ 4066  ls
+ 4067  cd 56GradenDetectie
+ 4068  ls
+ 4069  vim simple_hybrid.py
+ 4070  python simple_hybrid.py
+ 4071  cd ..
+ 4072  ls
+ 4073  cd testhybrid
+ 4074  ls
+ 4075  vim compare_hybrid_analytic.py
+ 4076  python compare_hybrid_analytic.py
+ 4077  z 56
+ 4078  ls
+ 4079  vim simple_hybrid.py
+ 4080  python simple_hybrid.py
+ 4081  vim simple.py
+ 4082  python simple
+ 4083  python simple.py
+ 4084  z master
+ 4085  ls
+ 4086  vim thesis.tex
+ 4087  exit
+ 4088  pass
+ 4089  man pass
+ 4090  pass insert CompMatPhys/site
+ 4091  pass
+ 4092  man pass
+ 4093  pass show CompMatPhys/site
+ 4094  clear
+ 4095  pkill pdg
+ 4096  pass show CompMatPhys/site
+ 4097  pkill openpdg
+ 4098  pass show CompMatPhys/site
+ 4099  exit
+ 4100  pass show CompMatPhys/site
+ 4101  clear
+ 4102  systemctl restart pdg
+ 4103  systemctl restart openpdg
+ 4104  exit
+ 4105  pkill gpg
+ 4106  pass show CompMatPhys/site
+ 4107  ls
+ 4108  vim simple_hybrid.py
+ 4109  python simple_hybrid.py
+ 4110  cd ..
+ 4111  ls
+ 4112  cd testhybrid
+ 4113  ls
+ 4114  python compare_hybrid_analytic.py
+ 4115  z 56
+ 4116  ls
+ 4117  vim simple_hybrid.py
+ 4118  python simple_hybrid.py
+ 4119  vim simple_hybrid.py
+ 4120  python simple_hybrid.py
+ 4121  vi compare_hybrid_analytic.py
+ 4122  vim compare_hybrid_analytic.py
+ 4123  vim simple_hybrid.py
+ 4124  python simple_hybrid.py
+ 4125  ls
+ 4126  vim simple.py
+ 4127  python simple.py
+ 4128  vim simple.py
+ 4129  python simple.py
+ 4130  vim simple.py
+ 4131  python simple.py
+ 4132  z compare
+ 4133  ls
+ 4134  z 56
+ 4135  ls
+ 4136  vim simple.py
+ 4137  python simple.py
+ 4138  z radiomc
+ 4139  ls
+ 4140  cd nuradiomc
+ 4141  cd NuRadioMC
+ 4142  ls
+ 4143  cd SignalProp
+ 4144  vim radioproparaytracing.py
+ 4145  z 56
+ 4146  ls
+ 4147  ls -a
+ 4148  l
+ 4149  vim simple_propa.py
+ 4150  python simple_propa.py
+ 4151  vim simple_propa.py
+ 4152  python simple_propa.py
+ 4153  exit
+ 4154  vim compare_hybrid_analytic.py
+ 4155  ls
+ 4156  cd .;
+ 4157  ls
+ 4158  cd ..
+ 4159  ls
+ 4160  cd 56GradenDetectie
+ 4161  ls
+ 4162  python compare_hybrid_minimizer.py
+ 4163  vim compare_hybrid_minimizer.py
+ 4164  python compare_hybrid_minimizer.py
+ 4165  z 56
+ 4166  ls
+ 4167  vim compare_hybrid_minimizer.py
+ 4168  exit
+ 4169  z compare
+ 4170  z 56
+ 4171  ls
+ 4172  cd ..
+ 4173  ls
+ 4174  cd testhybrid
+ 4175  ls
+ 4176  vim compare_hybrid_analytic.py
+ 4177  z 56
+ 4178  ls
+ 4179  vim compare_hybrid_minimizer.py
+ 4180  python compare_hybrid_minimizer.py
+ 4181  vim compare_hybrid_minimizer.py
+ 4182  python compare_hybrid_minimizer.py
+ 4183  vim compare_hybrid_minimizer.py
+ 4184  python compare_hybrid_minimizer.py
+ 4185  vim compare_hybrid_minimizer.py
+ 4186  python compare_hybrid_minimizer.py
+ 4187  vim compare_hybrid_minimizer.py
+ 4188  python compare_hybrid_minimizer.py
+ 4189  cd
+ 4190  z hybrid
+ 4191  ls
+ 4192  vim compare_hybrid_analytic.py
+ 4193  exit
+ 4194  ls
+ 4195  vim compare_hybrid_minimizer.py
+ 4196  python compare_hybrid_minimizer.py
+ 4197  vim compare_hybrid_minimizer.py
+ 4198  python compare_hybrid_minimizer.py
+ 4199  vim compare_hybrid_minimizer.py
+ 4200  python compare_hybrid_minimizer.py
+ 4201  vim compare_hybrid_minimizer.py
+ 4202  python compare_hybrid_minimizer.py
+ 4203  vim compare_hybrid_minimizer.py
+ 4204  vim simple_hybrid.py
+ 4205  python simple_hybrid.py
+ 4206  python compare_hybrid_minimizer.py
+ 4207  ls
+ 4208  cd .config/bspwm
+ 4209  ls
+ 4210  cat own_script_bspwm_laptop_dual_monitor
+ 4211  xrandr --output eDP1 --primary --mode 1920x1080 --rotate normal --output DP1 --mode 1920x1080 --rotate normal --right-of eDP1\n
+ 4212  ls
+ 4213  E\nz
+ 4214  z 56
+ 4215  ls
+ 4216  clear
+ 4217  ls
+ 4218  clear
+ 4219  python simple_hybrid.py
+ 4220  z radiomc
+ 4221  ls
+ 4222  cd NuRadioMC
+ 4223  ls
+ 4224  cd SignalProp
+ 4225  ls
+ 4226  vim radioproparaytracing.py
+ 4227  python simple_hybrid.py
+ 4228  vim simple_hybrid.py
+ 4229  z 56
+ 4230  ls
+ 4231  vim simple_propa.py
+ 4232  python simple_propa.py
+ 4233  z 56
+ 4234  ls
+ 4235  python simple_hybrid.py
+ 4236  cd ..
+ 4237  ls
+ 4238  cd testhybrid
+ 4239  ls
+ 4240  python compare_hybrid_analytic.py
+ 4241  ls
+ 4242  z 56
+ 4243  ls
+ 4244  vim compare_hybrid_minimizer.py
+ 4245  python compare_hybrid_minimizer.py
+ 4246  vim compare_hybrid_minimizer.py
+ 4247  python compare_hybrid_minimizer.py
+ 4248  ls
+ 4249  python compare_hybrid_minimizer.py
+ 4250  vim radioproparaytracing.py
+ 4251  python compare_hybrid_minimizer.py
+ 4252  vim compare_hybrid_minimizer.py m
+ 4253  z 56
+ 4254  ls
+ 4255  vim compare_hybrid_minimizer_test.py
+ 4256  cp compare_hybrid_minimizer.py compare_hybrid_minimizer_test.py
+ 4257  python compare_hybrid_minimizer.py
+ 4258  vim compare_hybrid_minimizer.py
+ 4259  python compare_hybrid_minimizer.py
+ 4260  vim compare_hybrid_minimizer_test.py
+ 4261  python compare_hybrid_minimizer
+ 4262  python compare_hybrid_minimizer_test.py $
+ 4263  python compare_hybrid_minimizer_test.py
+ 4264  vim compare_hybrid_minimizer_test.py
+ 4265  python compare_hybrid_minimizer_test.py
+ 4266  vim compare_hybrid_minimizer_test.py
+ 4267  python compare_hybrid_minimizer_test.py
+ 4268  ls
+ 4269  vim compare_hybrid_minimizer_test.py
+ 4270  python compare_hybrid_minimizer_test.py
+ 4271  vim compare_hybrid_minimizer_test.py
+ 4272  python compare_hybrid_minimizer_test.py
+ 4273  vim compare_hybrid_minimizer
+ 4274  vim compare_hybrid_minimizer_test.py
+ 4275  python compare_hybrid_minimizer_test.py
+ 4276  vim compare_hybrid_minimizer_test.py
+ 4277  python compare_hybrid_minimizer_test.py
+ 4278  vim radioproparaytracing.py
+ 4279  python compare_hybrid_minimizer_test.py
+ 4280  vim radioproparaytracing.py
+ 4281  vim compare_hybrid_minimizer
+ 4282  vim compare_hybrid_minimizer_test.py
+ 4283  python compare_hybrid_minimizer_test.py
+ 4284  vim compare_hybrid_minimizer_test.py
+ 4285  python compare_hybrid_minimizer
+ 4286  python compare_hybrid_minimizer_test.py
+ 4287  vim compare_hybrid_minimizer_test.py
+ 4288  python compare_hybrid_minimizer_test.py
+ 4289  pip upgrade
+ 4290  pip update
+ 4291  sudo pacman -Syu
+ 4292  ls
+ 4293  python compare_hybrid_minimizer_test.py
+ 4294  vim compare_hybrid_minimizer
+ 4295  vim compare_hybrid_minimizer_test.py
+ 4296  python compare_hybrid_minimizer_test.py
+ 4297  vim compare_hybrid_minimizer_test.py
+ 4298  python compare_hybrid_minimizer_test.py
+ 4299  ls
+ 4300  python compare_hybrid_minimizer_test.py
+ 4301  vim compare_hybrid_minimizer_test.py
+ 4302  python compare_hybrid_minimizer_test.py
+ 4303  vim compare_hybrid_minimizer
+ 4304  vim compare_hybrid_minimizer_test.py
+ 4305  python compare_hybrid_minimizer_test.py
+ 4306  vim compare_hybrid_minimizer_test.py
+ 4307  python compare_hybrid_minimizer_test.py
+ 4308  vim compare_hybrid_minimizer_test.py
+ 4309  python compare_hybrid_minimizer_test.py
+ 4310  ls
+ 4311  vim compare_hybrid_minimizer.py
+ 4312  vim compare_hybrid_minimizer_test.py
+ 4313  python compare_hybrid_minimizer_test.py
+ 4314  vim compare_hybrid_minimizer
+ 4315  vim compare_hybrid_minimizer_test.py
+ 4316  ls
+ 4317  vim compare_hybrid_analytic.py
+ 4318  python compare_hybrid_minimizer_test.py
+ 4319  z hybrid
+ 4320  ls
+ 4321  cd ..
+ 4322  ls
+ 4323  cd 56GradenDetectie
+ 4324  ls
+ 4325  vim compare_hybrid_minimizer_test.py
+ 4326  python compare_hybrid_minimizer_test.py
+ 4327  vim compare_hybrid_minimizer_test.py
+ 4328  python compare_hybrid_minimizer_test.py
+ 4329  vim compare_hybrid_minimizer_test.py
+ 4330  python compare_hybrid_minimizer_test.py
+ 4331  ls
+ 4332  z 56
+ 4333  ls
+ 4334  vim simple_hybrid.py
+ 4335  python simple_
+ 4336  python simple_hybrid.py
+ 4337  python compare_hybrid_minimizer_test.py
+ 4338  vim compare_hybrid_minimizer_test.py
+ 4339  python compare_hybrid_minimizer_test.py
+ 4340  python
+ 4341  exit
+ 4342  python compare_hybrid_minimizer_test.py
+ 4343  python
+ 4344  exit
+ 4345  python compare_hybrid_minimizer_test.py
+ 4346  vim compare_hybrid_minimizer_test.py
+ 4347  python compare_hybrid_minimizer_test.py
+ 4348  git
+ 4349  git branch
+ 4350  ls
+ 4351  z radiomc
+ 4352  ls
+ 4353  cd NuRadioMC
+ 4354  ls
+ 4355  cd SignalProp
+ 4356  ls
+ 4357  vim radioproparaytracing.py
+ 4358  git checkout radiopropa/minimizer_rtµ
+ 4359  git checkout radiopropa/minimizer_rt
+ 4360  git add .
+ 4361  git commit -m 'working but slow'
+ 4362  git checkout radiopropa/minimizer_rt
+ 4363  git pull
+ 4364  git branch
+ 4365  git checkout radiopropa/hybrid_minimizer
+ 4366  git push
+ 4367  ls
+ 4368  cd github
+ 4369  ls
+ 4370  git clone https://github.com/nu-radio/NuRadioMC.git
+ 4371  vim compare_hybrid_minimizer_test.py
+ 4372  python compare_hybrid_minimizer_test.py
+ 4373  git checkout radiopropa/minimizer_rt
+ 4374  ls
+ 4375  cd NuRadioMC
+ 4376  git checkout radiopropa/minimizer_rt
+ 4377  git pull
+ 4378  ls
+ 4379  cd NuRadioMC
+ 4380  ls
+ 4381  cd SignalProp
+ 4382  ls
+ 4383  vim radioproparaytracing.py
+ 4384  exit
+ 4385  vim compare_hybrid_minimizer_test.py
+ 4386  python compare_hybrid_minimizer_test.py
+ 4387  cp compare_hybrid_minimizer_test.py compare_hybrid_minimizer_test2.py
+ 4388  cd ..
+ 4389  ls
+ 4390  cd 56GradenDetectie
+ 4391  ls
+ 4392  vim compare_hybrid_minimizer_test2.py
+ 4393  python compare_hybrid_minimizer_test2.py
+ 4394  vim compare_hybrid_minimizer.py
+ 4395  python compare_hybrid_minimizer_test2.py
+ 4396  ls
+ 4397  vim compare_hybrid_minimizer_test2.py
+ 4398  python compare_hybrid_minimizer_test2.py
+ 4399  vim compare_hybrid_minimizer_test2.py
+ 4400  python compare_hybrid_minimizer_test2.py
+ 4401  cd
+ 4402  z 56
+ 4403  ls
+ 4404  vim simple_minimizer.py
+ 4405  python simple_minimizer.py
+ 4406  vim compare_hybrid_minimizer_test2.py
+ 4407  python compare_hybrid_minimizer_test2.py
+ 4408  vim simple_minimizer.py
+ 4409  python simple_minimizer.py
+ 4410  passs
+ 4411  pass
+ 4412  pass insert CompMatPhys/QuantumEspresso
+ 4413  exit
+ 4414  cd github/qe-7.1-ReleasePack/qe-7.1
+ 4415  mkdir build
+ 4416  cd build
+ 4417  cmake -DCMAKE_Fortran_COMPILER=mpif90 -DCMAKE_C_COMPILER=mpicc ..
+ 4418  sudo pacman -S mpif90
+ 4419  sudo pacman -Syu
+ 4420  cmake -DCMAKE_Fortran_COMPILER=mpif90 -DCMAKE_C_COMPILER=mpicc ..
+ 4421  cmake -DCMAKE_C_COMPILER=mpicc ..
+ 4422  cmake ..
+ 4423  sudo pacman -S gfortran
+ 4424  sudo pacman -S gcc-fortran
+ 4425  cmake ..
+ 4426  cmake -DCMAKE_C_COMPILER=mpicc ..
+ 4427  sudo pacman -S openmpi
+ 4428  cmake -DCMAKE_Fortran_COMPILER=mpif90 -DCMAKE_C_COMPILER=mpicc ..
+ 4429  cd ..
+ 4430  ls
+ 4431  rm -R build
+ 4432  mkdir build
+ 4433  cd build
+ 4434  cmake -DCMAKE_Fortran_COMPILER=mpif90 -DCMAKE_C_COMPILER=mpicc ..
+ 4435  sudo pacman -S FFTW
+ 4436  sudo pacman -S fftw
+ 4437  cd ..
+ 4438  sudo pacman -S gcc-fortran
+ 4439  git clone https://aur.archlinux.org/quantum-espresso.git
+ 4440  cd quantum-espresso
+ 4441  ls
+ 4442  makepkg
+ 4443  sudo pacman -S elpa libxc
+ 4444  cd ..
+ 4445  git clone https://aur.archlinux.org/elpa.git
+ 4446  cd elpa
+ 4447  cd ..
+ 4448  ls
+ 4449  cd elpa
+ 4450  ls
+ 4451  makepkg
+ 4452  sudo pacman -S cython scalapack python-mpi4py
+ 4453  sudo pacman -S cython python-mpi4py
+ 4454  makepkg
+ 4455  pip install scalapack
+ 4456  pip install numpy
+ 4457  cd ..
+ 4458  git clone https://aur.archlinux.org/scalapack.git
+ 4459  cd scalapack
+ 4460  makepkg
+ 4461  ls
+ 4462  cd ..
+ 4463  ls
+ 4464  cp testhybrid testminimize
+ 4465  cp -r testhybrid testminimize
+ 4466  ls
+ 4467  cd testminimize
+ 4468  ls
+ 4469  mv compare_hybrid_analytic.py compare_minimize_analytic.py
+ 4470  ls
+ 4471  vim compare_minimize_analytic.py
+ 4472  python compare_minimize_analytic.py
+ 4473  vim compare_minimize_analytic.py
+ 4474  ls
+ 4475  cd ..
+ 4476  ls
+ 4477  cd scalapack
+ 4478  ls
+ 4479  sudo pacman -U scalapack-2.2.0-1-x86_64.pkg.tar.zst
+ 4480  cd ..
+ 4481  ls
+ 4482  cd elpa
+ 4483  ls
+ 4484  makepkg
+ 4485  sudo pacman -S python-numpy
+ 4486  makepkg
+ 4487  sudo pacman -S autoconf
+ 4488  makepkg
+ 4489  sudo pacman -S aclocal
+ 4490  sudo pacman -S autotools
+ 4491  sudo pacman -S automake
+ 4492  makepkg
+ 4493  vim simple_minimizer.py
+ 4494  python simple_minimizer.py
+ 4495  ls
+ 4496  vim simple_minimizer.py
+ 4497  vim simple_hybrid.py
+ 4498  python simple_hybrid.py
+ 4499  z nuradiomc
+ 4500  ls
+ 4501  vim radioproparaytracing.py
+ 4502  ls
+ 4503  sudo pacman -U elpa-2022.05.001-2-x86_64.pkg.tar.zst
+ 4504  cd ..
+ 4505  ls
+ 4506  cd quantum-espresso
+ 4507  ls
+ 4508  makepkg
+ 4509  sudo pacman -S libxc
+ 4510  cd ..
+ 4511  git clone https://aur.archlinux.org/libxc.git
+ 4512  cd libxc
+ 4513  makepkg
+ 4514  python
+ 4515  ls
+ 4516  z 56
+ 4517  ls
+ 4518  vim compare_hybrid_minimizer_test2.py
+ 4519  vim compare_hybrid_minimizer_test.py
+ 4520  python compare_hybrid_minimizer_test.py
+ 4521  ls
+ 4522  vim compare_hybrid_minimizer_test.py
+ 4523  python compare_hybrid_minimizer_test.py
+ 4524  vim compare_hybrid_minimizer.py
+ 4525  python compare_hybrid_minimizer_test.py
+ 4526  python simple_hybrid.py
+ 4527  python compare_hybrid_minimizer_test.py
+ 4528  vim compare_hybrid_minimizer_test.py
+ 4529  ls
+ 4530  sudo pacman -U libxc-5.2.3-1-x86_64.pkg.tar.zst
+ 4531  cd ..
+ 4532  ls
+ 4533  cd quantum-espresso
+ 4534  makepkg
+ 4535  python compare_hybrid_minimizer_test.py
+ 4536  ls
+ 4537  sudo pacman -U q-e-qe-7.1.tar.gz
+ 4538  cd ..
+ 4539  ls
+ 4540  sudo pacman -U qe-7.1-ReleasePack.tar.gz
+ 4541  cd qe-7.1-ReleasePack
+ 4542  cd qe-7.1
+ 4543  ls
+ 4544  mkdir build
+ 4545  cd build
+ 4546  ls
+ 4547  cmake -DCMAKE_Fortran_COMPILER=mpif90 -DCMAKE_C_COMPILER=mpicc ..
+ 4548  make install
+ 4549  python compare_hybrid_minimizer_test.py
+ 4550  exit
+ 4551  z 56
+ 4552  python compare_hybrid_minimizer_test.py
+ 4553  exit
+ 4554  z 56
+ 4555  python compare_hybrid_minimizer_test.py
+ 4556  ls
+ 4557  python simple_hybrid.py
+ 4558  z 56
+ 4559  ls
+ 4560  python compare_hybrid_minimizer_test.py
+ 4561  z 56
+ 4562  vim compare_hybrid_minimizer.py
+ 4563  vim compare_hybrid_minimizer_test.py
+ 4564  exit
+ 4565  python compare_hybrid_minimizer_test.py
+ 4566  z 56
+ 4567  vim compare_hybrid_minimizer_test.py
+ 4568  exit
+ 4569  python compare_hybrid_minimizer_test.py
+ 4570  exit
+ 4571  sudo make install
+ 4572  cd
+ 4573  clear
+ 4574  python simple_hybrid.py
+ 4575  python compare_hybrid_minimizer_test.py
+ 4576  vim simple_hybrid.py
+ 4577  python simple_hybrid.py
+ 4578  vim simple_hybrid.py
+ 4579  python simple_hybrid.py
+ 4580  vim temp.txt
+ 4581  python simple_hybrid.py
+ 4582  exit
+ 4583  python simple_hybrid.py
+ 4584  vim simple_hybrid.py
+ 4585  python simple_hybrid.py
+ 4586  vim simple_hybrid.py
+ 4587  python simple_hybrid.py
+ 4588  ls
+ 4589  vim temp.txt
+ 4590  exit
+ 4591  python simple_hybrid.py
+ 4592  vim simple_hybrid.py
+ 4593  python simple_hybrid.py
+ 4594  vim simple_hybrid.py
+ 4595  python simple_hybrid.py
+ 4596  cd
+ 4597  ls
+ 4598  z testhybrid
+ 4599  ls
+ 4600  z 56
+ 4601  ls
+ 4602  vim compare_hybrid_minimizer_test
+ 4603  vim compare_hybrid_minimizer_test.py
+ 4604  python compare_hybrid_minimizer_test.py
+ 4605  vim simple_hybrid.py
+ 4606  python simple_hybrid.py
+ 4607  z nuradiomc
+ 4608  ls
+ 4609  vim radioproparaytracing.py
+ 4610  vim simple_hybrid.py
+ 4611  vim simple_propa.py
+ 4612  python simple_propa.py
+ 4613  python simple_hybrid.py
+ 4614  python compare_hybrid_minimizer_test.py
+ 4615  python simple_hybrid.py
+ 4616  python compare_hybrid_minimizer_test.py
+ 4617  vim simple_hybrid.py
+ 4618  vim compare_hybrid_minimizer_test.py
+ 4619  python compare_hybrid_minimizer_test.py
+ 4620  vim compare_hybrid_minimizer_test.py
+ 4621  python compare_hybrid_minimizer_test.py
+ 4622  vim compare_hybrid_minimizer_test.py
+ 4623  python compare_hybrid_minimizer_test.py
+ 4624  z journal
+ 4625  ls
+ 4626  vim sourses.bib
+ 4627  z master
+ 4628  ls
+ 4629  vim thesis.tex
+ 4630  mv sourses.bib sources.bib
+ 4631  vim thesis.tex
+ 4632  z journal
+ 4633  vim journal.tex
+ 4634  neofetch
+ 4635  ls
+ 4636  z hybrid
+ 4637  ls
+ 4638  python compare_hybrid_analytic.py
+ 4639  ls
+ 4640  vim simple_propa.py
+ 4641  python simple_propa.py
+ 4642  vim simple_hybrid.py
+ 4643  python simple_hybrid.py
+ 4644  vim simple.py
+ 4645  python simple.py
+ 4646  vim simple_propa.py
+ 4647  python simple_propa.py
+ 4648  vim compare_hybrid_analytic.py
+ 4649  python compare_hybrid_analytic.py
+ 4650  vim compare_hybrid_analytic.py
+ 4651  python compare_hybrid_analytic.pyµ
+ 4652  python compare_hybrid_analytic.py
+ 4653  vim compare_hybrid_analytic.py
+ 4654  systemctl suspend
+ 4655  vim compare_hybrid_minimizer.py
+ 4656  vim compare_hybrid_minimizer_test
+ 4657  vim compare_hybrid_minimizer_test.py
+ 4658  python compare_hybrid_minimizer_test.py
+ 4659  vim radioproparaytracing.py
+ 4660  python compare_hybrid_minimizer_test.py
+ 4661  bc -l
+ 4662  1.60843/1.45682
+ 4663  clear
+ 4664  cd ..
+ 4665  ls
+ 4666  cd testhybrid
+ 4667  ls
+ 4668  clear
+ 4669  ls
+ 4670  vim compare_hybrid_analytic.py
+ 4671  vim .config/bspwm/bspwmrc
+ 4672  exit
+ 4673  vim compare_hybrid_analytic.py
+ 4674  python compare_hybrid_analytic.py
+ 4675  vim compare_hybrid_analytic.py
+ 4676  python compare_hybrid_analytic.py
+ 4677  vim compare_hybrid_analytic.py
+ 4678  python compare_hybrid_analytic.py
+ 4679  z test
+ 4680  ls
+ 4681  cp compare_hybrid_analytic.py compare_iter_analytic.py
+ 4682  vim compare_iter_analytic.py
+ 4683  python compare_iter_analytic.py
+ 4684  vim compare_hybrid_analytic.py
+ 4685  ls
+ 4686  python compare_hybrid_analytic.py
+ 4687  vim compare_iter_analytic.py
+ 4688  python compare_iter_analytic.py
+ 4689  vim compare_iter_analytic.py
+ 4690  python compare_iter_analytic.py
+ 4691  vim compare_iter_analytic.py
+ 4692  exit
+ 4693  python compare_hybrid_analytic.py
+ 4694  z test
+ 4695  ls
+ 4696  rm compare_iter_analytic.py
+ 4697  ls
+ 4698  exit
+ 4699  vim compare_hybrid_analytic.py
+ 4700  python compare_hybrid_analytic.py
+ 4701  vim compare_hybrid_analytic.py
+ 4702  python compare_hybrid_analytic.py
+ 4703  vim compare_hybrid_analytic.py
+ 4704  python compare_hybrid_analytic.py
+ 4705  z 56
+ 4706  ls
+ 4707  vim simple_hybrid.py
+ 4708  python simple_
+ 4709  python simple_hybrid.py
+ 4710  vim simple.py
+ 4711  python simple.py
+ 4712  vim simple_propa.py
+ 4713  python simple_propa.py
+ 4714  vim simple_hybrid.py
+ 4715  python simple_
+ 4716  python simple_ e_hybrid
+ 4717  python simple_hybrid.py
+ 4718  z nuradiomc
+ 4719  ls
+ 4720  cp radioproparaytracing.py /home/arthur/Documents/
+ 4721  ls /home/arthur/Documents
+ 4722  git add .
+ 4723  git commit -m "FASTer working than propa :) "
+ 4724  git push
+ 4725  git branch
+ 4726  git checkout radiopropa/minimizer_rt
+ 4727  git pull
+ 4728  cd ..
+ 4729  ls
+ 4730  cd ..
+ 4731  ls
+ 4732  rm -R NuRadioMC
+ 4733  sudo rm -R NuRadioMC
+ 4734  git clone https://github.com/nu-radio/NuRadioMC.git
+ 4735  ls
+ 4736  cd NuRadioMC
+ 4737  ls
+ 4738  git checkout radiopropa/minimizer_rt
+ 4739  git pull
+ 4740  pass
+ 4741  pass otp github/otp
+ 4742  cd ..
+ 4743  ls
+ 4744  cd NuRadioMC
+ 4745  git remote set-url origin git@github.com:arthuradriaens-code/NuRadioMC.git
+ 4746  git pull
+ 4747  ls
+ 4748  cd NuRadioMC
+ 4749  ls
+ 4750  cd SignalProp
+ 4751  ls
+ 4752  rm radioproparaytracing.py
+ 4753  cp /home/arthur/Documents/thesis/programs/projects/testhybrid/backup/radioproparaytracing.py
+ 4754  cp /home/arthur/Documents/thesis/programs/projects/testhybrid/backup/radioproparaytracing.py radioproparaytracing.py
+ 4755  ls
+ 4756  git add .
+ 4757  git commit -m "added the hybrid minimizer"
+ 4758  git push
+ 4759  ls
+ 4760  vim radioproparaytracing.py
+ 4761  git push
+ 4762  z nuradiomc
+ 4763  ls
+ 4764  cd ..
+ 4765  git checkout radiopropa/hybrid_minimizer
+ 4766  git pull
+ 4767  git checkout radiopropa/hybrid_minimizer
+ 4768  ls
+ 4769  cd NuRadioMC/SignalProp
+ 4770  ls
+ 4771  vim radioproparaytracing.py
+ 4772  exit
+ 4773  z nuradiomc
+ 4774  ls
+ 4775  vim radioproparaytracing.py
+ 4776  git add .
+ 4777  git commit -m "made it more like the previous file"
+ 4778  git push
+ 4779  ls
+ 4780  vim radioproparaytracing.py
+ 4781  git add .
+ 4782  git commit -m "deleted newline at the end"
+ 4783  git push
+ 4784  python simple_hybrid.py
+ 4785  ls
+ 4786  python simple.py
+ 4787  z nuradiomc
+ 4788  git checkout radiopropa/minimizer_rt
+ 4789  ls
+ 4790  vim radioproparaytracing.py
+ 4791  z nuradiomc
+ 4792  git remote add upstream https://github.com/nu-radio/NuRadioMC.git
+ 4793  git fetch upstreak
+ 4794  git fetch upstream
+ 4795  git checkout radiopropa/minimizer_rt
+ 4796  git merge upstream/radiopropa/minimizer_rt
+ 4797  ls
+ 4798  vim radioproparaytracing.py
+ 4799  git checkout develop
+ 4800  python simple_propa.py
+ 4801  git checkout radiopropa/minimizer_rt
+ 4802  git log
+ 4803  git log radiopropa/minimizer_rt
+ 4804  git checkout f06fffbb379fd666c32a8c6208f6bd6435ceada4
+ 4805  ls
+ 4806  vim radioproparaytracing.py
+ 4807  git checkout f06fffbb379fd666c32a8c6208f6bd6435ceada4 .
+ 4808  git checkout radiopropa/minimizer_rt
+ 4809  vim radioproparaytracing.py
+ 4810  git checkout f06fffbb379fd666c32a8c6208f6bd6435ceada4 .
+ 4811  git add .
+ 4812  git commit -m "I created a seperate branch so this can revert"
+ 4813  git push
+ 4814  vim radioproparaytracing.py
+ 4815  git checkout radiopropa/hybrid_minimizer
+ 4816  git checkout radiopropa/hybrid_minimizer --force
+ 4817  ls
+ 4818  vim radioproparaytracing.py
+ 4819  vim compare_hybrid_analytic.py
+ 4820  python simple_propa.py
+ 4821  vim simple_hybrid.py
+ 4822  python simple_hybrid.py
+ 4823  vim simple_hybrid.py
+ 4824  ls
+ 4825  vim compare_hybrid_analytic.py
+ 4826  python simple_hybrid.py
+ 4827  vim compare_hybrid_analytic.py
+ 4828  vim simple_hybrid.py
+ 4829  exit
+ 4830  vim compare_hybrid_analytic.py
+ 4831  z 56
+ 4832  ls
+ 4833  vim test.py
+ 4834  vim propa/simple_hybrid.png
+ 4835  vim simple_hybrid.py
+ 4836  python compare_hybrid_analytic.py
+ 4837  vim simple_hybrid.py
+ 4838  vim compare_hybrid_analytic.py
+ 4839  python compare_hybrid_analytic.py
+ 4840  vim compare_hybrid_analytic.py
+ 4841  python compare_hybrid_analytic.py
+ 4842  vim compare_hybrid_analytic.py
+ 4843  python compare_hybrid_analytic.py
+ 4844  vim compare_hybrid_analytic.py
+ 4845  python compare_hybrid_analytic.py
+ 4846  vim compare_hybrid_analytic.py
+ 4847  python compare_hybrid_analytic.py
+ 4848  exit
+ 4849  z nuradiomc
+ 4850  ls
+ 4851  vim compare_hybrid_analytic.py
+ 4852  python compare_hybrid_analytic.py
+ 4853  vim compare_hybrid_analytic.py
+ 4854  python compare_hybrid_analytic.py
+ 4855  vim compare_hybrid_analytic.py
+ 4856  python compare_hybrid_analytic.py
+ 4857  vim compare_hybrid_analytic.py
+ 4858  python compare_hybrid_analytic.py
+ 4859  vim compare_hybrid_analytic.py
+ 4860  python compare_hybrid_analytic.py
+ 4861  vim compare_hybrid_analytic.py
+ 4862  python compare_hybrid_analytic.py
+ 4863  vim compare_hybrid_analytic.py
+ 4864  python compare_hybrid_analytic.py
+ 4865  z 56
+ 4866  vim simple_hybrid.py
+ 4867  python simple_hybrid.py
+ 4868  vim simple_propa.py
+ 4869  python simple_propa.py
+ 4870  vim simple.py
+ 4871  python simple.py
+ 4872  cp compare_hybrid_analytic.py compare_iter_analytic.py
+ 4873  vim compare_hybrid_analytic.py
+ 4874  python compare_hybrid_analytic.py
+ 4875  z hybrid
+ 4876  ls
+ 4877  vim compare_iter_analytic.py
+ 4878  python compare_iter_analytic.py
+ 4879  vim compare_iter_analytic.py
+ 4880  python compare_iter_analytic.py
+ 4881  vim radioproparaytracing.py
+ 4882  z hybrid
+ 4883  ls
+ 4884  vim compare_hybrid_analytic.py
+ 4885  exit
+ 4886  vim compare_iter_analytic.py
+ 4887  python compare_iter_analytic.py
+ 4888  vim compare_iter_analytic.py
+ 4889  python compare_iter_analytic.py
+ 4890  vim compare_iter_analytic.py
+ 4891  python compare_iter_analytic.py
+ 4892  vim compare_hybrid_analytic.py
+ 4893  vim compare_iter_analytic.py
+ 4894  python compare_hybrid_analytic.py
+ 4895  python compare_iter_analytic.py
+ 4896  vim compare_iter_analytic.py
+ 4897  vim compare_hybrid_analytic.py
+ 4898  python compare_hybrid_analytic.py
+ 4899  python compare_iter_analytic.py
+ 4900  cat /sys/class/power_supply/BAT0
+ 4901  cat /sys/class/power_supply/BAT0/capacity
+ 4902  acpi -b
+ 4903  cat /sys/class/power_supply/BAT0/charge_now
+ 4904  cat /sys/class/power_supply/BAT0/current_now
+ 4905  ls
+ 4906  vim compare_hybrid_analytic.py
+ 4907  vim compare_iter_analytic.py
+ 4908  python compare_iter_analytic.py
+ 4909  vim compare_iter_analytic.py
+ 4910  python compare_iter_analytic.py
+ 4911  vim compare_iter_analytic.py
+ 4912  vim compare_hybrid_analytic.py
+ 4913  vim compare_iter_analytic.py
+ 4914  vim compare_hybrid_analytic.py
+ 4915  python compare_hybrid_analytic.py
+ 4916  python compare_iter_analytic.py
+ 4917  pass CompMatPhys/site
+ 4918  pkill pgp
+ 4919  pass CompMatPhys/site
+ 4920  pkill openpgp
+ 4921  pass CompMatPhys/site
+ 4922  pkill pdp
+ 4923  pass CompMatPhys/site
+ 4924  pkill gpg
+ 4925  sudo pkill gpg
+ 4926  pass CompMatPhys/site
+ 4927  vim compare_hybrid_analytic.py
+ 4928  ls
+ 4929  systemctl suspend
+ 4930  systemctl hybernate
+ 4931  hybernate now
+ 4932  systemctl hibernate
+ 4933  shutdown now
+ 4934  ls
+ 4935  cd .config/bspwm/
+ 4936  ls
+ 4937  cat own_script_bspwm_laptop_dual_monitor
+ 4938  xrandr --output eDP1 --primary --mode 1920x1080 --rotate normal --output DP1 --mode 1920x1080 --rotate normal --right-of eDP1
+ 4939  ls
+ 4940  z nuradiomc
+ 4941  ls
+ 4942  vim radioproparaytracing.py
+ 4943  z testhybrid
+ 4944  ls
+ 4945  vim compare_iter_analytic.py
+ 4946  exit
+ 4947  z nuradiomc
+ 4948  exit
+ 4949  python compare_iter_analytic.py
+ 4950  ls
+ 4951  vim compare_iter_analytic.py
+ 4952  python compare_iter_analytic.py
+ 4953  vim compare_iter_analytic.py
+ 4954  python compare_iter_analytic.py
+ 4955  vim compare_iter_analytic.py
+ 4956  python compare_iter_analytic.py
+ 4957  vim compare_iter_analytic.py
+ 4958  python compare_iter_analytic.py
+ 4959  vim compare_iter_analytic.py
+ 4960  python compare_iter_analytic.py
+ 4961  z 56
+ 4962  python simple_propa.py
+ 4963  vim simple.py
+ 4964  python simple
+ 4965  python simple.py
+ 4966  vim compare_iter_analytic.py
+ 4967  python compare_iter_analytic.py
+ 4968  z testhybrid
+ 4969  ls
+ 4970  cp compare_iter_analytic.py compare_hybrid_analytic.py
+ 4971  vim compare_hybrid_analytic.py
+ 4972  python compare_hybrid_analytic.py
+ 4973  z nuradiomc
+ 4974  ls
+ 4975  vim radioproparaytracing.py
+ 4976  vim compare_hybrid_analytic.py
+ 4977  python compare_hybrid_analytic.py
+ 4978  vim compare_hybrid_analytic.py
+ 4979  python compare_hybrid_analytic.py
+ 4980  vim radioproparaytracing.p
+ 4981  vim radioproparaytracing.py
+ 4982  z test
+ 4983  ls
+ 4984  vim compare_hybrid_analytic.py
+ 4985  python compare_hybrid_analytic.py
+ 4986  z master
+ 4987  ls
+ 4988  vim thesis.tex
+ 4989  z 56
+ 4990  vim simple_propa.py
+ 4991  python simple_propa.py
+ 4992  z 56
+ 4993  vim simple.py
+ 4994  python simple.py
+ 4995  z 56
+ 4996  vim simple_hybrid.py
+ 4997  python simple_hybrid.py
+ 4998  cd
+ 4999  z compare
+ 5000  z hybrid
+ 5001  ls
+ 5002  vim compare_hybrid_analytic.py
+ 5003  python compare_hybrid_analytic.py
+ 5004  vim compare_hybrid_analytic.py
+ 5005  python compare_hybrid_analytic.py
+ 5006  vim compare_hybrid_analytic.py
+ 5007  python compare_hybrid_analytic.py
+ 5008  vim compare_hybrid_analytic.py
+ 5009  python compare_hybrid_analytic.py
+ 5010  vim compare_hybrid_analytic.py
+ 5011  python
+ 5012  exit
+ 5013  python compare_hybrid_analytic.py
+ 5014  vim compare_hybrid_analytic.py
+ 5015  python compare_hybrid_analytic.py
+ 5016  vim compare_I
+ 5017  vim compare_hybrid_analytic.py
+ 5018  python compare_hybrid_analytic.py
+ 5019  vim compare_hybrid_analytic.py
+ 5020  python compare_hybrid_analytic.py
+ 5021  vim compare_hybrid_analytic.py
+ 5022  python compare_hybrid_analytic.py
+ 5023  vim compare_hybrid_analytic.py
+ 5024  python compare_hybrid_analytic.py
+ 5025  vim compare_hybrid_analytic.py
+ 5026  python compare_hybrid_analytic.py
+ 5027  vim compare_hybrid_analytic.py
+ 5028  python compare_hybrid_analytic.py
+ 5029  vim compare_hybrid_analytic.py
+ 5030  python compare_hybrid_analytic.py
+ 5031  vim compare_hybrid_analytic.py
+ 5032  python compare_hybrid_analytic.py
+ 5033  vim compare_hybrid_analytic.py
+ 5034  python compare_hybrid_analytic.py
+ 5035  vim compare_hybrid_analytic.py
+ 5036  z  test
+ 5037  ls
+ 5038  python compare_iter_analytic.py
+ 5039  vim compare_iter_analytic.py
+ 5040  python compare_iter_analytic.py
+ 5041  vim compare_hybrid_analytic.py
+ 5042  vim compare_iter_analytic.py
+ 5043  python compare_hybrid_analytic.py
+ 5044  vim compare_hybrid_analytic.py
+ 5045  python compare_hybrid_analytic.py
+ 5046  python compare_iter_analytic.py
+ 5047  vim compare_hybrid_analytic.py
+ 5048  z nuradiomc
+ 5049  vim radioproparaytracing.py
+ 5050  exit
+ 5051  python compare_iter_analytic.py
+ 5052  python compare_hybrid_analytic.py
+ 5053  vim compare_hybrid_analytic.py
+ 5054  python compare_hybrid_analytic.py
+ 5055  python
+ 5056  exit
+ 5057  vim compare_hybrid_analytic.py
+ 5058  exit
+ 5059  z test
+ 5060  python compare_hybrid_analytic.py
+ 5061  vim compare_hybrid_analytic.py
+ 5062  python compare_hybrid_analytic.py
+ 5063  vim compare_hybrid_analytic.py
+ 5064  python compare_hybrid_analytic.py
+ 5065  vim compare_hybrid_analytic.py
+ 5066  python compare_hybrid_analytic.py
+ 5067  vim compare_hybrid_analytic.py
+ 5068  python compare_hybrid_analytic.py
+ 5069  z test
+ 5070  vim compare_hybrid_analytic.py
+ 5071  python compare_hybrid_analytic.py
+ 5072  vim compare_iter_analytic.py
+ 5073  python compare_hybrid_analytic.py
+ 5074  exit
+ 5075  ls
+ 5076  z test
+ 5077  vim compare_hybrid_analytic.py
+ 5078  python compare_hybrid_analytic.py
+ 5079  z test
+ 5080  vim compare_hybrid_analytic.py
+ 5081  python compare_hybrid_analytic.py
+ 5082  z test
+ 5083  ls
+ 5084  cp compare_iter_analytic.py compare_iter_analytic2.py
+ 5085  vim compare_iter_analytic2.py
+ 5086  vim compare_hybrid_analytic.py
+ 5087  exit
+ 5088  vim compare_iter_analytic2.py
+ 5089  python compare_hybrid_analytic.py
+ 5090  j
+ 5091  python compare_hybrid_analytic.py
+ 5092  z test
+ 5093  ls
+ 5094  vim compare_iter_analytic
+ 5095  vim compare_iter_analytic.py
+ 5096  exit
+ 5097  python compare_hybrid_analytic.py
+ 5098  systemctl suspend
+ 5099  exit
+ 5100  ls
+ 5101  z tset
+ 5102  z test
+ 5103  ls
+ 5104  vim compare_iter_analytic
+ 5105  vim compare_iter_analytic.py
+ 5106  python compare_iter_analytic
+ 5107  python compare_iter_analytic.py
+ 5108  vim compare_iter_analytic
+ 5109  vim compare_iter_analytic.py
+ 5110  python compare_iter_analytic
+ 5111  python compare_iter_analytic.py
+ 5112  z test
+ 5113  ls
+ 5114  rm compare_iter_analytic2.py
+ 5115  exit
+ 5116  ls
+ 5117  z test
+ 5118  ls
+ 5119  mv compare_hybrid_analytic.py compare_hybrid_analytic_special_version.py
+ 5120  ls
+ 5121  rm iterative_comparison_N_100.pdf
+ 5122  rm iterative_comparison_N_10.pdf
+ 5123  rm iterative_comparison_N_40.pdf
+ 5124  ls
+ 5125  clear
+ 5126  ls
+ 5127  vim compare_iter_analytic.py
+ 5128  python compare_iter_analytic.py
+ 5129  vim compare_iter_analytic.py
+ 5130  python compare_iter_analytic.py
+ 5131  z test
+ 5132  ls
+ 5133  vim testcalc68.py
+ 5134  python compare_iter_analytic.py
+ 5135  python testcalc68.py
+ 5136  vim testcalc68.py
+ 5137  python testcalc68.py
+ 5138  vim testcalc68.py
+ 5139  python testcalc68.py
+ 5140  vim testcalc68.py
+ 5141  python testcalc68.py
+ 5142  vim testcalc68.py
+ 5143  python testcalc68.py
+ 5144  vim testcalc68.py
+ 5145  python testcalc68.py
+ 5146  vim testcalc68.py
+ 5147  python testcalc68.py
+ 5148  vim testcalc68.py
+ 5149  python testcalc68.py
+ 5150  vim testcalc68.py
+ 5151  python testcalc68.py
+ 5152  vim testcalc68.py
+ 5153  python testcalc68.py
+ 5154  vim testcalc68.py
+ 5155  python testcalc68.py
+ 5156  vim testcalc68.py
+ 5157  python testcalc68.py
+ 5158  vim testcalc68.py
+ 5159  python testcalc68.py
+ 5160  vim testcalc68.py
+ 5161  python testcalc68.py
+ 5162  vim testcalc68.py
+ 5163  python testcalc68.py
+ 5164  vim testcalc68.py
+ 5165  python testcalc68.py
+ 5166  vim testcalc68.py
+ 5167  python testcalc68.py
+ 5168  vim testcalc68.py
+ 5169  python testcalc68.py
+ 5170  vim testcalc68.py
+ 5171  python testcalc68.py
+ 5172  vim testcalc68.py
+ 5173  python testcalc68.py
+ 5174  vim testcalc68.py
+ 5175  python testcalc68.py
+ 5176  vim testcalc68.py
+ 5177  python testcalc68.py
+ 5178  vim testcalc68.py
+ 5179  python compare_iter_analytic.py
+ 5180  vim testcalc68.py
+ 5181  vim compare_iter_analytic.py
+ 5182  python compare_iter_analytic.py
+ 5183  exit
+ 5184  vim compare_iter_analytic.py
+ 5185  python compare_iter_analytic.py
+ 5186  neofetch
+ 5187  fdisk -l
+ 5188  sudo fdisk -l
+ 5189  sudo fdisk -lu
+ 5190  man fdisk
+ 5191  sudo fdisk -lh
+ 5192  sudo fdisk -ls
+ 5193  df
+ 5194  df -h
+ 5195  ls /run/user
+ 5196  ls /run/user/1000
+ 5197  clear
+ 5198  python compare_iter_analytic.py
+ 5199  vim compare_iter_analytic.py
+ 5200  clear
+ 5201  ls
+ 5202  cp compare_iter_analytic.py compare_hybrid_analytic.py
+ 5203  vim compare_hybrid_analytic.py
+ 5204  python compare_iter_analytic.py
+ 5205  python compare_hybrid_analytic.py
+ 5206  ls
+ 5207  vim temp.txt
+ 5208  rm temp.txt
+ 5209  ls
+ 5210  clear
+ 5211  z test
+ 5212  ls
+ 5213  cd journal
+ 5214  ls
+ 5215  vim journal.tex
+ 5216  pass
+ 5217  pass github/otp
+ 5218  pass
+ 5219  pass CompMatPhys/site
+ 5220  pass
+ 5221  exit
+ 5222  pass
+ 5223  pkill gpg
+ 5224  pass
+ 5225  pkill gpa
+ 5226  pkill gpg
+ 5227  pass
+ 5228  exit
+ 5229  pass
+ 5230  exit
+ 5231  pass CompMatPhys/site
+ 5232  exit
+ 5233  pass
+ 5234  pass CompMatPhys/site
+ 5235  exit
+ 5236  passs
+ 5237  pass
+ 5238  pass CompMatPhys/site
+ 5239  pkill gpg
+ 5240  pass
+ 5241  pass github/recoverycodes
+ 5242  exit
+ 5243  ls
+ 5244  cd Documents
+ 5245  ls
+ 5246  mkdir Fe-Si
+ 5247  ls
+ 5248  cd Fe-Si
+ 5249  vim paper.tex
+ 5250  sudo pacman -S revtex
+ 5251  ls
+ 5252  cd ..
+ 5253  cp Fe-Si/paper.tex paper.tex
+ 5254  ls
+ 5255  rm Fe-Si
+ 5256  rm -R Fe-Si
+ 5257  git clone git@github.com:arthuradriaens-code/Fe-Si.git
+ 5258  ls
+ 5259  cd Fe-Si
+ 5260  ls
+ 5261  mkdir paper
+ 5262  cd ..
+ 5263  cp paper.tex Fe-Si/paper
+ 5264  ls Fe-Si/paper
+ 5265  rm paper.tex
+ 5266  ls
+ 5267  cd Fe-Si/
+ 5268  ls
+ 5269  clear
+ 5270  ls
+ 5271  git add .
+ 5272  git commit -m "added draft paper"
+ 5273  git push
+ 5274  cd paper
+ 5275  ls
+ 5276  vim paper.tex
+ 5277  ls
+ 5278  vim paper.tex
+ 5279  ls
+ 5280  cd ..
+ 5281  git add .
+ 5282  git commit -m "cleaning"
+ 5283  git push
+ 5284  vim compare_iter_analytic.py
+ 5285  vim compare_hybrid_analytic
+ 5286  vim compare_hybrid_analytic.py
+ 5287  python compare_hybrid_analytic.py
+ 5288  python compare_iter_analytic.py
+ 5289  xdg-open
+ 5290  ls
+ 5291  cd Documents/Fe-Si/paper
+ 5292  ls
+ 5293  vim paper.tex
+ 5294  git add .
+ 5295  git commit -m "add slogans"
+ 5296  git push
+ 5297  git add .
+ 5298  git commit -m "add slogans right"
+ 5299  git push
+ 5300  ls
+ 5301  cd Documents/Fe-Si
+ 5302  ls
+ 5303  cd paper
+ 5304  ls
+ 5305  vim paper.tex
+ 5306  ls
+ 5307  cd ..
+ 5308  ls
+ 5309  cd paper
+ 5310  ls
+ 5311  cd ..
+ 5312  z fe
+ 5313  vim .gitgnore
+ 5314  exit
+ 5315  git add .
+ 5316  git commit -m "add gitgnore"
+ 5317  z test
+ 5318  vim compare_iter_analytic.py
+ 5319  vim compare_hybrid_analytic
+ 5320  vim compare_hybrid_analytic.py
+ 5321  ls
+ 5322  vim compare_hybrid_analytic
+ 5323  cp compare_iter_analytic.py compare_hybrid_analytic.py
+ 5324  vim compare_hybrid_analytic.py
+ 5325  vim compare_iter_analytic.py
+ 5326  python compare_hybrid_analytic
+ 5327  python compare_hybrid_analytic.py
+ 5328  exit
+ 5329  git push
+ 5330  ls
+ 5331  cd paper
+ 5332  ls
+ 5333  vim paper.tex
+ 5334  git add .
+ 5335  git commit -m "gitgnore test"
+ 5336  git push
+ 5337  cd ..
+ 5338  ls
+ 5339  vim .gitgnore
+ 5340  git add .
+ 5341  git commit -m "new gitgnore testé\n"
+ 5342  git push
+ 5343  ls
+ 5344  git pull
+ 5345  ls
+ 5346  cd paper
+ 5347  ls
+ 5348  git add .
+ 5349  git commit -m "new gitgnore test"
+ 5350  git push
+ 5351  cd ..
+ 5352  ls
+ 5353  mv .gitgnore .gitignore
+ 5354  git add .
+ 5355  git commit -m "wrote gitgnore instead of gitignore"
+ 5356  git push
+ 5357  cd paper
+ 5358  ls
+ 5359  vim paper.tex
+ 5360  git add .
+ 5361  git commit -m "test of gitIGNORE"
+ 5362  git push
+ 5363  cd ..
+ 5364  ls
+ 5365  vim .gitignore
+ 5366  git add .
+ 5367  git commit -m "works, only the paperNotes file remaining"
+ 5368  git push
+ 5369  ls
+ 5370  vim .gitignore
+ 5371  exit
+ 5372  z fe-si
+ 5373  ls
+ 5374  cd paper
+ 5375  ls
+ 5376  vim paper.tex
+ 5377  cd ..
+ 5378  git add ;
+ 5379  git add .
+ 5380  git commit -m "final test"
+ 5381  clear
+ 5382  exit
+ 5383  pass otp github/otp
+ 5384  z Fe-s
+ 5385  ls
+ 5386  vim .gitignore
+ 5387  git add .
+ 5388  git commit -m "make pdf also visible"
+ 5389  git push
+ 5390  git pull
+ 5391  git push --force
+ 5392  vim .gitignore
+ 5393  git add .
+ 5394  git commit -m "can't get rid of paperNotes.bib"
+ 5395  git push
+ 5396  git pull
+ 5397  ls
+ 5398  exit
+ 5399  vim compare_hybrid_analytic.py
+ 5400  python compare_hybrid_analytic.py
+ 5401  z test
+ 5402  ls
+ 5403  mv compare_hybrid_analytic.py compare_iter_analytic.py
+ 5404  vim compare_iter_analytic.py
+ 5405  python compare_iter_analytic.py
+ 5406  git add .
+ 5407  git commit -m "add neutrino and detector stuff"
+ 5408  git push
+ 5409  clear
+ 5410  ls
+ 5411  vim .gitignore
+ 5412  z master
+ 5413  ls
+ 5414  git add .
+ 5415  git commit -m "add gitignore"
+ 5416  git push
+ 5417  exit
+ 5418  vim thesis.tex
+ 5419  z downloads
+ 5420  ls
+ 5421  vim PlasmaPhysicsLabSchedule_2022_v4.xlsx
+ 5422  sudo pacman -S gnumeric
+ 5423  sudo pacman -Syu
+ 5424  sudo pacman -S gnumeric
+ 5425  ls
+ 5426  ssconvert PlasmaPhysicsLabSchedule_2022_v4.xlsx Schedule.csv
+ 5427  vim Schedule.csv
+ 5428  column -s, -t < Schedule.csv | less -#2 -N -S
+ 5429  ls
+ 5430  cd Documents
+ 5431  ls
+ 5432  cd ..
+ 5433  cd programs
+ 5434  ls
+ 5435  cd ..
+ 5436  cd Documents
+ 5437  mkdir scripts
+ 5438  cd scripts
+ 5439  vim excel.sh
+ 5440  exit
+ 5441  vim excel.sh
+ 5442  cd ..
+ 5443  exit
+ 5444  column -s, -t < Schedule.csv | less -#2 -N -S
+ 5445  man less
+ 5446  exit
+ 5447  vim compare_iter_analytic.py
+ 5448  cp compare_iter_analytic.py compare_hybrid_analytic.py
+ 5449  vim compare_hybrid_analytic.py
+ 5450  python compare_hybrid_analytic.py
+ 5451  python compare_iter_analytic.py
+ 5452  vim compare_hybrid_analytic.py
+ 5453  vim compare_iter_analytic.py
+ 5454  mv compare_iter_analytic.py compare_both.py
+ 5455  python compare_both.py
+ 5456  vim compare_both.py
+ 5457  python compare_both.py
+ 5458  vim compare_both.py
+ 5459  python compare_both.py
+ 5460  z test
+ 5461  vim compare_both.py
+ 5462  exit
+ 5463  z test
+ 5464  vim compare_both.py
+ 5465  python compare_both.py
+ 5466  vim compare_both.py
+ 5467  python compare_both.py
+ 5468  z test
+ 5469  ls
+ 5470  vim compare_both.py
+ 5471  cp compare_both.py compare_both_test.py
+ 5472  vim compare_both_test.py
+ 5473  exit
+ 5474  z test
+ 5475  python compare_both_test.py
+ 5476  figlet "test"
+ 5477  exit
+ 5478  cowsay
+ 5479  clear
+ 5480  exit
+ 5481  pass CompMatPhys/site
+ 5482  pkill gpg
+ 5483  mv compare_both.py compare_both_old.py
+ 5484  mv compare_both_test.py compare_both.py
+ 5485  vim compare_both.py
+ 5486  python compare_both.py
+ 5487  z test
+ 5488  vim compare_both.py
+ 5489  z radiopropa
+ 5490  ls
+ 5491  cd
+ 5492  z nuradiomc
+ 5493  ls
+ 5494  vim radioproparaytracing.py
+ 5495  exit
+ 5496  z test
+ 5497  ls
+ 5498  vim compare_both.py
+ 5499  python compare_both
+ 5500  python compare_both.py
+ 5501  vim compare_both.py
+ 5502  python compare_both.py
+ 5503  vim compare_both
+ 5504  vim compare_both.py
+ 5505  python compare_both.py
+ 5506  vim compare_both
+ 5507  vim compare_both.py
+ 5508  vim compare_both
+ 5509  python compare_both.py
+ 5510  vim compare_both.py
+ 5511  python compare_both.py
+ 5512  vim compare_both.py
+ 5513  python compare_both.py
+ 5514  pass CompMatPhys/site
+ 5515  pkill gppg
+ 5516  pkill gpg
+ 5517  exit
+ 5518  vim compare_both
+ 5519  vim compare_both.py
+ 5520  python compare_both.py
+ 5521  ls
+ 5522  ls Documents
+ 5523  ls
+ 5524  cd Documents
+ 5525  ls
+ 5526  mkdir workQE
+ 5527  cd workQE
+ 5528  mkdir halite
+ 5529  cd halite
+ 5530  wget http://www.crystallography.net/cod/9008678.cif
+ 5531  sudo pacman -S wget
+ 5532  wget http://www.crystallography.net/cod/9008678.cif
+ 5533  ls
+ 5534  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5535  pip install cif2cell
+ 5536  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5537  pip install cif2cell
+ 5538  cd
+ 5539  vim .zshrc
+ 5540  ls
+ 5541  cd Documents/workQE/halite
+ 5542  ls
+ 5543  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5544  z work
+ 5545  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5546  cd
+ 5547  vim .zshrc
+ 5548  exit
+ 5549  vim compare_both
+ 5550  vim compare_both.py
+ 5551  vim compare_both
+ 5552  vim compare_both.py
+ 5553  python compare_both.py
+ 5554  vim compare_both.py
+ 5555  python compare_both.py
+ 5556  pip uninstall cif2cell
+ 5557  vim compare_both.py
+ 5558  python compare_both.py
+ 5559  ls
+ 5560  cd programs
+ 5561  ls
+ 5562  git clone git@github.com:arthuradriaens-code/cif2cell.git
+ 5563  pip install cif2cell:
+ 5564  pip install cif2cell
+ 5565  cd
+ 5566  ls
+ 5567  cd Documents/workQE
+ 5568  ls
+ 5569  cd halite
+ 5570  ls
+ 5571  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5572  vim compare_both.py
+ 5573  ls
+ 5574  z journal
+ 5575  ls
+ 5576  cd ..
+ 5577  ls
+ 5578  vim testrandom.py
+ 5579  python compare_both
+ 5580  vim compare_both.py
+ 5581  python compare_both
+ 5582  python compare_both.py
+ 5583  exit
+ 5584  pip uninstall cif2cell
+ 5585  cd ..
+ 5586  ls
+ 5587  cd ..
+ 5588  ls
+ 5589  vim compare_both.py
+ 5590  python compare_both.py
+ 5591  cd ..
+ 5592  cd programs
+ 5593  ls
+ 5594  rm -R cif2cell
+ 5595  ls
+ 5596  cd
+ 5597  pip install cif2cell
+ 5598  ls
+ 5599  cd .local/lib/python3.10/site-packages
+ 5600  ls
+ 5601  cd cif2cell
+ 5602  ls
+ 5603  cd
+ 5604  ls
+ 5605  echo $PATH
+ 5606  z cif2cell
+ 5607  pwd
+ 5608  cd
+ 5609  export PATH=/home/arthur/.local/lib/python3.10/site-packages/cif2cell:$PATH
+ 5610  z workQ
+ 5611  ls
+ 5612  cd halite
+ 5613  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5614  exit
+ 5615  z work
+ 5616  cd halite
+ 5617  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5618  echo $PATH
+ 5619  pip
+ 5620  man pip
+ 5621  export PATH=/home/arthur/.local/lib/python3.10/site-packages/:$PATH
+ 5622  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5623  sudo cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5624  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5625  chmod +x /home/arthur/.local/lib/python3.10/site-packages/
+ 5626  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5627  chmod +x /home/arthur/.local/lib/python3.10/site-packages/cif2cell
+ 5628  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5629  pip uninstall cif2cell
+ 5630  ls /home/arthur/.local/lib/python3.10/site-packages/cif2cell/
+ 5631  cd
+ 5632  ls
+ 5633  cd programs
+ 5634  pip uninstall cif2cell
+ 5635  git clone https://github.com/arthuradriaens-code/cif2cell.git
+ 5636  cd cif2cell
+ 5637  ls
+ 5638  python setup.py
+ 5639  python setup.py install
+ 5640  sudo python setup.py install
+ 5641  z work
+ 5642  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5643  cd halite
+ 5644  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5645  ls
+ 5646  vim 9008678.cif
+ 5647  sudo pacman -S qutebrowser
+ 5648  sudo pacman -R min
+ 5649  exit
+ 5650  vim .config/bspwm/bspwmrc
+ 5651  vim .config/sxhkd/sxhkdrc
+ 5652  sudo pacman -S icecat
+ 5653  sudo pacman -S gnu-icecat
+ 5654  sudo pacman -S min
+ 5655  sudo pacman -S IceCat
+ 5656  sudo pacman -R qutebrowser
+ 5657  pacman -Qtdq | pacman -Rns -
+ 5658  sudo pacman -Qtdq | pacman -Rns -
+ 5659  sudo pacman -Qtdq | sudo pacman -Rns -
+ 5660  vim .config/sxhkd/sxhkdrc
+ 5661  pass CompMatPhys/site
+ 5662  pip uninstall cif2cell
+ 5663  ls
+ 5664  cd programs
+ 5665  ls
+ 5666  cd cif2cell
+ 5667  ls
+ 5668  z work
+ 5669  ls
+ 5670  cd halite
+ 5671  ls
+ 5672  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5673  vim /usr/lib/python3.10/site-packages
+ 5674  vim /usr/lib/python3.10/site-packages/uctools.py
+ 5675  ls /usr/lib/python3.10/site-packages/
+ 5676  pip install cif2cell
+ 5677  rm /usr/lib/python3.10/site-packages/uctools.py
+ 5678  sudo rm /usr/lib/python3.10/site-packages/uctools.py
+ 5679  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5680  vim /usr/bin/cif2cell
+ 5681  pip install cif2cell
+ 5682  cd
+ 5683  ls
+ 5684  ls programs/cif2cell
+ 5685  cp programs/cif2cell/uctools.py /usr/lib/python3.10/site-packages/uctools.py
+ 5686  sudo cp programs/cif2cell/uctools.py /usr/lib/python3.10/site-packages/uctools.py
+ 5687  z work
+ 5688  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5689  cd halite
+ 5690  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5691  pip install --force cif2cell
+ 5692  sudo pacman -S wheel
+ 5693  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5694  cd
+ 5695  cd programs
+ 5696  rm -R cif2cell
+ 5697  git clone https://github.com/arthuradriaens-code/cif2cell.git
+ 5698  pip install cif2cell --force
+ 5699  z work
+ 5700  cd halite
+ 5701  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5702  cif2cell 9008678.cif quantum-espresso -o halite.in
+ 5703  git clone https://github.com/kmu/cif2cell.git
+ 5704  rm -R cif2cell
+ 5705  git clone https://github.com/kmu/cif2cell.git
+ 5706  ls
+ 5707  cd cif2cell
+ 5708  ls
+ 5709  cd ..
+ 5710  cd cif2cell
+ 5711  ls
+ 5712  python setup.py install
+ 5713  sudo python setup.py install
+ 5714  cif2cell 9008678.cif quantum-espresso -o halite.in
+ 5715  vim /usr/lib/python3.10/site-packages/uctools.py
+ 5716  sudo vim /usr/lib/python3.10/site-packages/uctools.py
+ 5717  cif2cell 9008678.cif quantum-espresso -o halite.in
+ 5718  ls
+ 5719  cd .;
+ 5720  cd ..
+ 5721  rm -R cif2cell
+ 5722  git clone https://github.com/torbjornbjorkman/cif2cell.git
+ 5723  cd cif2cell
+ 5724  ls
+ 5725  python setup.py install
+ 5726  sudo python setup.py install
+ 5727  pip install setuptools
+ 5728  sudo python setup.py install
+ 5729  python setup.py install
+ 5730  cd ..
+ 5731  pip install cif2cell
+ 5732  pip install cif2cell --force
+ 5733  cif2cell 9008678.cif quantum-espresso -o halite.in
+ 5734  rm /usr/lib/python3.10/site-packages/uctools.py
+ 5735  sudo rm /usr/lib/python3.10/site-packages/uctools.py
+ 5736  pip install cif2cell --force
+ 5737  cif2cell 9008678.cif quantum-espresso -o halite.in
+ 5738  cd cif2cell
+ 5739  ls
+ 5740  python setup.py install
+ 5741  sudo python setup.py install
+ 5742  sudo pacman -S python-setuptools
+ 5743  sudo python setup.py install
+ 5744  cif2cell 9008678.cif quantum-espresso -o halite.in
+ 5745  ls
+ 5746  cif2cell 9008678.cif -p quantum-espresso -o halite.in
+ 5747  ls
+ 5748  vim halite.in
+ 5749  pass otp github/
+ 5750  pass otp github/otp
+ 5751  ls
+ 5752  vim .zshrc
+ 5753  clear
+ 5754  cd programs
+ 5755  ls
+ 5756  cd ..
+ 5757  ls
+ 5758  cd Documents
+ 5759  ls
+ 5760  cd scripts
+ 5761  ls
+ 5762  vim QE_file_prep.sh
+ 5763  z scripts
+ 5764  ls
+ 5765  chmod +x QE_file_prep.sh
+ 5766  cd ..
+ 5767  cd Documents
+ 5768  cp workQE/halite/halite.in scripts
+ 5769  ls
+ 5770  cd scripts
+ 5771  ls
+ 5772  ./QE_file_prep.sh halite.in
+ 5773  ls
+ 5774  vim halite.in
+ 5775  ./QE_file_prep.sh halite.in
+ 5776  ls
+ 5777  vim out.in
+ 5778  vim out
+ 5779  rm out out.in
+ 5780  ls
+ 5781  vim halite.in
+ 5782  ./QE_file_prep.sh halite.in
+ 5783  ls
+ 5784  vim out.in
+ 5785  vim QE_file_prep.sh
+ 5786  ./QE_file_prep.sh halite.in
+ 5787  sudo pacman -S dash
+ 5788  ln -sfT dash /usr/bin/sh
+ 5789  sudo ln -sfT dash /usr/bin/sh
+ 5790  ./QE_file_prep.sh halite.in
+ 5791  ls
+ 5792  vim out.in
+ 5793  rm out.in
+ 5794  ./QE_file_prep.sh halite.in
+ 5795  vim out.in
+ 5796  echo $SHELL
+ 5797  ls /bin/sh
+ 5798  ls -a /bin/sh
+ 5799  ls /bin
+ 5800  z test
+ 5801  vim compare_both.py
+ 5802  python compare_both.py
+ 5803  vim compare_both
+ 5804  vim compare_both.py
+ 5805  python compare_both.py
+ 5806  exit
+ 5807  ls
+ 5808  cd
+ 5809  ls
+ 5810  z work
+ 5811  ls
+ 5812  cd halite
+ 5813  ls
+ 5814  vim halite.in
+ 5815  z scri
+ 5816  ls
+ 5817  vim QE_file_prep.sh
+ 5818  cp QE_file_prep.sh QE_file_prep_test.sh
+ 5819  vim QE_file_prep_test.sh
+ 5820  ./QE_file_prep_test.sh
+ 5821  chmod +x QE_file_prep_test.sh
+ 5822  ./QE_file_prep_test.sh
+ 5823  vim QE_file_prep_test.sh
+ 5824  cp halite.in halite_test.in
+ 5825  ./QE_file_prep_test.sh halite_test.in
+ 5826  vim QE_file_prep_test.sh
+ 5827  ./QE_file_prep_test.sh halite_test.in
+ 5828  vim QE_file_prep_test.sh
+ 5829  ./QE_file_prep_test.sh halite_test.in
+ 5830  vim QE_file_prep_test.sh
+ 5831  man sed
+ 5832  exit
+ 5833  ./QE_file_prep_test.sh halite_test.in
+ 5834  vim QE_file_prep_test.sh
+ 5835  ./QE_file_prep_test.sh halite_test.in
+ 5836  ls
+ 5837  vim halite_test.in
+ 5838  vim QE_file_prep_test.sh
+ 5839  ./QE_file_prep_test.sh halite_test.in
+ 5840  vim halite_test.in
+ 5841  cp halite.in halite_test.in
+ 5842  vim halite_test.in
+ 5843  vim QE_file_prep_test.sh
+ 5844  ./QE_file_prep_test.sh halite_test.in
+ 5845  vim out
+ 5846  rm out
+ 5847  vim QE_file_prep_test.sh
+ 5848  rm out.in
+ 5849  rm out
+ 5850  vim QE_file_prep_test.sh
+ 5851  ls
+ 5852  vim QE_file_prep_test.sh
+ 5853  ./QE_file_prep_test.sh halite_test.in
+ 5854  vim out.in
+ 5855  rm out.in
+ 5856  vim QE_file_prep_test.sh
+ 5857  ./QE_file_prep_test.sh halite_test.in
+ 5858  vim QE_file_prep_test.sh
+ 5859  ./QE_file_prep_test.sh halite_test.in
+ 5860  vim out.in
+ 5861  vim QE_file_prep_test.sh
+ 5862  ./QE_file_prep_test.sh halite_test.in
+ 5863  vim out.in
+ 5864  vim QE_file_prep_test.sh
+ 5865  ./QE_file_prep_test.sh halite_test.in
+ 5866  vim QE_file_prep_test.sh
+ 5867  ./QE_file_prep_test.sh halite_test.in
+ 5868  vim out.in u
+ 5869  vim QE_file_prep_test.sh
+ 5870  ./QE_file_prep_test.sh halite_test.in
+ 5871  vim QE_file_prep_test.sh
+ 5872  ./QE_file_prep_test.sh halite_test.in
+ 5873  vim out.in
+ 5874  vim QE_file_prep_test.sh
+ 5875  ./QE_file_prep_test.sh halite_test.in
+ 5876  vim out.in
+ 5877  vim QE_file_prep_test.sh
+ 5878  ./QE_file_prep_test.sh halite_test.in
+ 5879  vim out2.in
+ 5880  vim QE_file_prep_test.sh
+ 5881  ./QE_file_prep_test.sh halite_test.in
+ 5882  vim out2.in
+ 5883  ./QE_file_prep_test.sh halite_test.in
+ 5884  vim QE_file_prep_test.sh
+ 5885  ./QE_file_prep_test.sh halite_test.in
+ 5886  vim out.in
+ 5887  vim QE_file_prep_test.sh
+ 5888  ./QE_file_prep_test.sh halite_test.in
+ 5889  vim QE_file_prep_test.sh
+ 5890  ./QE_file_prep_test.sh halite_test.in
+ 5891  vim out.in
+ 5892  vim QE_file_prep_test.sh
+ 5893  ./QE_file_prep_test.sh halite_test.in
+ 5894  vim out.in
+ 5895  vim QE_file_prep_test.sh
+ 5896  ls
+ 5897  ./QE_file_prep_test.sh halite_test.in
+ 5898  ls -a
+ 5899  rm out2.in
+ 5900  ./QE_file_prep_test.sh halite_test.in
+ 5901  ls -a
+ 5902  vim out.in
+ 5903  rm QE_file_prep.sh
+ 5904  mv QE_file_prep_test.sh QE_file_prep.sh
+ 5905  ls
+ 5906  rm halite_test.in
+ 5907  rm out.in
+ 5908  ./QE_file_prep.sh halite.in
+ 5909  vim out.in
+ 5910  vim QE_file_prep.sh
+ 5911  ls
+ 5912  rm halite.in
+ 5913  rm out.in
+ 5914  ls
+ 5915  cd ..
+ 5916  ls
+ 5917  cd ..
+ 5918  ls
+ 5919  cp Documents/scripts/QE_file_prep.sh Documents/workQE/halite/
+ 5920  ls
+ 5921  z halite
+ 5922  ls
+ 5923  rm halite.in
+ 5924  ./QE_file_prep.sh 9008678.cif
+ 5925  ms
+ 5926  ls
+ 5927  vim out.in
+ 5928  rm out.in
+ 5929  vim QE_file_prep.sh
+ 5930  ls
+ 5931  ./QE_file_prep.sh 9008678.cif
+ 5932  ls
+ 5933  vim out.in
+ 5934  sudo pacman -S sxiv
+ 5935  sudo pacman -R qiv
+ 5936  exot
+ 5937  exit
+ 5938  z 56
+ 5939  ls
+ 5940  python simple_hybrid.py
+ 5941  vim compare_both.py
+ 5942  exit
+ 5943  z script
+ 5944  ls
+ 5945  vim QE_file_prep.sh
+ 5946  z script
+ 5947  ls
+ 5948  cd
+ 5949  ls
+ 5950  cd ..
+ 5951  cd Documents
+ 5952  ls
+ 5953  cp scripts/QE_file_prep.sh workQE/halite
+ 5954  ls
+ 5955  z halite
+ 5956  ls
+ 5957  vim out.in
+ 5958  vim QE_file_prep.sh
+ 5959  ./QE_file_prep.sh 9008678.cif
+ 5960  vim out.in
+ 5961  cd ..
+ 5962  ls
+ 5963  cd scripts
+ 5964  ls
+ 5965  vim QE_file_prep.sh
+ 5966  z halite
+ 5967  ls
+ 5968  vim QE_file_prep.sh
+ 5969  ./QE_file_prep.sh 9008678.cif
+ 5970  vim 9008678.cif
+ 5971  rm 9008678.cif
+ 5972  get http://www.crystallography.net/cod/9008678.cif
+ 5973  wget http://www.crystallography.net/cod/9008678.cif
+ 5974  ls
+ 5975  vim QE_file_prep.sh
+ 5976  ./QE_file_prep.sh 9008678.cif output.in
+ 5977  vim output.in
+ 5978  ls
+ 5979  vim QE_file_prep.sh
+ 5980  rm out.in
+ 5981  rm output.in
+ 5982  ./QE_file_prep.sh 9008678.cif output.in
+ 5983  vim output.in
+ 5984  exit
+ 5985  z work
+ 5986  ls
+ 5987  cd halite
+ 5988  ls
+ 5989  vim QE_file_prep.sh
+ 5990  rm output.in
+ 5991  rm output.in 9008678.cif output.in
+ 5992  ls
+ 5993  vim QE_file_prep.sh
+ 5994  wget http://www.crystallography.net/cod/9008678.cif
+ 5995  ./QE_file_prep.sh 9008678.cif output.in
+ 5996  vim QE_file_prep.sh
+ 5997  ./QE_file_prep.sh 9008678.cif output.in
+ 5998  vim QE_file_prep.sh
+ 5999  ./QE_file_prep.sh 9008678.cif output.in
+ 6000  vim output.in
+ 6001  ls
+ 6002  rm output.in
+ 6003  ./QE_file_prep.sh 9008678.cif output.in
+ 6004  vim output.in
+ 6005  vim QE_file_prep.sh
+ 6006  vim output.in
+ 6007  exit
+ 6008  sudo pacman -R kitty
+ 6009  exit
+ 6010  cd Documents
+ 6011  ls
+ 6012  cp workQE/halite/QE_file_prep.sh scripts
+ 6013  vim scripts/QE_file_prep.sh
+ 6014  pass otp github/otp
+ 6015  pkill gpg
+ 6016  exit
+ 6017  z Fe
+ 6018  git pull
+ 6019  git log
+ 6020  exit
+ 6021  vim compare_both
+ 6022  vim compare_both.py
+ 6023  python compare_both.py
+ 6024  z nuradiomc
+ 6025  ls
+ 6026  vim radioproparaytracing.py
+ 6027  python compare_both.py
+ 6028  neofetch
+ 6029  exit
+ 6030  systemctl suspend
+ 6031  vim .config/bspwm/bspwmrc
+ 6032  ls .config/bspwm/bspwmrc
+ 6033  cat .config/bspwm/own_script_bspwm_laptop_dual_monitor
+ 6034  xrandr --output eDP1 --primary --mode 1920x1080 --rotate normal --output DP1 --mode 1920x1080 --rotate normal --right-of eDP1
+ 6035  sudo pacman -S jmol
+ 6036  pass otp github/otp
+ 6037  pass CompMatPhys/site
+ 6038  clear
+ 6039  cd Downloads/Jmol-14.32.77-binary/jmol-14.32.77
+ 6040  ls
+ 6041  chmod +x jmol.sh
+ 6042  ./jmol.sh
+ 6043  pass CompMatPhys/site
+ 6044  ls
+ 6045  cd Documents/workQE
+ 6046  ls
+ 6047  cd gdsgq
+ 6048  ls
+ 6049  vim P1-empty.rtf
+ 6050  mv P1-empty.rtf attempt.cif
+ 6051  vim attempt.cif
+ 6052  r
+ 6053  vim attempt.cif
+ 6054  R
+ 6055  r
+ 6056  R
+ 6057  sudo pacman -S r
+ 6058  r
+ 6059  sudo pacman -S r
+ 6060  r
+ 6061  sudo pacman -S r
+ 6062  clear
+ 6063  r
+ 6064  clear
+ 6065  R
+ 6066  exit
+ 6067  z workQE
+ 6068  ls
+ 6069  cd gdsgq
+ 6070  ls
+ 6071  vim jmol-5348.cif
+ 6072  vim attempt.cif
+ 6073  vim jmol-5348.cif
+ 6074  vim symm.cif
+ 6075  exit
+ 6076  sudo pacman -S xcrysden
+ 6077  sudo pacman -S XCrySDen
+ 6078  cd programs
+ 6079  ls
+ 6080  git clone https://aur.archlinux.org/xcrysden.git
+ 6081  cd xcrysden
+ 6082  makepkg
+ 6083  sudo pacman -S tk tcl tk-togl gl2ps bwidget
+ 6084  sudo pacman -S tk tcl gl2ps
+ 6085  makepkg
+ 6086  cd ..
+ 6087  git clone https://aur.archlinux.org/tk-togl.git
+ 6088  cd tk-togl
+ 6089  makepkg
+ 6090  ls
+ 6091  sudo pacman -U Togl2.0.tar.gz
+ 6092  cd ..
+ 6093  rm tk-togl
+ 6094  ls
+ 6095  rm -R tk-togl
+ 6096  cd ..
+ 6097  cd programs
+ 6098  ls
+ 6099  sudo pacman -S libtogl2 libfftw3-3
+ 6100  sudo pacman -S libtog
+ 6101  sudo pacman -S libtogl
+ 6102  ls
+ 6103  gunzip xcrysden
+ 6104  gunzip xcrysden-1.6.2.tar.gz
+ 6105  ls
+ 6106  tar -xyz xcrysden
+ 6107  tar -xyz xcrysden-1.6.2.tar
+ 6108  ls
+ 6109  man tar
+ 6110  tar --extract xcrysden-1.6.2.tar
+ 6111  tar -xvzf xcrysden-1.6.2.tar
+ 6112  sudo pacman -U xcrysden-1.6.2.tar.gz
+ 6113  z programs
+ 6114  ls
+ 6115  cd
+ 6116  cd programs
+ 6117  ls
+ 6118  tar -xvf xcrysden-1.6.2.tar.gz
+ 6119  ls
+ 6120  cd xcrysden-1.6.2
+ 6121  ls
+ 6122  vim README
+ 6123  ./xcrysden
+ 6124  vim README
+ 6125  ./xcrysden
+ 6126  ls
+ 6127  ./xcrysden
+ 6128  vim README
+ 6129  sudo pacman -S Togl
+ 6130  sudo pacman -S togl
+ 6131  ls
+ 6132  ./xcrysden
+ 6133  cd ..
+ 6134  ls
+ 6135  cd xcrysden
+ 6136  ls
+ 6137  cd ..
+ 6138  cd xcrysden-1.6.2
+ 6139  ls
+ 6140  vim README
+ 6141  ls
+ 6142  cd programs
+ 6143  ls
+ 6144  rm xcrysden
+ 6145  rm -R xcrysden
+ 6146  ls
+ 6147  rm xcrysden-1.6.2.tar
+ 6148  cd xcrysden-1.6.2
+ 6149  ls
+ 6150  cd sys
+ 6151  ls
+ 6152  cd system
+ 6153  ls
+ 6154  cd ..
+ 6155  cp system/Make.sys-shared Make.sys
+ 6156  vim Make.sys
+ 6157  make all
+ 6158  ls
+ 6159  z arthur
+ 6160  ls
+ 6161  cd
+ 6162  z github
+ 6163  cd ..
+ 6164  ls
+ 6165  ./xcrysden
+ 6166  ls
+ 6167  vim Make.sys
+ 6168  sudo pacman -S zlib
+ 6169  vim Make.sys
+ 6170  make all
+ 6171  pass CompMatPhys/site
+ 6172  sudo pacman -S zlib
+ 6173  sudo pacman -Syu
+ 6174  ls
+ 6175  make all
+ 6176  ls
+ 6177  cd Documents
+ 6178  ls
+ 6179  cd
+ 6180  ls
+ 6181  cd Documents/thesis
+ 6182  ls
+ 6183  cd programs
+ 6184  ls
+ 6185  sudo pacman -S zlib-devel
+ 6186  sudo pacman -S opengl
+ 6187  sudo pacman -S mesa
+ 6188  sudo pacman -S pkgconf
+ 6189  make all
+ 6190  ls
+ 6191  cd projects
+ 6192  ls
+ 6193  cd test
+ 6194  cd testhybrid
+ 6195  ls
+ 6196  vim compare_both
+ 6197  vim compare_both.py
+ 6198  python compare_both.py
+ 6199  ls
+ 6200  cd Documents/thesis/programs/projects
+ 6201  ls
+ 6202  cd testhybrid
+ 6203  ls
+ 6204  cd ..
+ 6205  cd 56GradenDetectie
+ 6206  ls
+ 6207  vim simple_hybrid.py
+ 6208  python simple_hybrid.py
+ 6209  z 56
+ 6210  ls
+ 6211  vim simple_propa.py
+ 6212  python simple_propa.py
+ 6213  z 56
+ 6214  ls
+ 6215  vim simple.py
+ 6216  python simple.py
+ 6217  ./xcrysden
+ 6218  ls
+ 6219  cd system
+ 6220  ls
+ 6221  vim README
+ 6222  sudo pacman -S libx11-dev
+ 6223  sudo pacman -S libxmu
+ 6224  sudo pacman -S libxmu-dev
+ 6225  sudo pacman -S tcl
+ 6226  sudo pacman -S tk
+ 6227  sudo pacman -S libglu1
+ 6228  sudo pacman -S libglu1-mesa-dev
+ 6229  sudo pacman -S libglu
+ 6230  sudo pacman -S libfftw
+ 6231  exit
+ 6232  cd ..
+ 6233  z nuradiomc
+ 6234  ls
+ 6235  vim radioproparaytracing.py
+ 6236  exit
+ 6237  cd ..
+ 6238  ls
+ 6239  tar zxvf xcrysden-1.6.2.tar.gz
+ 6240  ls
+ 6241  rm -R xcrysden-1.6.2
+ 6242  sudo rm -R xcrysden-1.6.2
+ 6243  tar zxvf xcrysden-1.6.2.tar.gz
+ 6244  ls
+ 6245  cd xcrysden-1.6.2
+ 6246  ./xcrysden
+ 6247  cp system/Make.sys-shared Make.sys
+ 6248  make all
+ 6249  vim Make.sys
+ 6250  make all
+ 6251  python simple_hybrid.py
+ 6252  ls
+ 6253  vim Makefile
+ 6254  cd ..
+ 6255  python simple_hybrid.py
+ 6256  ls
+ 6257  sudo rm -R xcrysden-1.6.2
+ 6258  sudo rm xcrysden-1.6.2.tar.gz
+ 6259  ls
+ 6260  tar zxvf xcrysden-1.6.2-linux_x86_64-shared.tar.gz
+ 6261  ls
+ 6262  cd xcrysden-1.6.2-bin-shared
+ 6263  ls
+ 6264  ./xcrysden
+ 6265  cd ..
+ 6266  git clone https://aur.archlinux.org/tk-togl.git
+ 6267  cd tk-togl
+ 6268  makepkg
+ 6269  cd ..
+ 6270  rm -R tk-togl
+ 6271  ls
+ 6272  rm -R xcrysden-1.6.2-bin-shared
+ 6273  rm xcrysden-1.6.2-linux_x86_64-shared.tar.gz
+ 6274  sudo pacman -Rs $ (pacman -Qtdq)
+ 6275  sudo pacman -Rs $(pacman -Qtdq)
+ 6276  exit
+ 6277  python simple_hybrid.py
+ 6278  z 56
+ 6279  ls
+ 6280  vim simple_hybrid.py
+ 6281  python simple_hybrid.py
+ 6282  vim simple_hybrid.py
+ 6283  python simple_hybrid.py
+ 6284  ls
+ 6285  vim simple.py
+ 6286  z 56
+ 6287  ls
+ 6288  vim simple_hybrid.py
+ 6289  exit
+ 6290  vim simple_propa.py
+ 6291  :q
+ 6292  exit
+ 6293  python simple_propa.py
+ 6294  python simple.py
+ 6295  ls
+ 6296  mv radioproparaytracing.py radioproparaytracing_backup.py
+ 6297  cp radioproparaytracing_backup.py radioproparaytracing.py
+ 6298  vim radioproparaytracing
+ 6299  vim radioproparaytracing.py
+ 6300  python simple_hybrid.py
+ 6301  rm radioproparaytracing.py
+ 6302  mv radioproparaytracing_backup.py radioproparaytracing.py
+ 6303  ls
+ 6304  vim radioproparaytracing.py
+ 6305  python simple_hybrid.py
+ 6306  ls
+ 6307  git clone https://github.com/arthuradriaens-code/Scripts.git
+ 6308  cd Scripts
+ 6309  ls
+ 6310  cd webcam
+ 6311  chmod +x webcam.sh
+ 6312  ./webcam.sh
+ 6313  sudo pacman -S mpv
+ 6314  ./webcam.sh
+ 6315  exit
+ 6316  z radiopropa
+ 6317  ls
+ 6318  cd python
+ 6319  ls
+ 6320  cd radiopropa
+ 6321  ls
+ 6322  vim __init__.py
+ 6323  cd ..
+ 6324  ls
+ 6325  vim radiopropa.i
+ 6326  python simple_hybrid.py
+ 6327  z nuradiomc
+ 6328  ls
+ 6329  vim radioproparaytracing.py
+ 6330  python simple_hybrid.py
+ 6331  systemctl suspend
+ 6332  clear
+ 6333  ls
+ 6334  z radiopropa
+ 6335  ls
+ 6336  z nuradiomc
+ 6337  ls
+ 6338  vim radioproparaytracing.py
+ 6339  exit
+ 6340  python simple_hybrid.py
+ 6341  ls
+ 6342  z 56
+ 6343  ls
+ 6344  vim simple_minimizer.py
+ 6345  vim simple_hybrid.py
+ 6346  python simple_minimizer.py
+ 6347  exit
+ 6348  vim simple_minimizer.py
+ 6349  python simple_minimizer.py
+ 6350  python simple_hybrid.py
+ 6351  z radiopropa
+ 6352  ls
+ 6353  cd python
+ 6354  ls
+ 6355  vim radiopropa.i
+ 6356  vim radiopropa-builtin.i
+ 6357  cd radiopropa
+ 6358  ls
+ 6359  cd ..
+ 6360  vim 1_swig.i
+ 6361  vim 2_headers.i
+ 6362  ls
+ 6363  cd ..
+ 6364  ls
+ 6365  cd src
+ 6366  ls
+ 6367  cd module
+ 6368  ls
+ 6369  vim Observer.cpp
+ 6370  python simple_hybrid.py
+ 6371  exit
+ 6372  git add .
+ 6373  git commit -m "fixed time bug"
+ 6374  git push
+ 6375  exit
+ 6376  python compare_both.py
+ 6377  ls
+ 6378  vim compare_both.py
+ 6379  python compare_both.py
+ 6380  exit
+ 6381  z journal
+ 6382  ls
+ 6383  vim journal.tex
+ 6384  z nuradiomc
+ 6385  ls
+ 6386  vim radioproparaytracing.py
+ 6387  vim compare_both.py
+ 6388  python compare_both.py
+ 6389  z Fe
+ 6390  ls
+ 6391  git pull
+ 6392  ls
+ 6393  mkdir project
+ 6394  cd project
+ 6395  ls
+ 6396  vim README.md
+ 6397  python compare_both.py
+ 6398  pass CompMatPhys/site
+ 6399  python compare_both.py
+ 6400  vim compare_both
+ 6401  vim compare_both.py
+ 6402  python compare_both.py
+ 6403  vim compare_both.py
+ 6404  python compare_both.py
+ 6405  vim compare_both.py
+ 6406  python compare_both
+ 6407  python compare_both.py
+ 6408  git add .
+ 6409  git commit -m "jeej it works"
+ 6410  git push
+ 6411  pass insert overleaf
+ 6412  pass overleaf
+ 6413  exit
+ 6414  z fe
+ 6415  ls
+ 6416  vim README.md
+ 6417  pass CompMatPhys/site
+ 6418  sudo pacman -Syu
+ 6419  exit
+ 6420  ls
+ 6421  cd Scripts
+ 6422  ls
+ 6423  cd
+ 6424  cp Documents/scripts/* Scripts
+ 6425  rm -R Documents/scripts
+ 6426  cd Scripts
+ 6427  ls
+ 6428  mkdir conversion
+ 6429  mv excel.sh conversion
+ 6430  mkdir QuantEspr
+ 6431  mv QE_file_prep.sh QuantEspr
+ 6432  cd ..
+ 6433  vim .zshrc
+ 6434  vim .zprofile
+ 6435  vim .zshrc
+ 6436  alias
+ 6437  alias | grep "git commit -m"
+ 6438  alias | grep "git push"
+ 6439  alias | grep "git add ."
+ 6440  alias | grep "git add"
+ 6441  ls
+ 6442  l
+ 6443  echo $ZSH
+ 6444  vim /home/arthur/.oh-my-zsh/custom
+ 6445  thesis
+ 6446  z thesis
+ 6447  cd ..
+ 6448  ls
+ 6449  cd ..
+ 6450  ls
+ 6451  cd ..
+ 6452  ls
+ 6453  cd master-thesis
+ 6454  ls
+ 6455  pwd
+ 6456  vim .zprofile
+ 6457  vim .zshrc
+ 6458  cd Scripts
+ 6459  ls
+ 6460  cd QuantEspr
+ 6461  ls
+ 6462  pwd
+ 6463  exit
+ 6464  cd
+ 6465  exit
+ 6466  ls
+ 6467  z fe
+ 6468  ls
+ 6469  cd convergence_testing
+ 6470  ls
+ 6471  qeconvert 4113936.cif Fe.in
+ 6472  ls
+ 6473  vim Fe.in
+ 6474  exit
+ 6475  pass CompMatPhys/site
+ 6476  pkill gpg
+ 6477  pass CompMatPhys/site
+ 6478  exit
+ 6479  man zathurarc
+ 6480  echo $XDG_CONFIG_HOME
+ 6481  man zathurarc
+ 6482  exit
+ 6483  ls
+ 6484  cd
+ 6485  cp Documents/workQE/SSSP_Pseudos/Fe.pbe-spn-kjpaw_psl.0.2.1.UPF Documents/Fe-Si/project/convergence_testing/
+ 6486  z conv
+ 6487  ls
+ 6488  vim Fe.in
+ 6489  vim Fe.pbe-spn-kjpaw_psl.0.2.1.UPF
+ 6490  vim Fe.in
+ 6491  ls
+ 6492  z fe
+ 6493  ls
+ 6494  cd convergence_testing
+ 6495  ls
+ 6496  vim Fe.pbe-spn-kjpaw_psl.0.2.1.UPF
+ 6497* vim README.md
+ 6498* ls
+ 6499* cd ..
+ 6500* ls
+ 6501* cd p
+ 6502* ls
+ 6503* cd paper
+ 6504* ls
+ 6505* vim paper.tex
+ 6506* z paper
+ 6507* ls
+ 6508* vim sources.bib
+ 6509* cd Downloads
+ 6510* ls
+ 6511* vim csp_351_.bib
+ 6512* exit
+ 6513* cd Downloads
+ 6514* ls
+ 6515* vim 10.1038_s41524-018-0127-2-citation.ris
+ 6516* exit
+ 6517* z paper
+ 6518* ls
+ 6519* vim sources.bib
+ 6520* exit
+ 6521* z fe-si
+ 6522* ls
+ 6523* mv paper paper_old
+ 6524* mkdir paper
+ 6525* cd paper
+ 6526* ls
+ 6527* vim paper.tex
+ 6528* ls
+ 6529* vim paper.tex
+ 6530* exit
+ 6531* ls
+ 6532* vim paper.tex
+ 6533* ls
+ 6534* vim Documents
+ 6535* z fe-si
+ 6536* ls
+ 6537* cd paper_old
+ 6538* ls
+ 6539* vim paper.tex
+ 6540* exit
+ 6541* vim paper.tex
+ 6542* cd ..
+ 6543* ls
+ 6544* cd paper_old
+ 6545* ls
+ 6546* vim paper.tex
+ 6547* cd ..
+ 6548* cd paper/
+ 6549* ls
+ 6550* vim paper.tex
+ 6551* ls
+ 6552* vim paper.tex
+ 6553* vim /usr/bin/xdg-open
+ 6554* xdg-mime
+ 6555* xdg-mime query filetype foo.pdf
+ 6556* z fe-si
+ 6557* ls
+ 6558* xdg-mime query filetype 2022-2023-project-1-FeSi-1.pdf
+ 6559* xdg-mime default zathura.desktop application/pdf
+ 6560* locate -i zathura.desktop
+ 6561* xdg-mime query default application/pdf
+ 6562* locate
+ 6563* ls /bin
+ 6564* ls /bin | grep zathura
+ 6565* ls  /bin/zathura
+ 6566* xdg-mime default /bin/zathura application/pdf
+ 6567* ls  /usr/share/applications
+ 6568* ls  /usr/share/applications | grep zathrua
+ 6569* ls  /usr/share/applications | grep zath
+ 6570* xdg-mime default org.pwmt.zathura-pdf-poppler.desktop application/pdf
+ 6571* xdg-mime query default application/pdf
+ 6572* exit
+ 6573* pw.x -input Fe.in Fe.out
+ 6574* ls  /usr/share/applications | grep vim
+ 6575* cd Downloads
+ 6576* ls
+ 6577* xdg-mime query filetype IOPEXPORT_BIB.bib
+ 6578* vim IOPEXPORT_BIB.bib
+ 6579* ls
+ 6580* z fe
+ 6581* ls
+ 6582* rm -R paper_old
+ 6583* ls
+ 6584* cd paper
+ 6585* ls
+ 6586* vim paper.tex
+ 6587* vim sources.bib
+ 6588* exit
+ 6589* cd Downloads
+ 6590* ls
+ 6591* vim IOPEXPORT_BIB.bib
+ 6592* cd
+ 6593* ls
+ 6594* z paper
+ 6595* ls
+ 6596* vim sources.bib
+ 6597* exit
+ 6598* ls
+ 6599* vim CRASH
+ 6600* vim Fe.in
+ 6601* pw.x -input Fe.in Fe.out
+ 6602* ls
+ 6603* vim Fe.in
+ 6604* pw.x -input Fe.in Fe.out
+ 6605* R
+ 6606* ls
+ 6607* vim file.save
+ 6608* pw.x -input Fe.in > Fe.out
+ 6609* vim Fe.out
+ 6610* vim Fe.in
+ 6611* pw.x -input Fe.in > Fe.out
+ 6612* ls
+ 6613* vim Fe.out
+ 6614* vim Fe.in
+ 6615* pw.x -input Fe.in > Fe.out
+ 6616* vim Fe.out
+ 6617* vim Fe.in
+ 6618* pw.x -input Fe.in > Fe.out
+ 6619* vim Fe.out
+ 6620* vim Fe.in
+ 6621* pw.x -input Fe.in > Fe.out
+ 6622* vim Fe.in
+ 6623* vim Fe.out
+ 6624* vim Fe.in
+ 6625* pw.x -input Fe.in > Fe.out
+ 6626* vim Fe.out
+ 6627* vim Fe.in
+ 6628* pw.x -input Fe.in > Fe.out
+ 6629* vim Fe.out
+ 6630* vim Fe.in
+ 6631* z fe
+ 6632* ls
+ 6633* cd project
+ 6634* ls
+ 6635* cd convergence_testing
+ 6636* ls
+ 6637* cd
+ 6638* ls
+ 6639* vim Fe_ecutwfc64_ecutrho782
+ 6640* mv Fe_ecutwfc64_ecutrho782 Documents/Fe-Si/project/convergence_testing
+ 6641* ls
+ 6642* z conv
+ 6643* ls
+ 6644* mv Fe_ecutwfc64_ecutrho782 Fe_ecutwfc64_ecutrho782.csv
+ 6645* vim Fe.in
+ 6646* pw.x -input Fe.in > Fe.out
+ 6647* vim Fe.out
+ 6648* vim Fe.in
+ 6649* pw.x -input Fe.in > Fe.out
+ 6650* vim Fe.out
+ 6651* vim Fe.in
+ 6652* pw.x -input Fe.in > Fe.out
+ 6653* vim Fe.out
+ 6654* cd
+ 6655* mv Fe_ecutwfc64_ecutrho782 Documents/Fe-Si/project/convergence_testing/Fe_ecutwfc64_ecutrho782.csv
+ 6656* vim Documents/Fe-Si/project/convergence_testing/Fe_ecutwfc64_ecutrho782.csv
+ 6657* ls
+ 6658* z conv
+ 6659* ls
+ 6660* vim Fe.pbe-spn-kjpaw_psl.0.2.1.UPF
+ 6661* ls
+ 6662* vim Fe.in
+ 6663* z conv
+ 6664* ls
+ 6665* cd ..
+ 6666* ls
+ 6667* cd ..
+ 6668* ls
+ 6669* cp project/convergence_testing/Fe_ecutwfc64_ecutrho782.csv paper/
+ 6670* cd paper
+ 6671* ls
+ 6672* vim Fe_ecutwfc64_ecutrho782.csv
+ 6673* exit
+ 6674* vim Fe.out
+ 6675* r
+ 6676* vim Fe.out
+ 6677* r
+ 6678* vim Fe.out
+ 6679* clear
+ 6680* r
+ 6681* clear
+ 6682* R
+ 6683* vim Fe.in
+ 6684* pw.x -input Fe.in > Fe.out
+ 6685* vim Fe.in
+ 6686* vim Fe.out
+ 6687* vim Fe.in
+ 6688* pw.x -input Fe.in > Fe.out
+ 6689* vim Fe.out
+ 6690* vim Fe.in
+ 6691* pw.x -input Fe.in > Fe.out
+ 6692* ls
+ 6693* vim Fe.out
+ 6694* vim Fe.in
+ 6695* pw.x -input --mca opal_warn_on_missing_libcuda 0 Fe.in > Fe.out
+ 6696* pw.x -input Fe.in > Fe.out
+ 6697* vim Fe.out
+ 6698* vim Fe.in
+ 6699* pw.x -input Fe.in > Fe.out
+ 6700* vim Fe.out
+ 6701* vim Fe.in
+ 6702* pw.x -input Fe.in > Fe.out
+ 6703* vim Fe.out
+ 6704* vim Fe.in
+ 6705* pw.x -input Fe.in > Fe.out
+ 6706* vim Fe.out
+ 6707* ls
+ 6708* rm Fe_k_11_11_11
+ 6709* mv Fe_k_11_11_11.csv Documents/Fe-Si/project/convergence_testing
+ 6710* z conv
+ 6711* ls
+ 6712* cd ..
+ 6713* ls
+ 6714* cd ..
+ 6715* ls
+ 6716* cp project/convergence_testing/Fe_k_11_11_11.csv paper
+ 6717* cd paper
+ 6718* ls
+ 6719* vim Fe_k_11_11_11.csv
+ 6720* vim Fe.in
+ 6721  ls
+ 6722  pw.x -input Fe.in > Fe.out
+ 6723* z conv
+ 6724* ls
+ 6725* vim Fe.out
+ 6726  pw.x -input Fe.in > Fe.out
+ 6727* vim Fe.out
+ 6728  pw.x -input Fe.in > Fe.out
+ 6729* vim Fe.out
+ 6730  pw.x -input Fe.in > Fe.out
+ 6731* vim Fe.out
+ 6732  pw.x -input Fe.in > Fe.out
+ 6733* vim Fe.out
+ 6734* cd
+ 6735* mv Fe_factor.csv Documents/Fe-Si/project/convergence_testing
+ 6736* z fe
+ 6737* cp project/convergence_testing/Fe_factor.csv paper
+ 6738* cd paper
+ 6739* ls
+ 6740* vim Fe_factor.csv
+ 6741* exit
+ 6742* ls
+ 6743* cd Scripts
+ 6744* ls
+ 6745* clear
+ 6746* ls
+ 6747* mkdir commands
+ 6748* cd commands
+ 6749* ls
+ 6750* vim ChangeDefaultProgram.txt
+ 6751* mv ChangeDefaultProgram.txt ChangeDefaultProgram
+ 6752* vim ChangeDefaultProgram
+ 6753* history | grep xdg
+ 6754* z figures
+ 6755* z paper
+ 6756* ls
+ 6757* cd figures
+ 6758* ls
+ 6759* clear
+ 6760* xdg-mime query filetype bcc-iron.jpg
+ 6761* xdg-mime query default image/jpeg
+ 6762* ls /usr/share/applications | grep sxiv
+ 6763* exit
+ 6764* cd Scripts
+ 6765* ls
+ 6766* cd commands
+ 6767* ls
+ 6768* vim ChangeDefaultProgram
+ 6769* xdg-mime default sxiv.desktop image/jpeg
+ 6770* exit
+ 6771* cd ..
+ 6772* git add .
+ 6773* git commit -m "added buncha stuff"
+ 6774* git push
+ 6775* exit
+ 6776* z script
+ 6777* ls
+ 6778* git push
+ 6779* cd ..
+ 6780* ls
+ 6781* git add .
+ 6782* git commit -m "change to better paper.tex format, also added readme and did convergence testing"
+ 6783* git push
+ 6784* git push --force
+ 6785* ls
+ 6786* cd project
+ 6787* ls
+ 6788* vim README.md
+ 6789* mv README.md
+ 6790* vim README.md
+ 6791* git add .
+ 6792* git commit -m "make log more readable"
+ 6793* git push
+ 6794* vim README.md
+ 6795* git add .
+ 6796* git commit -m "more to log"
+ 6797* git push
+ 6798* cd ..
+ 6799* cd paper
+ 6800* ls
+ 6801* vim paper.tex
+ 6802* ls
+ 6803* cd ..
+ 6804* cd Scripts
+ 6805* git url set origin git@github.com:arthuradriaens-code/Scripts.git
+ 6806* git set url git@github.com:arthuradriaens-code/Scripts.git
+ 6807* man git
+ 6808* git remote set-url origin git@github.com:arthuradriaens-code/Scripts.git
+ 6809* git push
+ 6810* z paper
+ 6811* cd figures
+ 6812* convert bcc-iron.jpg -alpha off -fuzz 10% -fill none -draw "matte 0,0 floodfill"  \\n\( +clone -alpha extract -blur 0x2 -level 50x100% \) \\n-alpha off -compose copy_opacity -composite \\nbcc-iron_test.jpg
+ 6813* convert bcc-iron.jpg -fuzz 5% -fill none -draw 'matte 0,0 floodfill' ObjectOnTransparent.jpg
+ 6814* cd Scripts
+ 6815* ls
+ 6816* cd conversion
+ 6817* ls
+ 6818* vim images
+ 6819* ls
+ 6820* cd Documents/Fe-Si/paper/figures
+ 6821* ls
+ 6822* convert -transparent black -fuzz 10% bcc-iron.jpg test.jpg
+ 6823* convert -transparent black -fuzz 90% bcc-iron.jpg test.jpg
+ 6824* convert -trim bcc-iron.png test.png
+ 6825* mv test.png bcc-iron.png
+ 6826* exit
+ 6827* ls
+ 6828* vim 4113936.cif
+ 6829* ls
+ 6830* vim 9015110.cif
+ 6831* cd ..
+ 6832* git add .
+ 6833* git commit -m "added figures and wrote about Fe3Si"
+ 6834* git push
+ 6835* cd paper
+ 6836* ls
+ 6837* vim paper.tex
+ 6838* ls
+ 6839* vim Fe.in
+ 6840  ls
+ 6841  vim Fe.pbe-spn-kjpaw_psl.0.2.1.UPF
+ 6842* history |grep Fe.in
+ 6843* pw.x -input Fe.in > Fe.out
+ 6844* vim Fe.out
+ 6845* vim Fe.in
+ 6846* pw.x -input Fe.in > Fe.out
+ 6847* vim Fe.out
+ 6848* vim Fe.in
