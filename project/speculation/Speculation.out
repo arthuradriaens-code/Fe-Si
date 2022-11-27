@@ -1,0 +1,277 @@
+
+     Program PWSCF v.7.1 starts on 27Nov2022 at  0:57:23 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+     9370 MiB available memory on the printing compute node when the environment starts
+ 
+     Waiting for input...
+     Reading input from standard input
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  4
+     file Fe.pbe-spn-kjpaw_psl.0.2.1.UPF: wavefunction(s)  3D renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+     Message from routine setup:
+     using ibrav=0 with symmetry is DISCOURAGED, use correct ibrav instead
+ 
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     a serial algorithm will be used
+
+ 
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum       15685    7825   2077              1480425   523155   71015
+ 
+     Using Slab Decomposition
+ 
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      10.6864  a.u.
+     unit-cell volume          =    9763.0253 (a.u.)^3
+     number of atoms/cell      =          128
+     number of atomic types    =            2
+     number of electrons       =      1856.00
+     number of Kohn-Sham states=         1114
+     kinetic-energy cutoff     =      54.0000  Ry
+     charge density cutoff     =     432.0000  Ry
+     scf convergence threshold =      1.0E-08
+     mixing beta               =       0.7000
+     number of iterations used =            8  plain     mixing
+     energy convergence thresh.=      1.0E-04
+     force convergence thresh. =      1.0E-03
+     press convergence thresh. =      5.0E-01
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     nstep                     =           50
+
+
+     GPU acceleration is ACTIVE.
+
+
+     celldm(1)=  10.686401  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   2.000000   0.000000   0.000000 )  
+               a(2) = (   0.000000   2.000000   0.000000 )  
+               a(3) = (   0.000000   0.000000   2.000000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  0.500000  0.000000  0.000000 )  
+               b(2) = (  0.000000  0.500000  0.000000 )  
+               b(3) = (  0.000000  0.000000  0.500000 )  
+
+
+     PseudoPot. # 1 for Si read from file:
+     ./Si.pbe-n-rrkjus_psl.1.0.0.UPF
+     MD5 check sum: 0b0bb1205258b0d07b9f9672cf965d36
+     Pseudo is Ultrasoft + core correction, Zval =  4.0
+     Generated using "atomic" code by A. Dal Corso  v.5.1
+     Using radial grid of 1141 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for Fe read from file:
+     ./Fe.pbe-spn-kjpaw_psl.0.2.1.UPF
+     MD5 check sum: e86618425769142926afa95317d90200
+     Pseudo is Projector augmented-wave + core cor, Zval = 16.0
+     Generated using "atomic" code by A. Dal Corso  v.5.0.99 svn rev. 10869
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1191 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     atomic species   valence    mass     pseudopotential
+        Si             4.00    28.08500     Si( 1.00)
+        Fe            16.00    55.84500     Fe( 1.00)
+
+     Starting magnetic structure 
+     atomic species   magnetization
+        Si           1.000
+        Fe           1.000
+
+     24 Sym. Ops. (no inversion) found (22 have fractional translation)
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           Fe  tau(   1) = (   0.5000000   0.5000000   0.5000000  )
+         2           Fe  tau(   2) = (   0.5000000   1.0000000   1.0000000  )
+         3           Fe  tau(   3) = (   1.0000000   0.5000000   1.0000000  )
+         4           Fe  tau(   4) = (   1.0000000   1.0000000   0.5000000  )
+         5           Fe  tau(   5) = (   0.2500000   0.2500000   0.2500000  )
+         6           Fe  tau(   6) = (   0.2500000   0.7500000   0.7500000  )
+         7           Fe  tau(   7) = (   0.7500000   0.2500000   0.7500000  )
+         8           Fe  tau(   8) = (   0.7500000   0.7500000   0.2500000  )
+         9           Fe  tau(   9) = (   0.7500000   0.7500000   0.7500000  )
+        10           Fe  tau(  10) = (   0.7500000   0.2500000   0.2500000  )
+        11           Fe  tau(  11) = (   0.2500000   0.7500000   0.2500000  )
+        12           Fe  tau(  12) = (   0.2500000   0.2500000   0.7500000  )
+        13           Fe  tau(  13) = (   0.0000000   0.0000000   0.0000000  )
+        14           Fe  tau(  14) = (   0.0000000   0.5000000   0.5000000  )
+        15           Fe  tau(  15) = (   0.5000000   0.0000000   0.5000000  )
+        16           Fe  tau(  16) = (   0.5000000   0.5000000   0.0000000  )
+        17           Fe  tau(  17) = (   1.5000000   0.5000000   0.5000000  )
+        18           Fe  tau(  18) = (   1.5000000   1.0000000   1.0000000  )
+        19           Fe  tau(  19) = (   2.0000000   0.5000000   1.0000000  )
+        20           Fe  tau(  20) = (   2.0000000   1.0000000   0.5000000  )
+        21           Fe  tau(  21) = (   1.2500000   0.2500000   0.2500000  )
+        22           Fe  tau(  22) = (   1.2500000   0.7500000   0.7500000  )
+        23           Fe  tau(  23) = (   1.7500000   0.2500000   0.7500000  )
+        24           Fe  tau(  24) = (   1.7500000   0.7500000   0.2500000  )
+        25           Fe  tau(  25) = (   1.7500000   0.7500000   0.7500000  )
+        26           Fe  tau(  26) = (   1.7500000   0.2500000   0.2500000  )
+        27           Fe  tau(  27) = (   1.2500000   0.7500000   0.2500000  )
+        28           Fe  tau(  28) = (   1.2500000   0.2500000   0.7500000  )
+        29           Si  tau(  29) = (   1.0000000   0.0000000   0.0000000  )
+        30           Si  tau(  30) = (   1.0000000   0.5000000   0.5000000  )
+        31           Si  tau(  31) = (   1.5000000   0.0000000   0.5000000  )
+        32           Si  tau(  32) = (   1.5000000   0.5000000   0.0000000  )
+        33           Fe  tau(  33) = (   0.5000000   1.5000000   0.5000000  )
+        34           Fe  tau(  34) = (   0.5000000   2.0000000   1.0000000  )
+        35           Fe  tau(  35) = (   1.0000000   1.5000000   1.0000000  )
+        36           Fe  tau(  36) = (   1.0000000   2.0000000   0.5000000  )
+        37           Fe  tau(  37) = (   0.2500000   1.2500000   0.2500000  )
+        38           Fe  tau(  38) = (   0.2500000   1.7500000   0.7500000  )
+        39           Fe  tau(  39) = (   0.7500000   1.2500000   0.7500000  )
+        40           Fe  tau(  40) = (   0.7500000   1.7500000   0.2500000  )
+        41           Fe  tau(  41) = (   0.7500000   1.7500000   0.7500000  )
+        42           Fe  tau(  42) = (   0.7500000   1.2500000   0.2500000  )
+        43           Fe  tau(  43) = (   0.2500000   1.7500000   0.2500000  )
+        44           Fe  tau(  44) = (   0.2500000   1.2500000   0.7500000  )
+        45           Fe  tau(  45) = (   0.0000000   1.0000000   0.0000000  )
+        46           Fe  tau(  46) = (   0.0000000   1.5000000   0.5000000  )
+        47           Fe  tau(  47) = (   0.5000000   1.0000000   0.5000000  )
+        48           Fe  tau(  48) = (   0.5000000   1.5000000   0.0000000  )
+        49           Fe  tau(  49) = (   1.5000000   1.5000000   0.5000000  )
+        50           Fe  tau(  50) = (   1.5000000   2.0000000   1.0000000  )
+        51           Fe  tau(  51) = (   2.0000000   1.5000000   1.0000000  )
+        52           Fe  tau(  52) = (   2.0000000   2.0000000   0.5000000  )
+        53           Fe  tau(  53) = (   1.2500000   1.2500000   0.2500000  )
+        54           Fe  tau(  54) = (   1.2500000   1.7500000   0.7500000  )
+        55           Fe  tau(  55) = (   1.7500000   1.2500000   0.7500000  )
+        56           Fe  tau(  56) = (   1.7500000   1.7500000   0.2500000  )
+        57           Fe  tau(  57) = (   1.7500000   1.7500000   0.7500000  )
+        58           Fe  tau(  58) = (   1.7500000   1.2500000   0.2500000  )
+        59           Fe  tau(  59) = (   1.2500000   1.7500000   0.2500000  )
+        60           Fe  tau(  60) = (   1.2500000   1.2500000   0.7500000  )
+        61           Fe  tau(  61) = (   1.0000000   1.0000000   0.0000000  )
+        62           Fe  tau(  62) = (   1.0000000   1.5000000   0.5000000  )
+        63           Fe  tau(  63) = (   1.5000000   1.0000000   0.5000000  )
+        64           Fe  tau(  64) = (   1.5000000   1.5000000   0.0000000  )
+        65           Fe  tau(  65) = (   0.5000000   0.5000000   1.5000000  )
+        66           Fe  tau(  66) = (   0.5000000   1.0000000   2.0000000  )
+        67           Fe  tau(  67) = (   1.0000000   0.5000000   2.0000000  )
+        68           Fe  tau(  68) = (   1.0000000   1.0000000   1.5000000  )
+        69           Fe  tau(  69) = (   0.2500000   0.2500000   1.2500000  )
+        70           Fe  tau(  70) = (   0.2500000   0.7500000   1.7500000  )
+        71           Fe  tau(  71) = (   0.7500000   0.2500000   1.7500000  )
+        72           Fe  tau(  72) = (   0.7500000   0.7500000   1.2500000  )
+        73           Fe  tau(  73) = (   0.7500000   0.7500000   1.7500000  )
+        74           Fe  tau(  74) = (   0.7500000   0.2500000   1.2500000  )
+        75           Fe  tau(  75) = (   0.2500000   0.7500000   1.2500000  )
+        76           Fe  tau(  76) = (   0.2500000   0.2500000   1.7500000  )
+        77           Si  tau(  77) = (   0.0000000   0.0000000   1.0000000  )
+        78           Si  tau(  78) = (   0.0000000   0.5000000   1.5000000  )
+        79           Si  tau(  79) = (   0.5000000   0.0000000   1.5000000  )
+        80           Si  tau(  80) = (   0.5000000   0.5000000   1.0000000  )
+        81           Fe  tau(  81) = (   1.5000000   0.5000000   1.5000000  )
+        82           Fe  tau(  82) = (   1.5000000   1.0000000   2.0000000  )
+        83           Fe  tau(  83) = (   2.0000000   0.5000000   2.0000000  )
+        84           Fe  tau(  84) = (   2.0000000   1.0000000   1.5000000  )
+        85           Fe  tau(  85) = (   1.2500000   0.2500000   1.2500000  )
+        86           Fe  tau(  86) = (   1.2500000   0.7500000   1.7500000  )
+        87           Fe  tau(  87) = (   1.7500000   0.2500000   1.7500000  )
+        88           Fe  tau(  88) = (   1.7500000   0.7500000   1.2500000  )
+        89           Fe  tau(  89) = (   1.7500000   0.7500000   1.7500000  )
+        90           Fe  tau(  90) = (   1.7500000   0.2500000   1.2500000  )
+        91           Fe  tau(  91) = (   1.2500000   0.7500000   1.2500000  )
+        92           Fe  tau(  92) = (   1.2500000   0.2500000   1.7500000  )
+        93           Si  tau(  93) = (   1.0000000   0.0000000   1.0000000  )
+        94           Si  tau(  94) = (   1.0000000   0.5000000   1.5000000  )
+        95           Si  tau(  95) = (   1.5000000   0.0000000   1.5000000  )
+        96           Si  tau(  96) = (   1.5000000   0.5000000   1.0000000  )
+        97           Fe  tau(  97) = (   0.5000000   1.5000000   1.5000000  )
+        98           Fe  tau(  98) = (   0.5000000   2.0000000   2.0000000  )
+        99           Fe  tau(  99) = (   1.0000000   1.5000000   2.0000000  )
+       100           Fe  tau( 100) = (   1.0000000   2.0000000   1.5000000  )
+       101           Fe  tau( 101) = (   0.2500000   1.2500000   1.2500000  )
+       102           Fe  tau( 102) = (   0.2500000   1.7500000   1.7500000  )
+       103           Fe  tau( 103) = (   0.7500000   1.2500000   1.7500000  )
+       104           Fe  tau( 104) = (   0.7500000   1.7500000   1.2500000  )
+       105           Fe  tau( 105) = (   0.7500000   1.7500000   1.7500000  )
+       106           Fe  tau( 106) = (   0.7500000   1.2500000   1.2500000  )
+       107           Fe  tau( 107) = (   0.2500000   1.7500000   1.2500000  )
+       108           Fe  tau( 108) = (   0.2500000   1.2500000   1.7500000  )
+       109           Fe  tau( 109) = (   0.0000000   1.0000000   1.0000000  )
+       110           Fe  tau( 110) = (   0.0000000   1.5000000   1.5000000  )
+       111           Fe  tau( 111) = (   0.5000000   1.0000000   1.5000000  )
+       112           Fe  tau( 112) = (   0.5000000   1.5000000   1.0000000  )
+       113           Fe  tau( 113) = (   1.5000000   1.5000000   1.5000000  )
+       114           Fe  tau( 114) = (   1.5000000   2.0000000   2.0000000  )
+       115           Fe  tau( 115) = (   2.0000000   1.5000000   2.0000000  )
+       116           Fe  tau( 116) = (   2.0000000   2.0000000   1.5000000  )
+       117           Fe  tau( 117) = (   1.2500000   1.2500000   1.2500000  )
+       118           Fe  tau( 118) = (   1.2500000   1.7500000   1.7500000  )
+       119           Fe  tau( 119) = (   1.7500000   1.2500000   1.7500000  )
+       120           Fe  tau( 120) = (   1.7500000   1.7500000   1.2500000  )
+       121           Fe  tau( 121) = (   1.7500000   1.7500000   1.7500000  )
+       122           Fe  tau( 122) = (   1.7500000   1.2500000   1.2500000  )
+       123           Fe  tau( 123) = (   1.2500000   1.7500000   1.2500000  )
+       124           Fe  tau( 124) = (   1.2500000   1.2500000   1.7500000  )
+       125           Si  tau( 125) = (   1.0000000   1.0000000   1.0000000  )
+       126           Si  tau( 126) = (   1.0000000   1.5000000   1.5000000  )
+       127           Si  tau( 127) = (   1.5000000   1.0000000   1.5000000  )
+       128           Si  tau( 128) = (   1.5000000   1.5000000   1.0000000  )
+
+     number of k points=    10  Marzari-Vanderbilt smearing, width (Ry)=  0.0050
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0080000
+        k(    2) = (   0.0000000   0.0000000   0.1000000), wk =   0.0480000
+        k(    3) = (   0.0000000   0.0000000   0.2000000), wk =   0.0480000
+        k(    4) = (   0.0000000   0.1000000   0.1000000), wk =   0.0960000
+        k(    5) = (   0.0000000   0.1000000   0.2000000), wk =   0.1920000
+        k(    6) = (   0.0000000   0.2000000   0.2000000), wk =   0.0960000
+        k(    7) = (   0.1000000   0.1000000   0.1000000), wk =   0.0640000
+        k(    8) = (   0.1000000   0.1000000   0.2000000), wk =   0.1920000
+        k(    9) = (   0.1000000   0.2000000   0.2000000), wk =   0.1920000
+        k(   10) = (   0.2000000   0.2000000   0.2000000), wk =   0.0640000
+
+     Dense  grid:  1480425 G-vectors     FFT dimensions: ( 144, 144, 144)
+
+     Smooth grid:   523155 G-vectors     FFT dimensions: ( 100, 100, 100)
