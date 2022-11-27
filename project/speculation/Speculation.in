@@ -33,6 +33,7 @@
 &ELECTRONS
   conv_thr=1d-08,
   mixing_beta=0.7d0,
+  diagonalization='cg'
 /
 &IONS
   ion_dynamics="bfgs",
