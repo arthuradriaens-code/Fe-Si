@@ -1,0 +1,21 @@
+#!/bin/sh
+#
+#
+#PBS -N Fractal
+#PBS -o output.file
+#PBS -e error.file
+#PBS -l walltime=12:00:00
+#PBS -l nodes=1:ppn=32
+#PBS -M nemovonneumann@gmail.com
+#PBS -m a
+#
+# change to directory you were working when submitting job
+cd $PBS_O_WORKDIR
+#load QE
+module load QuantumESPRESSO/6.8-foss-2021b
+
+# Pseudo-pot in the same folder!
+
+#run QE command
+mpirun -np $PBS_NP pw.x -input fractal.in > fractal_1.out
+#pw.x -input fractal.in > fractal.out
