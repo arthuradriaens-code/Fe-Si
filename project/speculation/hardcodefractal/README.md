@@ -15,3 +15,12 @@ it now contains 22 atoms of Si per 128 atoms, which is
 17.1875% which is coincidentally close to a tenth of the golden
 ratio so maybe we're onto something (or I'm just hoping for
 a miracle 🫠)
+
+## Kaiju
+A fractal of 1024 atoms..., I don't think we have the computing
+power for this.  But if we did the ratio of Si to other atoms is
+0.1514 which is interesting.
+
+## Tip
+
+If you have a hard time visualizing this, go to (xcrysden) Display>Unit of repetition>Translational Assymetric Unit
