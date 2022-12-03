@@ -11,7 +11,7 @@ Base 54 test:
 
 
 2. Results
-  - Everything is running on the VSC with parameters:
+Everything is running on the VSC with parameters:
     * ecutwfc=65,
     * ecutrho=450,
     * K = 5 5 5
